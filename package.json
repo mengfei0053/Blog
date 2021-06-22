@@ -1,1 +1,13 @@
-{}
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo 123",
+  },
+  "keywords": [],
+  "author": "mengfei0053@live.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
