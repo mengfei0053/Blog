@@ -1,3 +1,9 @@
+---
+title: Nodejs Process 信号事件
+authors: [meng]
+tags: [nodejs]
+---
+
 # Nodejs Process 信号事件
 
 当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 [signal(7)](https://man7.org/linux/man-pages/man7/signal.7.html)。

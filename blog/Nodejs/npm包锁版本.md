@@ -1,3 +1,9 @@
+---
+title: npm-shrinkwrap.json、package-lock.json和yarn.loc
+authors: [meng]
+tags: [npm]
+---
+
 # npm-shrinkwrap.json、package-lock.json和yarn.lock
 
 ## 初始

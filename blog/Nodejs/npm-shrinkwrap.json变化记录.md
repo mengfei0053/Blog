@@ -1,9 +1,9 @@
 ---
-slug: 从npm-shrinkwrap 到 package-lock
 title: 从npm-shrinkwrap 到 package-lock
 authors: [meng]
-tags: [nodejs, node, npm]
+tags: [npm]
 ---
+
 
 # 从npm-shrinkwrap 到 package-lock
 

@@ -1,9 +1,3 @@
----
-slug: Linux下nodejs安装源nodesource
-title: Linux下nodejs安装源nodesource
-authors: [meng]
-tags: [linux, node, install]
----
 
 # Linux下nodejs安装源nodesource
 

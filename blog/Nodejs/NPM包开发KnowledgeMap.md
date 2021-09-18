@@ -1,8 +1,7 @@
 ---
-slug: NPM包开发KnowledgeMap
 title: NPM包开发KnowledgeMap
 authors: [meng]
-tags: [nodejs, node, npm]
+tags: [npm]
 ---
 
 # NPM包开发KnowledgeMap
