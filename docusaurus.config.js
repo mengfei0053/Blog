@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Meng',
   tagline: "个人站",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://mengfei0053.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mengfei0053', // Usually your GitHub org/user name.
+  projectName: 'Blog', // Usually your repo name.
 
   presets: [
     [
