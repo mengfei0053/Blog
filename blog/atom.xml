@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mengfei0053.github.io/blog</id>
+    <title>Meng Blog</title>
+    <updated>2021-09-18T07:26:35.420Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mengfei0053.github.io/blog"/>
+    <subtitle>Meng Blog</subtitle>
+    <icon>https://mengfei0053.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Powershell 下无法使用 npm 全局包]]></title>
+        <id>Powershell-windows</id>
+        <link href="https://mengfei0053.github.io/blog/Powershell-windows"/>
+        <updated>2021-09-18T07:26:35.420Z</updated>
+        <summary type="html"><![CDATA[类似yarn 报错]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[typescript/typescript使用总结及部分小技巧]]></title>
+        <id>typescript/typescript使用总结及部分小技巧</id>
+        <link href="https://mengfei0053.github.io/blog/typescript/typescript使用总结及部分小技巧"/>
+        <updated>2021-09-18T07:26:34.256Z</updated>
+        <summary type="html"><![CDATA[- Typescript 使用总结及部分小技巧]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[react/ReactHooks]]></title>
+        <id>react/ReactHooks</id>
+        <link href="https://mengfei0053.github.io/blog/react/ReactHooks"/>
+        <updated>2021-09-18T07:26:33.131Z</updated>
+        <summary type="html"><![CDATA[- 基础 hooks]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[others/前端测试]]></title>
+        <id>others/前端测试</id>
+        <link href="https://mengfei0053.github.io/blog/others/前端测试"/>
+        <updated>2021-09-18T07:26:31.947Z</updated>
+        <summary type="html"><![CDATA[- 前端自动化测试]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NPM包开发KnowledgeMap]]></title>
+        <id>NPM包开发KnowledgeMap</id>
+        <link href="https://mengfei0053.github.io/blog/NPM包开发KnowledgeMap"/>
+        <updated>2021-09-18T07:17:48.198Z</updated>
+        <summary type="html"><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
+        <id>从npm-shrinkwrap 到 package-lock</id>
+        <link href="https://mengfei0053.github.io/blog/从npm-shrinkwrap 到 package-lock"/>
+        <updated>2021-09-18T07:17:48.198Z</updated>
+        <summary type="html"><![CDATA[关于 shrinkwrap 的更新]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.lock]]></title>
+        <id>npm-shrinkwrap.json、package-lock.json和yarn.lock</id>
+        <link href="https://mengfei0053.github.io/blog/nodejs/npm包锁版本"/>
+        <updated>2021-09-18T07:17:48.198Z</updated>
+        <summary type="html"><![CDATA[初始]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nodejs Process 信号事件]]></title>
+        <id>Nodejs Process 信号事件</id>
+        <link href="https://mengfei0053.github.io/blog/nodejs/process信号事件"/>
+        <updated>2021-09-18T07:17:48.198Z</updated>
+        <summary type="html"><![CDATA[当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 signal(7)。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux下nodejs安装源nodesource]]></title>
+        <id>Linux下nodejs安装源nodesource</id>
+        <link href="https://mengfei0053.github.io/blog/Linux下nodejs安装源nodesource"/>
+        <updated>2021-09-18T06:56:53.794Z</updated>
+        <summary type="html"><![CDATA[https://github.com/nodesource/distributions]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://mengfei0053.github.io/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>mdx-blog-post</id>
+        <link href="https://mengfei0053.github.io/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Blog Post]]></title>
+        <id>long-blog-post</id>
+        <link href="https://mengfei0053.github.io/blog/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
+        <author>
+            <name>Endilie Yacop Sucipto</name>
+            <uri>https://github.com/endiliey</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>first-blog-post</id>
+        <link href="https://mengfei0053.github.io/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+    </entry>
+</feed>
