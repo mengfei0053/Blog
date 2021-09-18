@@ -43,7 +43,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Meng',
+        title: '孟飞',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
