@@ -4,71 +4,71 @@
         <title>Meng Blog</title>
         <link>https://mengfei0053.github.io/Blog/blog</link>
         <description>Meng Blog</description>
-        <lastBuildDate>Sat, 18 Sep 2021 07:26:35 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Sep 2021 09:30:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Powershell 下无法使用 npm 全局包]]></title>
-            <link>https://mengfei0053.github.io/Blog/blog/Powershell-windows</link>
-            <guid>Powershell-windows</guid>
-            <pubDate>Sat, 18 Sep 2021 07:26:35 GMT</pubDate>
-            <description><![CDATA[类似yarn 报错]]></description>
-        </item>
-        <item>
-            <title><![CDATA[typescript/typescript使用总结及部分小技巧]]></title>
-            <link>https://mengfei0053.github.io/Blog/blog/typescript/typescript使用总结及部分小技巧</link>
-            <guid>typescript/typescript使用总结及部分小技巧</guid>
-            <pubDate>Sat, 18 Sep 2021 07:26:34 GMT</pubDate>
-            <description><![CDATA[- Typescript 使用总结及部分小技巧]]></description>
-        </item>
-        <item>
-            <title><![CDATA[react/ReactHooks]]></title>
-            <link>https://mengfei0053.github.io/Blog/blog/react/ReactHooks</link>
-            <guid>react/ReactHooks</guid>
-            <pubDate>Sat, 18 Sep 2021 07:26:33 GMT</pubDate>
-            <description><![CDATA[- 基础 hooks]]></description>
-        </item>
-        <item>
-            <title><![CDATA[others/前端测试]]></title>
-            <link>https://mengfei0053.github.io/Blog/blog/others/前端测试</link>
-            <guid>others/前端测试</guid>
-            <pubDate>Sat, 18 Sep 2021 07:26:31 GMT</pubDate>
-            <description><![CDATA[- 前端自动化测试]]></description>
+            <title><![CDATA[Linux下nodejs安装源nodesource]]></title>
+            <link>https://mengfei0053.github.io/Blog/blog/Linux下nodejs安装源nodesource</link>
+            <guid>Linux下nodejs安装源nodesource</guid>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
+            <description><![CDATA[https://github.com/nodesource/distributions]]></description>
         </item>
         <item>
             <title><![CDATA[NPM包开发KnowledgeMap]]></title>
             <link>https://mengfei0053.github.io/Blog/blog/NPM包开发KnowledgeMap</link>
             <guid>NPM包开发KnowledgeMap</guid>
-            <pubDate>Sat, 18 Sep 2021 07:17:48 GMT</pubDate>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
             <description><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></description>
         </item>
         <item>
             <title><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
             <link>https://mengfei0053.github.io/Blog/blog/从npm-shrinkwrap 到 package-lock</link>
             <guid>从npm-shrinkwrap 到 package-lock</guid>
-            <pubDate>Sat, 18 Sep 2021 07:17:48 GMT</pubDate>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
             <description><![CDATA[关于 shrinkwrap 的更新]]></description>
         </item>
         <item>
             <title><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.lock]]></title>
             <link>https://mengfei0053.github.io/Blog/blog/nodejs/npm包锁版本</link>
             <guid>npm-shrinkwrap.json、package-lock.json和yarn.lock</guid>
-            <pubDate>Sat, 18 Sep 2021 07:17:48 GMT</pubDate>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
             <description><![CDATA[初始]]></description>
         </item>
         <item>
             <title><![CDATA[Nodejs Process 信号事件]]></title>
             <link>https://mengfei0053.github.io/Blog/blog/nodejs/process信号事件</link>
             <guid>Nodejs Process 信号事件</guid>
-            <pubDate>Sat, 18 Sep 2021 07:17:48 GMT</pubDate>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
             <description><![CDATA[当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 signal(7)。]]></description>
         </item>
         <item>
-            <title><![CDATA[Linux下nodejs安装源nodesource]]></title>
-            <link>https://mengfei0053.github.io/Blog/blog/Linux下nodejs安装源nodesource</link>
-            <guid>Linux下nodejs安装源nodesource</guid>
-            <pubDate>Sat, 18 Sep 2021 06:56:53 GMT</pubDate>
-            <description><![CDATA[https://github.com/nodesource/distributions]]></description>
+            <title><![CDATA[others/前端测试]]></title>
+            <link>https://mengfei0053.github.io/Blog/blog/others/前端测试</link>
+            <guid>others/前端测试</guid>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
+            <description><![CDATA[- 前端自动化测试]]></description>
+        </item>
+        <item>
+            <title><![CDATA[react/ReactHooks]]></title>
+            <link>https://mengfei0053.github.io/Blog/blog/react/ReactHooks</link>
+            <guid>react/ReactHooks</guid>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
+            <description><![CDATA[- 基础 hooks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[typescript/typescript使用总结及部分小技巧]]></title>
+            <link>https://mengfei0053.github.io/Blog/blog/typescript/typescript使用总结及部分小技巧</link>
+            <guid>typescript/typescript使用总结及部分小技巧</guid>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
+            <description><![CDATA[- Typescript 使用总结及部分小技巧]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Powershell 下无法使用 npm 全局包]]></title>
+            <link>https://mengfei0053.github.io/Blog/blog/Powershell-windows</link>
+            <guid>Powershell-windows</guid>
+            <pubDate>Sat, 18 Sep 2021 09:30:56 GMT</pubDate>
+            <description><![CDATA[类似yarn 报错]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
