@@ -46,7 +46,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: '孟飞',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/img_133326.png',
         },
         items: [
           // {
