@@ -1,3 +1,10 @@
+---
+slug: NPM包开发KnowledgeMap
+title: NPM包开发KnowledgeMap
+authors: [meng]
+tags: [nodejs, node, npm]
+---
+
 # NPM包开发KnowledgeMap
 
 给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。

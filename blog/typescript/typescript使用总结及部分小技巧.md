@@ -99,7 +99,7 @@ type eat = Person["eat"];
 
 - 函数泛型 -- 在函数上添加泛型
 
-![auto import](../../assets/share02/3.png)
+![auto import](/assets/share02/3.png)
 
 - 类泛型 -- 在类上添加泛型
 
@@ -151,6 +151,7 @@ export declare type ColumnsType<RecordType = unknown> = (
 
 > 更过预定义的条件类型 typescript/lib/lib.d.ts
 
+```
 - Partial<T> -- 使 T 中的所有属性变成可选属性
 - Pick<T,K extends keyof T> -- 从 T 中挑选属性 K，组成新的类型
 - Omit<T, K extends keyof any> -- 从 T 中删除属性 K，组成新的类型
@@ -162,6 +163,7 @@ export declare type ColumnsType<RecordType = unknown> = (
 - NonNullable<T> -- 从 T 中剔除 null 和 undefined。
 - ReturnType<T> -- 获取函数返回值类型。
 - InstanceType<T> -- 获取构造函数类型的实例类型。
+```
 
 ## 2. React 项目中的 Typescript
 
@@ -177,13 +179,13 @@ export declare type ColumnsType<RecordType = unknown> = (
 
 跨文件，可导入的 类型 / 方法 / 变量 ...的智能提示，以及自动导入
 
-![auto import](../../assets/share02/1.gif)
+![auto import](/assets/share02/1.gif)
 
 #### 2.1.2 自动 fix 的自动导入
 
-单个修复导入 ![fix import](../../assets/share02/2.gif)
+单个修复导入 ![fix import](/assets/share02/2.gif)
 
-所有修复导入 ![fix import all](../../assets/share02/3.gif)
+所有修复导入 ![fix import all](/assets/share02/3.gif)
 
 ### 2.2 定义组件的 props 中的类型
 
@@ -231,25 +233,25 @@ export interface PopupStore extends Store, ResourceSaveDto {}
 > 1. 直接使用和引入单个 props 属性类型
 > 2. 引入整个组件 props 类型，使用 interfaceName['propsName]
 
-![类型查找](../../assets/share02/6.gif)
+![类型查找](/assets/share02/6.gif)
 
 ### 2.4 Vsocde 中的重构
 
 #### 2.4.1 引用查找
 
-![引用查找](../../assets/share02/7.gif)
+![引用查找](/assets/share02/7.gif)
 
 #### 2.4.2 引用重命名
 
 邮件重命名或者 F2 重命名
 
-![引用查找](../../assets/share02/8.gif)
+![引用查找](/assets/share02/8.gif)
 
 ### 2.5 使用 code snippets
 
 给大家推荐的 React Ts Extension Pack 包里，包含了两个下载量比较大的 react 语法段的包
 
-![语法片段包](../../assets/share02/2.png)
+![语法片段包](/assets/share02/2.png)
 
 #### 2.4.1 ES7 React/Redux/React-Native/JS snippets
 
