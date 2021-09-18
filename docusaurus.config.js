@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Meng',
   tagline: "个人站",
   url: 'https://mengfei0053.github.io/',
-  baseUrl: '/',
+  baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
