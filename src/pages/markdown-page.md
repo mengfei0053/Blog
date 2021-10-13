@@ -27,7 +27,7 @@ git config --global credential.helper store
 ## vscode 插件
 
 - mengfei0053.react-ts-extension-pack
-- yang-yue.switch-hosts
+- yang-yue.switch-hosts   (不支持mac)
 - shd101wyy.markdown-preview-enhanced
 - Remote - SSH
 - Remote - WSL
