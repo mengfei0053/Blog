@@ -4,6 +4,12 @@ title: 我的常用初始化设置
 
 # 我的常用初始化设置
 
+## 常用全局npm package
+
+1. npm-check-updates 检查依赖更新
+2. http-server 快速开启映射静态目录服务器
+
+
 ## git
 
 ```
