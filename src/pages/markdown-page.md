@@ -7,12 +7,13 @@ title: 我的常用初始化设置, 备忘，以及快速设置
 ## 常用全局npm package
 
 1. npm-check-updates 检查依赖更新
-2. typescript
+2. typescript 
 3. ts-node 
-4. http-server 快速开启映射静态目录服务器
+4. ynrm 换源工具
+5. http-server 快速开启映射静态目录服务器
 
 ```shell
-npm i -g npm-check-updates typescript ts-node http-server
+npm i -g npm-check-updates typescript ts-node http-server ynrm 
 ```
 
 
