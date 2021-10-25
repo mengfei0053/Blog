@@ -35,8 +35,20 @@ function name(params1, params2) {
 ```
 
 ## JSDOC 介绍
-JSDoc是一个根据javascript文件中注释信息，生成JavaScript应用程序或库、模块的API文档 的工具。你可以使用他记录如：命名空间，类，方法，方法参数等。类似JavaDoc和PHPDoc。现在很多编辑器或IDE中还可以通过JSDoc直接或使用插件生成智能提示。从而使开发者很容易了解整个类和其中的属性和方法，并且快速知道如何使用，从而提高开发效率，降低维护成本。
+JSDoc是一个根据javascript文件中注释信息，生成JavaScript应用程序或库、模块的API文档 的工具。你可以使用他记录如：命名空间，类，方法，方法参数等。类似JavaDoc和PHPDoc。**现在很多编辑器或IDE中还可以通过JSDoc直接或使用插件生成智能提示。从而使开发者很容易了解整个类和其中的属性和方法，并且快速知道如何使用，从而提高开发效率，降低维护成本。**
 
+是标记变量、入参、返回值的类型，稍微弥补了 JavaScript 没有静态类型，不支持类型标注的问题。基于 JSDoc 的类型注释，Google Closure Compiler 可以分析优化代码，**VS Code 之类的代码编辑器可以在不使用 TypeScript 的情况下实现代码提示。**
+
+## 历史
+
+Michael Mathews 在 2001 年创建 JSDoc 项目，它是最早的 JavaScript 文档工具，注释语法借鉴自 Javadoc（很多文档工具都使用了类似 Javadoc 注释语法，比如 C++ 的 Doxygen、 PHP 的 phpDocumentor）。截止 2020 年经历了 4 个大版本更新：
+
+- 2001 JSDoc (JSDoc.pm): 使用 Perl 编写，代码托管在 SourceForge
+- 2007 JsDoc Toolkit 1.0: 使用 JavaScript 编写，基于 Rhino，运行在 Java 平台，代码托管在 Google Code
+- 2008 JsDoc Toolkit 2.0: 同 1.0
+- 2011 JSDoc 3: 基于 Node.js，代码托管在 GitHub
+
+编译文档用法
 ```shell
 npm i -g jsdoc 
 jsdoc yourjavascriptfile.js
@@ -46,7 +58,37 @@ jsdoc yourjavascriptfile.js
 - 语法文档: https://jsdoc.app/  http://www.dba.cn/book/jsdoc/
 
 
-## 使用JSDOC 定义和使用类型
+## 常用标注
+- 类型
+    - @type
+    - @typedef
+    - @property/@prop
+    - @template
+    - @enum
+- 函数
+    - @param/@argument/@arg
+    - @returns/@return
+    - @throws
+    - @deprecated
+- 类和继承
+    - @constructor/@class
+    - @this
+    - @extends
+    - @public
+    - @private
+    - @protected
+    - @readonly
+- 文档
+    - @fileoverview
+    - @author
+    - @example
+    - @description
+    - @see
+    - @link
+    - @license
+    - @preserve
+
+## 使用示例
 
 定义类型：
 
@@ -93,6 +135,15 @@ let obj = {};
 
 1. 注释更加规范化，
 2. 让js 具备类型提示，代码提示。
-3. 增加代码可读性，可维护性。
+3. 增加js代码可读性，可维护性。
 4. 可以直接生成 api 文档。
+
+## 使用JSDOC 的开源项目
+
+- loadash https://github.com/lodash/lodash
+- axios https://github.com/axios/axios
+- mathjs https://github.com/josdejong/mathjs
+- ramda https://github.com/ramda/ramda
+
+
 
