@@ -1,3 +1,10 @@
+---
+title: Linux下nodejs安装源nodesource
+authors: [meng]
+tags: [yarn, nodejs, npm]
+keywords: [linux, nodejs, nodejs install, nodesource , Linux下nodejs安装源nodesource]
+description: Linux下nodejs安装源nodesource
+---
 
 # Linux下nodejs安装源nodesource
 
