@@ -4,6 +4,7 @@ import { withRouter } from 'react-router';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
+import Head from '@docusaurus/Head'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -27,11 +28,23 @@ export default withRouter((props) => {
   React.useLayoutEffect(() => {
     props.history.push('/Blog/blog')
   },[])
+  const str = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D7V5KJ0QWC');
+  `
 
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+        <Head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7V5KJ0QWC"></script>
+<script dangerouslySetInnerHTML={{ __html:str }}>
+</script>
+        </Head>
       {/* <HomepageHeader />
       <main>
         <HomepageFeatures />
