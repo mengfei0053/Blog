@@ -7,7 +7,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Meng',
   tagline: "个人站",
   url: 'https://mengfei0053.github.io/',
-  baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -52,12 +51,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/img_133326.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
+         
           { to:'/markdown-page', label:'常用设置', position: 'left' },
           {to: '/blog', label: '文章', position: 'left'},
           {
