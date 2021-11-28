@@ -39,6 +39,8 @@ npm audit fix --package-lock-only #只修改package-lock.json 需要手动安装
 npm audit fix --only=prod #扫描并修复
 npm audit --audit-level=moderate #设置扫描报告等级
 ```
+
+检查报告，会包含有问题的包和版本信息，以及漏洞信息，漏洞的严重程度等等
 ![检查报告](/assets/Lark20211128-165730.png)
 
 
@@ -47,7 +49,9 @@ npm audit --audit-level=moderate #设置扫描报告等级
 snyk是一家美国的网络安全公司，有自己的安全数据库
 同时支持yarn 和 npm 
 
-使用方法
+snyk cli 工具是该公司的开源项目https://github.com/snyk/snyk
+
+基础使用方法
 
 ```shell
 # 安装
@@ -60,3 +64,13 @@ snyk auth
 snyk test
 ```
 ![检查报告](/assets/Lark20211128-163432.png)
+
+### snyk 和 npm audit的对比
+
+这个是snyk公司出的功能对比
+![检查报告](/assets/npm-vs-snyk.png)
+
+### 观点
+定期或脚本的检查依赖，更新依赖是有必要的，且没有太大成本的。
+像前段时间的 ua-parser-js 和 coa事件，都会被上述两种方案所收录。
+脚本化的检查，可以在一定程度上避免一些已经被发现的有问题的包，所导致的安全问题。
