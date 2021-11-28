@@ -2,6 +2,8 @@
 title: 前端自动化测试
 authors: [meng]
 tags: [Test, Jest]
+keywords: [Test, Jest, react, 前端自动化测试]
+description: 前端自动化测试
 ---
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->

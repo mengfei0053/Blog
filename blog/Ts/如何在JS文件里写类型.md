@@ -1,3 +1,11 @@
+---
+title: 如何在JS文件里写类型
+authors: [meng]
+tags: [typescript]
+keywords: [typescript, 类型, js]
+description: 如何在JS文件里写类型
+---
+
 # 如何在JS文件里写类型
 
 很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。

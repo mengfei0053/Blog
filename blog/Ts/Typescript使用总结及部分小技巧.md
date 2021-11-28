@@ -2,7 +2,10 @@
 title: Typescript使用总结及部分小技巧
 authors: [meng]
 tags: [ts, react]
+keywords: [typescript, react, 小技巧, 使用总结]
+description: Typescript使用总结及部分小技巧
 ---
+
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 

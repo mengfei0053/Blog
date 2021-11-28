@@ -2,6 +2,8 @@
 title: Nodejs Process 信号事件
 authors: [meng]
 tags: [nodejs]
+keywords: [nodejs, process, Nodejs Process 信号事件]
+description: Nodejs Process 信号事件
 ---
 
 # Nodejs Process 信号事件
