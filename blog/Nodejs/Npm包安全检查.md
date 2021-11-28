@@ -2,7 +2,7 @@
 title: Npm包安全检查
 authors: [meng]
 tags: [npm]
-keywords: [npm, nodejs, 前端安全, npm包安全, Npm包安全检查]
+keywords: [npm, nodejs, ncu ,snyk, 前端安全, npm包安全, Npm包安全检查]
 description: Npm包安全检查
 ---
 
@@ -74,3 +74,29 @@ snyk test
 定期或脚本的检查依赖，更新依赖是有必要的，且没有太大成本的。
 像前段时间的 ua-parser-js 和 coa事件，都会被上述两种方案所收录。
 脚本化的检查，可以在一定程度上避免一些已经被发现的有问题的包，所导致的安全问题。
+
+### 常用依赖检查命令
+
+```shell
+yarn why <pkg> # 查看某npm包依赖关系，项目必须包含yarn.lock
+yarn info [pkg] [package.json field] # 查看某包的信息，不传包名，显示当前项目的package.json信息。
+yarn info chalk versions # 查看 chalk 目前npm提供的所有版本
+yarn info chalk@4.0.0 dependencies # 查看 chalk 4.0.0版本的生产依赖 
+
+npm ls #查看项目依赖树
+npm ls [pkg] #查看某包的依赖树
+npm ls --depth 1 #限定展示依赖层级
+
+npm outdated #查看项目哪些依赖需要更新
+```
+
+### 推荐一个检查依赖的第三方包 npm-check-updates
+
+```shell
+npm i -g npm-check-updates
+
+ncu # 检查项目所有依赖
+ncu -u #检查并更新package.json 需要手动安装依赖
+ncu "/.*scope.*/" #检查包含scope关键字的包
+ncu -u "/.*scope.*/" #检查包含scope关键字的包,并更新package.json 需要手动安装依赖
+```
