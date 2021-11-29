@@ -43,7 +43,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       gtag: {
-        trackingID: 'G-D7V5KJ0QWC',
+        trackingID: 'G-YF800JYRCN',
       },
       navbar: {
         title: 'M',
