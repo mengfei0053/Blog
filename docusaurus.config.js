@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Meng',
   tagline: "个人站",
-  url: 'https://mengfei0053.github.io/',
+  url: 'https://blog.mengfei0053.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
