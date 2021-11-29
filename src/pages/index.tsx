@@ -12,13 +12,14 @@ export default withRouter((props) => {
   const {siteConfig} = useDocusaurusContext();
 
   React.useLayoutEffect(() => {
-    props.history.push('/Blog/blog')
+    props.history.push('/blog')
   },[])
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}'s Blog`}
+      keywords={['前端','技术博客', '前端技术博客', '常用工具', '备忘速查']}
+      >
     
     </Layout>
   );
