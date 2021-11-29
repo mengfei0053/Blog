@@ -13,6 +13,44 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'mengfei0053', // Usually your GitHub org/user name.
   projectName: 'Blog', // Usually your repo name.
+  plugins:[
+    function baiduAnalyze(context, options) {
+      // ...
+      return {
+        name: 'baidu-hm',
+        async loadContent() {
+          // ...
+        },
+        injectHtmlTags(){
+          return {
+            // Gtag includes GA by default, so we also preconnect to google-analytics.
+            headTags: [
+                {
+                    tagName: 'link',
+                    attributes: {
+                        rel: 'preconnect',
+                        href: 'https://hm.baidu.com',
+                    },
+                },
+                {
+                    tagName: 'script',
+                    innerHTML: `
+                    var _hmt = _hmt || [];
+                    (function() {
+                      var hm = document.createElement("script");
+                      hm.src = "https://hm.baidu.com/hm.js?51c5281e73e26b61eee7a274241d5123";
+                      var s = document.getElementsByTagName("script")[0]; 
+                      s.parentNode.insertBefore(hm, s);
+                    })();
+                    `,
+                },
+            ],
+          };
+        },
+        /* other lifecycle API */
+      };
+    },
+  ],
 
   presets: [
     [
