@@ -1,4 +1,5 @@
 ---
+slug: nodejs-process-event
 title: Nodejs Process 信号事件
 authors: [meng]
 tags: [nodejs]

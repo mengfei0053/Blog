@@ -1,4 +1,5 @@
 ---
+slug: npm-security-check
 title: Npm包安全检查
 authors: [meng]
 tags: [npm]

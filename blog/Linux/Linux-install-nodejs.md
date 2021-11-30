@@ -1,4 +1,5 @@
 ---
+slug: linux-install-nodejs
 title: Linux下nodejs安装源nodesource
 authors: [meng]
 tags: [yarn, nodejs, npm]

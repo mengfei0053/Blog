@@ -1,4 +1,5 @@
 ---
+slug: ts-usage-summary
 title: Typescript使用总结及部分小技巧
 authors: [meng]
 tags: [ts, react]

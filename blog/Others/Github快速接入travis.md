@@ -1,4 +1,5 @@
 ---
+slug: github-travis
 title: Github快速接入travis
 authors: [meng]
 tags: [github]

@@ -1,4 +1,5 @@
 ---
+slug: github-actions
 title: Github快速接入github action
 authors: [meng]
 tags: [github]

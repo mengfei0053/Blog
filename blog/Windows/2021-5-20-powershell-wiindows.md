@@ -1,5 +1,5 @@
 ---
-slug: Powershell-windows
+slug: powershell-windows
 title: Powershell 下无法使用 npm 全局包
 authors: [meng]
 tags: [Powershell, windows, npm]

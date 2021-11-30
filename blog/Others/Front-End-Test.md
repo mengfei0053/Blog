@@ -1,4 +1,5 @@
 ---
+slug: fe-autest
 title: 前端自动化测试
 authors: [meng]
 tags: [Test, Jest]

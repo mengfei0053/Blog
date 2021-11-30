@@ -1,4 +1,5 @@
 ---
+slug: fe-lock
 title: npm-shrinkwrap.json、package-lock.json和yarn.loc
 authors: [meng]
 tags: [npm]

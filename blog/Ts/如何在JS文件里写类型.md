@@ -1,4 +1,5 @@
 ---
+slug: write-ts-in-js
 title: 如何在JS文件里写类型
 authors: [meng]
 tags: [typescript]

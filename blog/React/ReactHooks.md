@@ -1,4 +1,5 @@
 ---
+slug: react-hooks
 title: ReactHooks
 authors: [meng]
 tags: [react, hooks]
