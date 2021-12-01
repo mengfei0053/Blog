@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+Sitemap: https://blog.mengfei0053.com/sitemap.xml

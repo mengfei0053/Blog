@@ -21,6 +21,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         async loadContent() {
           // ...
         },
+        async contentLoaded({ actions }){
+
+         
+
+        },
         injectHtmlTags(){
           return {
             // Gtag includes GA by default, so we also preconnect to google-analytics.
