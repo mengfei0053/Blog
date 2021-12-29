@@ -95,9 +95,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/img_133326.png',
         },
         items: [
-         
           { to:'/markdown-page', label:'常用设置', position: 'left' },
-          {to: '/blog', label: '文章', position: 'left'},
+          { to:'/front-end-recommendation-libraries', label:'前端社区精选', position: 'left' },
+          { to: '/blog', label: '文章', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
