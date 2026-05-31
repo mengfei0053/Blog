@@ -10,7 +10,7 @@ const urls = url.map(i => i.loc);
 
 (async() => {
     try {
-        const res = await axios.default.post(`http://data.zz.baidu.com/urls?site=https://blog.mengfei0053.com&token=${process.env.BAIDU_ZZ}`, urls.join('\n'));
+        const res = await axios.post(`http://data.zz.baidu.com/urls?site=https://blog.mengfei0053.com&token=${process.env.BAIDU_ZZ}`, urls.join('\n'));
         const data = res.data;
         const isSuccess = typeof data.success === 'number' && typeof data.remain === 'number';
         if(!isSuccess){
