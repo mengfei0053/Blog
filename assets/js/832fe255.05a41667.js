@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website||=[]).push([[3791],{6817(t){t.exports=JSON.parse('{"tag":{"label":"typescript","permalink":"/blog/tags/typescript","allTagsPath":"/blog/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/typescript","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
