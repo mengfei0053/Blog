@@ -25,9 +25,9 @@
 
 ## Tech Stack
 
-- **Framework**: Docusaurus 3.10.1（`@docusaurus/preset-classic`）
+- **Framework**: Docusaurus 3.10.2（`@docusaurus/preset-classic`）
 - **UI**: React 19、MDX 3
-- **Language**: TypeScript 5.9（部分页面/组件）
+- **Language**: TypeScript 6.0（部分页面/组件）
 - **Package manager**: pnpm 9.15.9（Corepack）
 - **Runtime**: Node.js >= 20（`engines` 字段）
 - **CI**: 未检测到 GitHub Actions / Travis（已移除 `.travis.yml`）
