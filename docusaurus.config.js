@@ -115,6 +115,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
         },
         items: [
           { to: '/blog/tags/ai', label: 'AI', position: 'left' },
+          { to: '/docs/guides', label: '技术文档', position: 'left' },
           { to:'/markdown-page', label:'常用设置', position: 'left' },
           { to:'/front-end-recommendation-libraries', label:'前端社区精选', position: 'left' },
           { to: '/blog', label: '文章', position: 'left'},
@@ -131,6 +132,10 @@ const {themes: prismThemes} = require('prism-react-renderer');
           {
             title: 'Docs',
             items: [
+              {
+                label: '技术文档',
+                to: '/docs/guides',
+              },
               {
                 label: 'Tutorial',
                 to: '/docs/intro',

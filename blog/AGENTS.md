@@ -23,6 +23,7 @@ Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发
 ## Conventions
 
 - 新文章放在对应主题子目录，文件名可用中文；Docusaurus 会生成 slug。
+- 工具使用指南放在 `docs/guides/`（站点分类「技术文档」），不要放进 `blog/`。
 - 建议在长文合适位置添加 `<!-- truncate -->`，否则 `pnpm build` 会警告 `onUntruncatedBlogPosts`（不阻断构建）。
 - 文内锚点需与标题生成的 id 一致，否则可能出现 `onBrokenAnchors` 警告。
 - 不要在此目录放非 Markdown 构建依赖或密钥。

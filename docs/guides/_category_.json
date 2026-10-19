@@ -1,0 +1,10 @@
+{
+  "label": "技术文档",
+  "position": 1,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "技术文档",
+    "slug": "/guides"
+  }
+}
