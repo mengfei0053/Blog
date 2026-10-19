@@ -2,7 +2,7 @@
 slug: react-hooks
 title: ReactHooks
 authors: [meng]
-tags: [react, hooks]
+tags: [react]
 keywords: [react, hooks, 速查]
 description: ReactHooks
 ---

@@ -2,7 +2,7 @@
 slug: fe-autest
 title: 前端自动化测试
 authors: [meng]
-tags: [Test, Jest]
+tags: [testing]
 keywords: [Test, Jest, react, 前端自动化测试]
 description: 前端自动化测试
 ---

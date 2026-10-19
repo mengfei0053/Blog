@@ -2,7 +2,7 @@
 slug: from-shrinkwrap-to-pkg-lock
 title: 从npm-shrinkwrap 到 package-lock
 authors: [meng]
-tags: [npm]
+tags: [nodejs]
 ---
 
 

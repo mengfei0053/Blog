@@ -2,7 +2,7 @@
 slug: powershell-windows
 title: Powershell 下无法使用 npm 全局包
 authors: [meng]
-tags: [Powershell, windows, npm]
+tags: [windows, nodejs]
 keywords: [windows, windows10 , Powershell, npm]
 description: Powershell 下无法使用 npm 全局包
 ---

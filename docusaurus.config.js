@@ -120,6 +120,22 @@ const {themes: prismThemes} = require('prism-react-renderer');
           { to:'/front-end-recommendation-libraries', label:'前端社区精选', position: 'left' },
           { to: '/blog', label: '文章', position: 'left'},
           {
+            type: 'dropdown',
+            label: '分类',
+            position: 'left',
+            items: [
+              {label: 'AI', to: '/blog/tags/ai'},
+              {label: 'Docker', to: '/blog/tags/docker'},
+              {label: 'Linux', to: '/blog/tags/linux'},
+              {label: 'Node.js', to: '/blog/tags/nodejs'},
+              {label: 'React', to: '/blog/tags/react'},
+              {label: 'TypeScript', to: '/blog/tags/typescript'},
+              {label: 'Windows', to: '/blog/tags/windows'},
+              {label: 'GitHub', to: '/blog/tags/github'},
+              {label: '测试', to: '/blog/tags/testing'},
+            ],
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',

@@ -2,7 +2,7 @@
 slug: ts-usage-summary
 title: Typescript使用总结及部分小技巧
 authors: [meng]
-tags: [ts, react]
+tags: [typescript, react]
 keywords: [typescript, react, 小技巧, 使用总结]
 description: Typescript使用总结及部分小技巧
 ---

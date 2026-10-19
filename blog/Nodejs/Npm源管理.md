@@ -2,7 +2,7 @@
 slug: npm-resource-manager
 title: Npm源管理
 authors: [meng]
-tags: [nodejs, npm,yarn]
+tags: [nodejs]
 keywords: [nodejs, Npm源管理,npm换源,ynrm,npm, yarn, nrm, yrm]
 description: Npm源管理, npm, yarn, nrm, yrm
 ---

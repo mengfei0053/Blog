@@ -2,7 +2,7 @@
 slug: ai-notes
 title: AI 笔记
 authors: [meng]
-tags: [AI]
+tags: [ai]
 date: 2026-10-19
 keywords: [AI]
 description: AI 相关笔记占位，后续补充模型使用与工程实践。
