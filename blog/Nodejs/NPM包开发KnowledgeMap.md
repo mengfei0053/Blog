@@ -2,7 +2,7 @@
 slug: npm-development-knowledgemap
 title: NPM包开发KnowledgeMap
 authors: [meng]
-tags: [npm]
+tags: [nodejs]
 ---
 
 # NPM包开发KnowledgeMap

@@ -2,7 +2,7 @@
 slug: npm-security-check
 title: Npm包安全检查
 authors: [meng]
-tags: [npm]
+tags: [nodejs]
 keywords: [npm, nodejs, ncu ,snyk, 前端安全, npm包安全, Npm包安全检查]
 description: Npm包安全检查
 ---

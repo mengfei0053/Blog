@@ -2,7 +2,7 @@
 slug: linux-install-nodejs
 title: Linux下nodejs安装源nodesource
 authors: [meng]
-tags: [yarn, nodejs, npm]
+tags: [linux, nodejs]
 keywords: [linux, nodejs, nodejs install, nodesource , Linux下nodejs安装源nodesource]
 description: Linux下nodejs安装源nodesource
 ---

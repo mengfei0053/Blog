@@ -66,6 +66,7 @@ pnpm build && node ./scripts/push-baidu.js
 ## Working Agreements
 
 - 改动前先读 `docusaurus.config.js` 与受影响的内容目录（`blog/`、`src/pages/`）。
+- 博客 `tags` 使用英文小写规范 slug（主标签对齐目录，最多两个次标签）。约定见 `blog/AGENTS.md`。导航「分类」下拉链到 `/blog/tags/<slug>`。
 - 保持 diff 小且聚焦；不要顺手重构无关文章或默认 tutorial 文档。
 - 新增/修改 `package.json` scripts 或目录结构后，同步更新本文件与 `README.md`。
 - `docusaurus.config.js` 中 `onBrokenLinks: 'throw'` — 断链会导致构建失败。
