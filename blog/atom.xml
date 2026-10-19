@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.mengfei.tech/blog</id>
     <title>Meng Blog</title>
-    <updated>2026-05-31T09:09:16.000Z</updated>
+    <updated>2026-10-19T09:35:06.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.mengfei.tech/blog"/>
     <subtitle>Meng Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[AGENTS]]></title>
         <id>https://blog.mengfei.tech/blog/AGENTS</id>
         <link href="https://blog.mengfei.tech/blog/AGENTS"/>
-        <updated>2026-05-31T09:09:16.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-layout">Current Layout<a href="https://blog.mengfei.tech/blog/AGENTS#current-layout" class="hash-link" aria-label="Direct link to Current Layout" title="Direct link to Current Layout" translate="no">​</a></h2>
@@ -27,50 +27,119 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="local-notes">Local Notes<a href="https://blog.mengfei.tech/blog/AGENTS#local-notes" class="hash-link" aria-label="Direct link to Local Notes" title="Direct link to Local Notes" translate="no">​</a></h2>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Npm源管理]]></title>
-        <id>https://blog.mengfei.tech/blog/npm-resource-manager</id>
-        <link href="https://blog.mengfei.tech/blog/npm-resource-manager"/>
-        <updated>2021-11-30T11:31:43.000Z</updated>
-        <summary type="html"><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></summary>
-        <content type="html"><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
-Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
-<p>Fork了狼叔yrm做了一些修改, 可以同时更改yarn 和npm 当前用户的源。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ynrm-和-nrmyrm">Ynrm 和. Nrm/Yrm<a href="https://blog.mengfei.tech/blog/npm-resource-manager#ynrm-%E5%92%8C-nrmyrm" class="hash-link" aria-label="Direct link to Ynrm 和. Nrm/Yrm" title="Direct link to Ynrm 和. Nrm/Yrm" translate="no">​</a></h2>
-<ul>
-<li class="">用 typescript 重写了一下</li>
-<li class="">将npm从依赖中移除, 通过<code>npm root -g</code>,获取本机的npm</li>
-<li class="">使用axios替换request</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="安装">安装<a href="https://blog.mengfei.tech/blog/npm-resource-manager#%E5%AE%89%E8%A3%85" class="hash-link" aria-label="Direct link to 安装" title="Direct link to 安装" translate="no">​</a></h2>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">$ npm install -g ynrm</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example">Example<a href="https://blog.mengfei.tech/blog/npm-resource-manager#example" class="hash-link" aria-label="Direct link to Example" title="Direct link to Example" translate="no">​</a></h2>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">ynrm ls # 查看源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">* npm -----  https://registry.npmjs.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  cnpm ----  http://r.cnpmjs.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  taobao --  https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  nj ------  https://registry.nodejitsu.com/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  rednpm --  http://registry.mirror.cqupt.edu.cn</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  skimdb --  https://skimdb.npmjs.com/registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  yarn ----  https://registry.yarnpkg.com</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># ynrm will set up both npm registy and yarn registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># switch registry to taobao registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm use cnpm # 使用源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    YARN Registry has been set to: https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    NPM Registry has been set to: https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm add custom_registry https://custom_registry.xx.com # 添加仓库源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm del custom_registry # 删除仓库源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm test # 测试仓库源链接速度</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="usage">Usage<a href="https://blog.mengfei.tech/blog/npm-resource-manager#usage" class="hash-link" aria-label="Direct link to Usage" title="Direct link to Usage" translate="no">​</a></h2>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">Usage: ynrm [options] [command]</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  Commands:</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    ls                           List all the registries</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    use &lt;registry&gt;               Change registry to registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    add &lt;registry&gt; &lt;url&gt; [home]  Add one custom registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    del &lt;registry&gt;               Delete one custom registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    home &lt;registry&gt; [browser]    Open the homepage of registry with optional browser</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    test [registry]              Show the response time for one or all registries</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    help                         Print this help</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  Options:</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    -h, --help     output usage information</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    -V, --version  output the version number</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="默认可选仓库源">默认可选仓库源<a href="https://blog.mengfei.tech/blog/npm-resource-manager#%E9%BB%98%E8%AE%A4%E5%8F%AF%E9%80%89%E4%BB%93%E5%BA%93%E6%BA%90" class="hash-link" aria-label="Direct link to 默认可选仓库源" title="Direct link to 默认可选仓库源" translate="no">​</a></h2>
-<ul>
-<li class=""><a href="https://www.npmjs.org/" target="_blank" rel="noopener noreferrer" class="">npm</a></li>
-<li class=""><a href="http://cnpmjs.org/" target="_blank" rel="noopener noreferrer" class="">cnpm</a></li>
-<li class=""><a href="https://www.nodejitsu.com/" target="_blank" rel="noopener noreferrer" class="">nodejitsu</a></li>
-<li class=""><a href="https://mirrors.cloud.tencent.com/npm/" target="_blank" rel="noopener noreferrer" class="">tencent</a></li>
-<li class=""><a href="http://npm.taobao.org/" target="_blank" rel="noopener noreferrer" class="">taobao</a></li>
-<li class=""><a href="http://npm.mirror.cqupt.edu.cn/" target="_blank" rel="noopener noreferrer" class="">rednpm</a></li>
-<li class=""><a href="https://registry.yarnpkg.com/" target="_blank" rel="noopener noreferrer" class="">yarn</a></li>
-</ul>]]></content>
+        <title type="html"><![CDATA[Docker常用命令]]></title>
+        <id>https://blog.mengfei.tech/blog/used-commands</id>
+        <link href="https://blog.mengfei.tech/blog/used-commands"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Docker常用命令]]></summary>
         <author>
             <name>MengFei</name>
             <uri>https://github.com/mengfei0053</uri>
         </author>
+        <category label="docker" term="docker"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux下nodejs安装源nodesource]]></title>
+        <id>https://blog.mengfei.tech/blog/linux-install-nodejs</id>
+        <link href="https://blog.mengfei.tech/blog/linux-install-nodejs"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Linux下nodejs安装源nodesource]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="debian-and-ubuntu-based-distributions">Debian and Ubuntu based distributions<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#debian-and-ubuntu-based-distributions" class="hash-link" aria-label="Direct link to Debian and Ubuntu based distributions" title="Direct link to Debian and Ubuntu based distributions" translate="no">​</a></h3>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># Using Ubuntu</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get install -y nodejs</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># Using Debian, as root</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://deb.nodesource.com/setup_14.x | bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">apt-get install -y nodejs</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enterprise-linux-based-distributions">Enterprise Linux based distributions<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#enterprise-linux-based-distributions" class="hash-link" aria-label="Direct link to Enterprise Linux based distributions" title="Direct link to Enterprise Linux based distributions" translate="no">​</a></h3>
+<p>Run on RHEL, CentOS, CloudLinux, Amazon Linux or Fedora:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># As root</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://rpm.nodesource.com/setup_14.x | bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># No root privileges</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://rpm.nodesource.com/setup_14.x | sudo bash -</span><br></div></code></pre></div></div>]]></content>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="yarn" term="yarn"/>
         <category label="nodejs" term="nodejs"/>
         <category label="npm" term="npm"/>
-        <category label="yarn" term="yarn"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NPM包开发KnowledgeMap]]></title>
+        <id>https://blog.mengfei.tech/blog/npm-development-knowledgemap</id>
+        <link href="https://blog.mengfei.tech/blog/npm-development-knowledgemap"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></summary>
+        <content type="html"><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
+<ol>
+<li class="">当我们 npm i package 的时候之后，require 或 import 一个包的时时候，是如何寻找到这个包的。</li>
+<li class="">当一个包，在项目中存在多个版本的情况，如何确定引入的是哪个版本。例如项目依赖了 packageA@3.0.0 和 packageB@1.0.0， 而packageB 又依赖了pacakgeA@2.0.0.</li>
+<li class="">npm 包是如何提供一个命令的。例如， 当我们安装 npm -g nrm 的时候，为何会有nrm 命令产生。</li>
+<li class="">如何手动发布一个npm 包到公网npm 仓库</li>
+<li class="">包的版本如何定义</li>
+<li class="">什么时候需要发布一个npm 包</li>
+<li class="">什么时间节点需要发布一个 npm 包的新版本，新的版本又该如何定义。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="正文">正文<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%AD%A3%E6%96%87" class="hash-link" aria-label="Direct link to 正文" title="Direct link to 正文" translate="no">​</a></h2>
+<p>由于上述问题，涉及到的内容略多，下是推荐和相关的知识点。</p>
+<ol>
+<li class="">nodejs的模块解析策略<!-- -->
+<ol>
+<li class=""><a href="http://nodejs.cn/api/modules.html" target="_blank" rel="noopener noreferrer" class="">http://nodejs.cn/api/modules.html</a></li>
+<li class=""><a href="https://www.tslang.cn/docs/handbook/module-resolution.html" target="_blank" rel="noopener noreferrer" class="">https://www.tslang.cn/docs/handbook/module-resolution.html</a></li>
+</ol>
+</li>
+<li class="">package.json 字段含义<!-- -->
+<ol>
+<li class=""><a href="https://docs.npmjs.com/cli/v6/configuring-npm/package-json" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/cli/v6/configuring-npm/package-json</a></li>
+<li class="">非官方扩展字段 不在基础node或浏览器环境下支持，但被某些包支持<!-- -->
+<ul>
+<li class="">module  指定esm module 的入口文件。 由rollup最早提出(<a href="https://github.com/rollup/rollup/wiki/pkg.module" target="_blank" rel="noopener noreferrer" class="">https://github.com/rollup/rollup/wiki/pkg.module</a>), webpack2.x之后版本开始支持</li>
+<li class="">types, typings  指定包的d.ts的入口文件，由typescript 支持</li>
+<li class="">unpkg  公网npm 包可以使用的的cdn  <a href="https://github.com/mjackson/unpkg" target="_blank" rel="noopener noreferrer" class="">https://github.com/mjackson/unpkg</a></li>
+<li class="">sideEffects Webpack 支持的，用来标记副作用文件，是否可以被TreeShaking</li>
+</ul>
+</li>
+</ol>
+</li>
+<li class="">esm module 和 cjs module 是什么， 有什么区别<!-- -->
+<ol>
+<li class="">esm <a href="https://tc39.es/ecma262/#sec-modules" target="_blank" rel="noopener noreferrer" class="">https://tc39.es/ecma262/#sec-modules</a></li>
+<li class="">cjs <a href="http://nodejs.cn/api/modules.html" target="_blank" rel="noopener noreferrer" class="">http://nodejs.cn/api/modules.html</a></li>
+</ol>
+</li>
+<li class="">命令的本质就是一个可执行文件，俗称脚本文件。nodejs 产生的js 脚本文件 在使用 #！ /user/bin/env node 指定脚本的运行者。如同shell 脚本需要在文件头指定运行者 #! /bin/bash 一样。<!-- -->
+<ol>
+<li class="">npm 发布相关命令   <a href="https://docs.npmjs.com/cli/v7/commands" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/cli/v7/commands</a>
+<ul>
+<li class="">npm login</li>
+<li class="">npm public</li>
+<li class="">npm deprecate</li>
+</ul>
+</li>
+</ol>
+</li>
+<li class="">npm 的语义化版本<!-- -->
+<ol>
+<li class=""><a href="https://docs.npmjs.com/about-semantic-versioning" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/about-semantic-versioning</a></li>
+<li class=""><a href="https://semver.org/" target="_blank" rel="noopener noreferrer" class="">https://semver.org</a></li>
+</ol>
+</li>
+<li class="">了解包 semantic-release  系列的包 <a href="https://github.com/semantic-release/semantic-release" target="_blank" rel="noopener noreferrer" class="">https://github.com/semantic-release/semantic-release</a></li>
+<li class="">了解 conventional-changelog 系列的包<!-- -->
+<ol>
+<li class=""><a href="https://www.conventionalcommits.org/" target="_blank" rel="noopener noreferrer" class="">https://www.conventionalcommits.org/</a></li>
+<li class=""><a href="https://github.com/conventional-changelog" target="_blank" rel="noopener noreferrer" class="">https://github.com/conventional-changelog</a></li>
+</ol>
+</li>
+</ol>]]></content>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="npm" term="npm"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Npm包安全检查]]></title>
         <id>https://blog.mengfei.tech/blog/npm-security-check</id>
         <link href="https://blog.mengfei.tech/blog/npm-security-check"/>
-        <updated>2021-11-26T12:41:48.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[Npm包安全检查]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言---npm包安全问题">前言 - npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E5%89%8D%E8%A8%80---npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 前言 - npm包安全问题" title="Direct link to 前言 - npm包安全问题" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="细数历年npm包安全问题">细数历年npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E7%BB%86%E6%95%B0%E5%8E%86%E5%B9%B4npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 细数历年npm包安全问题" title="Direct link to 细数历年npm包安全问题" translate="no">​</a></h3>
@@ -118,185 +187,50 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <category label="npm" term="npm"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[前端常用命令速查备忘]]></title>
-        <id>https://blog.mengfei.tech/blog/quick-look</id>
-        <link href="https://blog.mengfei.tech/blog/quick-look"/>
-        <updated>2021-10-26T06:53:46.000Z</updated>
-        <summary type="html"><![CDATA[前端常用命令速查备忘]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="yarn" term="yarn"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="npm" term="npm"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github快速接入github action]]></title>
-        <id>https://blog.mengfei.tech/blog/github-actions</id>
-        <link href="https://blog.mengfei.tech/blog/github-actions"/>
-        <updated>2021-10-24T16:30:26.000Z</updated>
-        <summary type="html"><![CDATA[Github快速接入github action]]></summary>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="github" term="github"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github快速接入travis]]></title>
-        <id>https://blog.mengfei.tech/blog/github-travis</id>
-        <link href="https://blog.mengfei.tech/blog/github-travis"/>
-        <updated>2021-10-24T16:30:26.000Z</updated>
-        <summary type="html"><![CDATA[Github快速接入travis]]></summary>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="github" term="github"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在JS文件里写类型]]></title>
-        <id>https://blog.mengfei.tech/blog/write-ts-in-js</id>
-        <link href="https://blog.mengfei.tech/blog/write-ts-in-js"/>
-        <updated>2021-10-24T16:21:33.000Z</updated>
-        <summary type="html"><![CDATA[如何在JS文件里写类型]]></summary>
-        <content type="html"><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
-这里引出了三个问题：</p>
-<ol>
-<li class="">如何定义类型</li>
-<li class="">何时定义类型<!-- -->
-<ol>
-<li class="">数据产生，和数据获取的地方。</li>
-<li class="">比如定义请求函数的地方， 独立组件props的定义，都是经典且基础的需要定义类型的地方</li>
-</ol>
-</li>
-<li class="">何时使用类型，即引用类型<!-- -->
-<ol>
-<li class="">数据使用的地方，数据关联的地方，这些地方，应该优先引用上述定义的类型，而无需重复定义类型。</li>
-<li class="">例如使用请求来的数据的时候，使用请求函数定义时定义的类型</li>
-<li class="">组件使用的时候，使用组件定义时定义的类型。</li>
-<li class="">数据关联的地方，指比如两个接口，获取的数据有一定的包含关系，可以使用类型继承，来引用类型。</li>
-</ol>
-</li>
-</ol>
-<p>类型使用和定义，应该遵循，定义尽量少的类型，增加已定义类型的复用性原则。</p>
-<p>除了这三个问题外，还有一个练习太少的问题，很多老的项目，并没有使用Ts 编写。那么除了自己的ts 练习项目外，
-还可以在哪里熟悉 ts类型的写法呢。</p>
-<p>这里向大家介绍一个可能很多人都见过，并且写过的东西， ------------------- JSDOC。
-我们可以使用JSDOC, 定义各种类型，以及可以被vscode良好的支持，给出边界的类型代码提示。</p>
-<p>下面这种注释，估计大部分前端开发者都见过，并且都写过，但可能了解的并不是很多。下面我们对JSDOC是什么，
-以及有什么作用来做个介绍</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * 函数Desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">params1</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">params2</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">name</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">params1</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> params2</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-介绍">JSDOC 介绍<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to JSDOC 介绍" title="Direct link to JSDOC 介绍" translate="no">​</a></h2>
-<p>JSDoc是一个根据javascript文件中注释信息，生成JavaScript应用程序或库、模块的API文档 的工具。你可以使用他记录如：命名空间，类，方法，方法参数等。类似JavaDoc和PHPDoc。<strong>现在很多编辑器或IDE中还可以通过JSDoc直接或使用插件生成智能提示。从而使开发者很容易了解整个类和其中的属性和方法，并且快速知道如何使用，从而提高开发效率，降低维护成本。</strong></p>
-<p>是标记变量、入参、返回值的类型，稍微弥补了 JavaScript 没有静态类型，不支持类型标注的问题。基于 JSDoc 的类型注释，Google Closure Compiler 可以分析优化代码，<strong>VS Code 之类的代码编辑器可以在不使用 TypeScript 的情况下实现代码提示。</strong></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史">历史<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E5%8E%86%E5%8F%B2" class="hash-link" aria-label="Direct link to 历史" title="Direct link to 历史" translate="no">​</a></h2>
-<p>Michael Mathews 在 2001 年创建 JSDoc 项目，它是最早的 JavaScript 文档工具，注释语法借鉴自 Javadoc（很多文档工具都使用了类似 Javadoc 注释语法，比如 C++ 的 Doxygen、 PHP 的 phpDocumentor）。截止 2020 年经历了 4 个大版本更新：</p>
+        <title type="html"><![CDATA[Npm源管理]]></title>
+        <id>https://blog.mengfei.tech/blog/npm-resource-manager</id>
+        <link href="https://blog.mengfei.tech/blog/npm-resource-manager"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></summary>
+        <content type="html"><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
+Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
+<p>Fork了狼叔yrm做了一些修改, 可以同时更改yarn 和npm 当前用户的源。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ynrm-和-nrmyrm">Ynrm 和. Nrm/Yrm<a href="https://blog.mengfei.tech/blog/npm-resource-manager#ynrm-%E5%92%8C-nrmyrm" class="hash-link" aria-label="Direct link to Ynrm 和. Nrm/Yrm" title="Direct link to Ynrm 和. Nrm/Yrm" translate="no">​</a></h2>
 <ul>
-<li class="">2001 JSDoc (JSDoc.pm): 使用 Perl 编写，代码托管在 SourceForge</li>
-<li class="">2007 JsDoc Toolkit 1.0: 使用 JavaScript 编写，基于 Rhino，运行在 Java 平台，代码托管在 Google Code</li>
-<li class="">2008 JsDoc Toolkit 2.0: 同 1.0</li>
-<li class="">2011 JSDoc 3: 基于 Node.js，代码托管在 GitHub</li>
+<li class="">用 typescript 重写了一下</li>
+<li class="">将npm从依赖中移除, 通过<code>npm root -g</code>,获取本机的npm</li>
+<li class="">使用axios替换request</li>
 </ul>
-<p>编译文档用法</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">npm i -g jsdoc </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">jsdoc yourjavascriptfile.js</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="安装">安装<a href="https://blog.mengfei.tech/blog/npm-resource-manager#%E5%AE%89%E8%A3%85" class="hash-link" aria-label="Direct link to 安装" title="Direct link to 安装" translate="no">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">$ npm install -g ynrm</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example">Example<a href="https://blog.mengfei.tech/blog/npm-resource-manager#example" class="hash-link" aria-label="Direct link to Example" title="Direct link to Example" translate="no">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">ynrm ls # 查看源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">* npm -----  https://registry.npmjs.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  cnpm ----  http://r.cnpmjs.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  taobao --  https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  nj ------  https://registry.nodejitsu.com/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  rednpm --  http://registry.mirror.cqupt.edu.cn</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  skimdb --  https://skimdb.npmjs.com/registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  yarn ----  https://registry.yarnpkg.com</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># ynrm will set up both npm registy and yarn registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># switch registry to taobao registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm use cnpm # 使用源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    YARN Registry has been set to: https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    NPM Registry has been set to: https://registry.npm.taobao.org/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm add custom_registry https://custom_registry.xx.com # 添加仓库源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm del custom_registry # 删除仓库源</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">ynrm test # 测试仓库源链接速度</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="usage">Usage<a href="https://blog.mengfei.tech/blog/npm-resource-manager#usage" class="hash-link" aria-label="Direct link to Usage" title="Direct link to Usage" translate="no">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">Usage: ynrm [options] [command]</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  Commands:</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    ls                           List all the registries</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    use &lt;registry&gt;               Change registry to registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    add &lt;registry&gt; &lt;url&gt; [home]  Add one custom registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    del &lt;registry&gt;               Delete one custom registry</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    home &lt;registry&gt; [browser]    Open the homepage of registry with optional browser</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    test [registry]              Show the response time for one or all registries</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    help                         Print this help</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  Options:</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    -h, --help     output usage information</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    -V, --version  output the version number</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="默认可选仓库源">默认可选仓库源<a href="https://blog.mengfei.tech/blog/npm-resource-manager#%E9%BB%98%E8%AE%A4%E5%8F%AF%E9%80%89%E4%BB%93%E5%BA%93%E6%BA%90" class="hash-link" aria-label="Direct link to 默认可选仓库源" title="Direct link to 默认可选仓库源" translate="no">​</a></h2>
 <ul>
-<li class="">项目地址: <a href="https://github.com/jsdoc/jsdoc" target="_blank" rel="noopener noreferrer" class="">https://github.com/jsdoc/jsdoc</a></li>
-<li class="">语法文档: <a href="https://jsdoc.app/" target="_blank" rel="noopener noreferrer" class="">https://jsdoc.app/</a>  <a href="http://www.dba.cn/book/jsdoc/" target="_blank" rel="noopener noreferrer" class="">http://www.dba.cn/book/jsdoc/</a></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用标注">常用标注<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E5%B8%B8%E7%94%A8%E6%A0%87%E6%B3%A8" class="hash-link" aria-label="Direct link to 常用标注" title="Direct link to 常用标注" translate="no">​</a></h2>
-<ul>
-<li class="">类型<!-- -->
-<ul>
-<li class="">@type</li>
-<li class="">@typedef</li>
-<li class="">@property/@prop</li>
-<li class="">@template</li>
-<li class="">@enum</li>
-</ul>
-</li>
-<li class="">函数<!-- -->
-<ul>
-<li class="">@param/@argument/@arg</li>
-<li class="">@returns/@return</li>
-<li class="">@throws</li>
-<li class="">@deprecated</li>
-</ul>
-</li>
-<li class="">类和继承<!-- -->
-<ul>
-<li class="">@constructor/@class</li>
-<li class="">@this</li>
-<li class="">@extends</li>
-<li class="">@public</li>
-<li class="">@private</li>
-<li class="">@protected</li>
-<li class="">@readonly</li>
-</ul>
-</li>
-<li class="">文档<!-- -->
-<ul>
-<li class="">@fileoverview</li>
-<li class="">@author</li>
-<li class="">@example</li>
-<li class="">@description</li>
-<li class="">@see</li>
-<li class="">@link</li>
-<li class="">@license</li>
-<li class="">@preserve</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用示例">使用示例<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" class="hash-link" aria-label="Direct link to 使用示例" title="Direct link to 使用示例" translate="no">​</a></h2>
-<p>定义类型：</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">|</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">TypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Object</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@property</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@property</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> name</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> age</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> count</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> string </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">|</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div></code></pre></div></div>
-<p>使用类型</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@type</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">TypeName</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> **/</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> a </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">''</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@type</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> **/</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> obj </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-中类型和-typescipt中类型的区别">JSDOC 中类型和 Typescipt中类型的区别<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E4%B8%AD%E7%B1%BB%E5%9E%8B%E5%92%8C-typescipt%E4%B8%AD%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8C%BA%E5%88%AB" class="hash-link" aria-label="Direct link to JSDOC 中类型和 Typescipt中类型的区别" title="Direct link to JSDOC 中类型和 Typescipt中类型的区别" translate="no">​</a></h2>
-<ol>
-<li class="">不支持泛型。</li>
-<li class="">JSDOC 本质就是注释， 无法支持， ts的类型检查。只能提供类型提示。</li>
-</ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-好处">JSDOC 好处<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E5%A5%BD%E5%A4%84" class="hash-link" aria-label="Direct link to JSDOC 好处" title="Direct link to JSDOC 好处" translate="no">​</a></h2>
-<ol>
-<li class="">注释更加规范化，</li>
-<li class="">让js 具备类型提示，代码提示。</li>
-<li class="">增加js代码可读性，可维护性。</li>
-<li class="">可以直接生成 api 文档。</li>
-</ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用jsdoc-的开源项目">使用JSDOC 的开源项目<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E4%BD%BF%E7%94%A8jsdoc-%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Direct link to 使用JSDOC 的开源项目" title="Direct link to 使用JSDOC 的开源项目" translate="no">​</a></h2>
-<ul>
-<li class="">loadash <a href="https://github.com/lodash/lodash" target="_blank" rel="noopener noreferrer" class="">https://github.com/lodash/lodash</a></li>
-<li class="">axios <a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer" class="">https://github.com/axios/axios</a></li>
-<li class="">mathjs <a href="https://github.com/josdejong/mathjs" target="_blank" rel="noopener noreferrer" class="">https://github.com/josdejong/mathjs</a></li>
-<li class="">ramda <a href="https://github.com/ramda/ramda" target="_blank" rel="noopener noreferrer" class="">https://github.com/ramda/ramda</a></li>
+<li class=""><a href="https://www.npmjs.org/" target="_blank" rel="noopener noreferrer" class="">npm</a></li>
+<li class=""><a href="http://cnpmjs.org/" target="_blank" rel="noopener noreferrer" class="">cnpm</a></li>
+<li class=""><a href="https://www.nodejitsu.com/" target="_blank" rel="noopener noreferrer" class="">nodejitsu</a></li>
+<li class=""><a href="https://mirrors.cloud.tencent.com/npm/" target="_blank" rel="noopener noreferrer" class="">tencent</a></li>
+<li class=""><a href="http://npm.taobao.org/" target="_blank" rel="noopener noreferrer" class="">taobao</a></li>
+<li class=""><a href="http://npm.mirror.cqupt.edu.cn/" target="_blank" rel="noopener noreferrer" class="">rednpm</a></li>
+<li class=""><a href="https://registry.yarnpkg.com/" target="_blank" rel="noopener noreferrer" class="">yarn</a></li>
 </ul>]]></content>
         <author>
             <name>MengFei</name>
             <uri>https://github.com/mengfei0053</uri>
         </author>
-        <category label="typescript" term="typescript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docker常用命令]]></title>
-        <id>https://blog.mengfei.tech/blog/used-commands</id>
-        <link href="https://blog.mengfei.tech/blog/used-commands"/>
-        <updated>2021-09-18T08:12:34.000Z</updated>
-        <summary type="html"><![CDATA[Docker常用命令]]></summary>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="docker" term="docker"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="npm" term="npm"/>
+        <category label="yarn" term="yarn"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
         <id>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</id>
         <link href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock"/>
-        <updated>2021-09-13T08:10:31.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[关于 shrinkwrap 的更新]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于-shrinkwrap-的更新">关于 shrinkwrap 的更新<a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#%E5%85%B3%E4%BA%8E-shrinkwrap-%E7%9A%84%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="Direct link to 关于 shrinkwrap 的更新" title="Direct link to 关于 shrinkwrap 的更新" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="v1316v2152"><a href="https://github.com/npm/cli/blob/v2.15.12/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">v1.3.16~v2.15.2</a><a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#v1316v2152" class="hash-link" aria-label="Direct link to v1316v2152" title="Direct link to v1316v2152" translate="no">​</a></h3>
@@ -662,7 +596,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <title type="html"><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.loc]]></title>
         <id>https://blog.mengfei.tech/blog/fe-lock</id>
         <link href="https://blog.mengfei.tech/blog/fe-lock"/>
-        <updated>2021-09-13T08:10:31.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[初始]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="初始">初始<a href="https://blog.mengfei.tech/blog/fe-lock#%E5%88%9D%E5%A7%8B" class="hash-link" aria-label="Direct link to 初始" title="Direct link to 初始" translate="no">​</a></h2>
 <p>锁版本的起始
@@ -684,31 +618,69 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <category label="npm" term="npm"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Linux下nodejs安装源nodesource]]></title>
-        <id>https://blog.mengfei.tech/blog/linux-install-nodejs</id>
-        <link href="https://blog.mengfei.tech/blog/linux-install-nodejs"/>
-        <updated>2021-09-13T02:45:30.000Z</updated>
-        <summary type="html"><![CDATA[Linux下nodejs安装源nodesource]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="debian-and-ubuntu-based-distributions">Debian and Ubuntu based distributions<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#debian-and-ubuntu-based-distributions" class="hash-link" aria-label="Direct link to Debian and Ubuntu based distributions" title="Direct link to Debian and Ubuntu based distributions" translate="no">​</a></h3>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># Using Ubuntu</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get install -y nodejs</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># Using Debian, as root</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://deb.nodesource.com/setup_14.x | bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">apt-get install -y nodejs</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enterprise-linux-based-distributions">Enterprise Linux based distributions<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#enterprise-linux-based-distributions" class="hash-link" aria-label="Direct link to Enterprise Linux based distributions" title="Direct link to Enterprise Linux based distributions" translate="no">​</a></h3>
-<p>Run on RHEL, CentOS, CloudLinux, Amazon Linux or Fedora:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"># As root</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://rpm.nodesource.com/setup_14.x | bash -</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"># No root privileges</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">curl -fsSL https://rpm.nodesource.com/setup_14.x | sudo bash -</span><br></div></code></pre></div></div>]]></content>
+        <title type="html"><![CDATA[Nodejs Process 信号事件]]></title>
+        <id>https://blog.mengfei.tech/blog/nodejs-process-event</id>
+        <link href="https://blog.mengfei.tech/blog/nodejs-process-event"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Nodejs Process 信号事件]]></summary>
+        <content type="html"><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
+<p><strong>信号在 Worker 线程上不可用。</strong></p>
+<ul>
+<li class="">
+<p><strong>'SIGINT' 所有平台都支持来自终端的 'SIGINT'，通常可以使用 Ctrl+C 生成（但是这是可配置的）。 当启用终端原始模式并使用 Ctrl+C 时不会生成它。</strong></p>
+</li>
+<li class="">
+<p><strong>'SIGKILL' 不能安装监听器，它会无条件地终止所有平台上的 Node.js。</strong></p>
+</li>
+<li class="">
+<p><strong>发送 SIGINT、SIGTERM、和 SIGKILL 会导致目标进程无条件的终止，之后子进程会报告进程被信号终止。</strong></p>
+</li>
+<li class="">
+<p>'SIGUSR1' 由 Node.js 预留以启动调试器。 可以安装监听器，但这样做可能会干扰调试器。</p>
+</li>
+<li class="">
+<p>'SIGTERM' 和 'SIGINT' 在非 Windows 平台上具有默认的句柄，其在使用代码 128 + signal number 退出之前重置终端模式。 如果这些信号之一安装了监听器，则其默认行为将被删除（Node.js 将不再退出）。</p>
+</li>
+<li class="">
+<p>'SIGPIPE' 默认情况下忽略。 它可以安装监听器。</p>
+</li>
+<li class="">
+<p>'SIGHUP' 在 Windows 上是在关闭控制台窗口时生成，在其他平台上是在各种类似条件下生成。 参见 signal(7)。 它可以安装监听器，但是 Node.js 将在大约 10 秒后被 Windows 无条件地终止。 在非 Windows 平台上，SIGHUP 的默认行为是终止 Node.js，但一旦安装了监听器，则其默认行为将被删除。</p>
+</li>
+<li class="">
+<p>'SIGTERM' Windows 上不支持，可以监听。</p>
+</li>
+<li class="">
+<p>'SIGBREAK' 在 Windows 上，当按下 Ctrl+Break 时会发送。 在非 Windows 平台上，它可以被监听，但无法发送或生成它。</p>
+</li>
+<li class="">
+<p>'SIGWINCH' 当调整控制台大小时会发送。 在 Windows 上，这只会发生在当光标移动时写入控制台，或者当在原始模式下使用可读的终端时。</p>
+</li>
+<li class="">
+<p>'SIGSTOP' 不能安装监听器。</p>
+</li>
+<li class="">
+<p>'SIGBUS'、'SIGFPE'、'SIGSEGV' 和 'SIGILL'，当没有使用 kill(2) 人为引发时，本质上会使进程处于调用 JS 监听器不安全的状态。 这样做可能会导致进程停止响应。</p>
+</li>
+<li class="">
+<p>0 可以发送来测试进程是否存在，如果进程存在则没影响，如果进程不存在则抛出错误。
+Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.js 提供了一些对 process.kill() 和 subprocess.kill() 的模拟：</p>
+</li>
+<li class="">
+<p>发送信号 0 可以作为独立于平台的方式来测试进程是否存在。</p>
+</li>
+</ul>]]></content>
         <author>
             <name>MengFei</name>
             <uri>https://github.com/mengfei0053</uri>
         </author>
-        <category label="yarn" term="yarn"/>
         <category label="nodejs" term="nodejs"/>
-        <category label="npm" term="npm"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[前端自动化测试]]></title>
         <id>https://blog.mengfei.tech/blog/fe-autest</id>
         <link href="https://blog.mengfei.tech/blog/fe-autest"/>
-        <updated>2021-09-08T09:42:01.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[前端自动化测试]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/fe-autest#%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95" class="">前端自动化测试</a>
@@ -773,10 +745,50 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <category label="Jest" term="Jest"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Github快速接入github action]]></title>
+        <id>https://blog.mengfei.tech/blog/github-actions</id>
+        <link href="https://blog.mengfei.tech/blog/github-actions"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Github快速接入github action]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="github" term="github"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Github快速接入travis]]></title>
+        <id>https://blog.mengfei.tech/blog/github-travis</id>
+        <link href="https://blog.mengfei.tech/blog/github-travis"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[Github快速接入travis]]></summary>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="github" term="github"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端常用命令速查备忘]]></title>
+        <id>https://blog.mengfei.tech/blog/quick-look</id>
+        <link href="https://blog.mengfei.tech/blog/quick-look"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[前端常用命令速查备忘]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="yarn" term="yarn"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="npm" term="npm"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ReactHooks]]></title>
         <id>https://blog.mengfei.tech/blog/react-hooks</id>
         <link href="https://blog.mengfei.tech/blog/react-hooks"/>
-        <updated>2021-09-08T09:34:05.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[ReactHooks]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
@@ -859,7 +871,7 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <title type="html"><![CDATA[Typescript使用总结及部分小技巧]]></title>
         <id>https://blog.mengfei.tech/blog/ts-usage-summary</id>
         <link href="https://blog.mengfei.tech/blog/ts-usage-summary"/>
-        <updated>2021-09-08T09:30:53.000Z</updated>
+        <updated>2026-10-19T09:35:06.000Z</updated>
         <summary type="html"><![CDATA[Typescript使用总结及部分小技巧]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/ts-usage-summary#typescript-%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%E5%8F%8A%E9%83%A8%E5%88%86%E5%B0%8F%E6%8A%80%E5%B7%A7" class="">Typescript 使用总结及部分小技巧</a>
@@ -1015,139 +1027,127 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <category label="react" term="react"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NPM包开发KnowledgeMap]]></title>
-        <id>https://blog.mengfei.tech/blog/npm-development-knowledgemap</id>
-        <link href="https://blog.mengfei.tech/blog/npm-development-knowledgemap"/>
-        <updated>2021-09-08T09:20:41.000Z</updated>
-        <summary type="html"><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></summary>
-        <content type="html"><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
+        <title type="html"><![CDATA[如何在JS文件里写类型]]></title>
+        <id>https://blog.mengfei.tech/blog/write-ts-in-js</id>
+        <link href="https://blog.mengfei.tech/blog/write-ts-in-js"/>
+        <updated>2026-10-19T09:35:06.000Z</updated>
+        <summary type="html"><![CDATA[如何在JS文件里写类型]]></summary>
+        <content type="html"><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
+这里引出了三个问题：</p>
 <ol>
-<li class="">当我们 npm i package 的时候之后，require 或 import 一个包的时时候，是如何寻找到这个包的。</li>
-<li class="">当一个包，在项目中存在多个版本的情况，如何确定引入的是哪个版本。例如项目依赖了 packageA@3.0.0 和 packageB@1.0.0， 而packageB 又依赖了pacakgeA@2.0.0.</li>
-<li class="">npm 包是如何提供一个命令的。例如， 当我们安装 npm -g nrm 的时候，为何会有nrm 命令产生。</li>
-<li class="">如何手动发布一个npm 包到公网npm 仓库</li>
-<li class="">包的版本如何定义</li>
-<li class="">什么时候需要发布一个npm 包</li>
-<li class="">什么时间节点需要发布一个 npm 包的新版本，新的版本又该如何定义。</li>
-</ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="正文">正文<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%AD%A3%E6%96%87" class="hash-link" aria-label="Direct link to 正文" title="Direct link to 正文" translate="no">​</a></h2>
-<p>由于上述问题，涉及到的内容略多，下是推荐和相关的知识点。</p>
+<li class="">如何定义类型</li>
+<li class="">何时定义类型<!-- -->
 <ol>
-<li class="">nodejs的模块解析策略<!-- -->
-<ol>
-<li class=""><a href="http://nodejs.cn/api/modules.html" target="_blank" rel="noopener noreferrer" class="">http://nodejs.cn/api/modules.html</a></li>
-<li class=""><a href="https://www.tslang.cn/docs/handbook/module-resolution.html" target="_blank" rel="noopener noreferrer" class="">https://www.tslang.cn/docs/handbook/module-resolution.html</a></li>
+<li class="">数据产生，和数据获取的地方。</li>
+<li class="">比如定义请求函数的地方， 独立组件props的定义，都是经典且基础的需要定义类型的地方</li>
 </ol>
 </li>
-<li class="">package.json 字段含义<!-- -->
+<li class="">何时使用类型，即引用类型<!-- -->
 <ol>
-<li class=""><a href="https://docs.npmjs.com/cli/v6/configuring-npm/package-json" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/cli/v6/configuring-npm/package-json</a></li>
-<li class="">非官方扩展字段 不在基础node或浏览器环境下支持，但被某些包支持<!-- -->
+<li class="">数据使用的地方，数据关联的地方，这些地方，应该优先引用上述定义的类型，而无需重复定义类型。</li>
+<li class="">例如使用请求来的数据的时候，使用请求函数定义时定义的类型</li>
+<li class="">组件使用的时候，使用组件定义时定义的类型。</li>
+<li class="">数据关联的地方，指比如两个接口，获取的数据有一定的包含关系，可以使用类型继承，来引用类型。</li>
+</ol>
+</li>
+</ol>
+<p>类型使用和定义，应该遵循，定义尽量少的类型，增加已定义类型的复用性原则。</p>
+<p>除了这三个问题外，还有一个练习太少的问题，很多老的项目，并没有使用Ts 编写。那么除了自己的ts 练习项目外，
+还可以在哪里熟悉 ts类型的写法呢。</p>
+<p>这里向大家介绍一个可能很多人都见过，并且写过的东西， ------------------- JSDOC。
+我们可以使用JSDOC, 定义各种类型，以及可以被vscode良好的支持，给出边界的类型代码提示。</p>
+<p>下面这种注释，估计大部分前端开发者都见过，并且都写过，但可能了解的并不是很多。下面我们对JSDOC是什么，
+以及有什么作用来做个介绍</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * 函数Desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">params1</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">params2</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">name</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">params1</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> params2</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-介绍">JSDOC 介绍<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to JSDOC 介绍" title="Direct link to JSDOC 介绍" translate="no">​</a></h2>
+<p>JSDoc是一个根据javascript文件中注释信息，生成JavaScript应用程序或库、模块的API文档 的工具。你可以使用他记录如：命名空间，类，方法，方法参数等。类似JavaDoc和PHPDoc。<strong>现在很多编辑器或IDE中还可以通过JSDoc直接或使用插件生成智能提示。从而使开发者很容易了解整个类和其中的属性和方法，并且快速知道如何使用，从而提高开发效率，降低维护成本。</strong></p>
+<p>是标记变量、入参、返回值的类型，稍微弥补了 JavaScript 没有静态类型，不支持类型标注的问题。基于 JSDoc 的类型注释，Google Closure Compiler 可以分析优化代码，<strong>VS Code 之类的代码编辑器可以在不使用 TypeScript 的情况下实现代码提示。</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="历史">历史<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E5%8E%86%E5%8F%B2" class="hash-link" aria-label="Direct link to 历史" title="Direct link to 历史" translate="no">​</a></h2>
+<p>Michael Mathews 在 2001 年创建 JSDoc 项目，它是最早的 JavaScript 文档工具，注释语法借鉴自 Javadoc（很多文档工具都使用了类似 Javadoc 注释语法，比如 C++ 的 Doxygen、 PHP 的 phpDocumentor）。截止 2020 年经历了 4 个大版本更新：</p>
 <ul>
-<li class="">module  指定esm module 的入口文件。 由rollup最早提出(<a href="https://github.com/rollup/rollup/wiki/pkg.module" target="_blank" rel="noopener noreferrer" class="">https://github.com/rollup/rollup/wiki/pkg.module</a>), webpack2.x之后版本开始支持</li>
-<li class="">types, typings  指定包的d.ts的入口文件，由typescript 支持</li>
-<li class="">unpkg  公网npm 包可以使用的的cdn  <a href="https://github.com/mjackson/unpkg" target="_blank" rel="noopener noreferrer" class="">https://github.com/mjackson/unpkg</a></li>
-<li class="">sideEffects Webpack 支持的，用来标记副作用文件，是否可以被TreeShaking</li>
+<li class="">2001 JSDoc (JSDoc.pm): 使用 Perl 编写，代码托管在 SourceForge</li>
+<li class="">2007 JsDoc Toolkit 1.0: 使用 JavaScript 编写，基于 Rhino，运行在 Java 平台，代码托管在 Google Code</li>
+<li class="">2008 JsDoc Toolkit 2.0: 同 1.0</li>
+<li class="">2011 JSDoc 3: 基于 Node.js，代码托管在 GitHub</li>
+</ul>
+<p>编译文档用法</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">npm i -g jsdoc </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">jsdoc yourjavascriptfile.js</span><br></div></code></pre></div></div>
+<ul>
+<li class="">项目地址: <a href="https://github.com/jsdoc/jsdoc" target="_blank" rel="noopener noreferrer" class="">https://github.com/jsdoc/jsdoc</a></li>
+<li class="">语法文档: <a href="https://jsdoc.app/" target="_blank" rel="noopener noreferrer" class="">https://jsdoc.app/</a>  <a href="http://www.dba.cn/book/jsdoc/" target="_blank" rel="noopener noreferrer" class="">http://www.dba.cn/book/jsdoc/</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用标注">常用标注<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E5%B8%B8%E7%94%A8%E6%A0%87%E6%B3%A8" class="hash-link" aria-label="Direct link to 常用标注" title="Direct link to 常用标注" translate="no">​</a></h2>
+<ul>
+<li class="">类型<!-- -->
+<ul>
+<li class="">@type</li>
+<li class="">@typedef</li>
+<li class="">@property/@prop</li>
+<li class="">@template</li>
+<li class="">@enum</li>
 </ul>
 </li>
-</ol>
-</li>
-<li class="">esm module 和 cjs module 是什么， 有什么区别<!-- -->
-<ol>
-<li class="">esm <a href="https://tc39.es/ecma262/#sec-modules" target="_blank" rel="noopener noreferrer" class="">https://tc39.es/ecma262/#sec-modules</a></li>
-<li class="">cjs <a href="http://nodejs.cn/api/modules.html" target="_blank" rel="noopener noreferrer" class="">http://nodejs.cn/api/modules.html</a></li>
-</ol>
-</li>
-<li class="">命令的本质就是一个可执行文件，俗称脚本文件。nodejs 产生的js 脚本文件 在使用 #！ /user/bin/env node 指定脚本的运行者。如同shell 脚本需要在文件头指定运行者 #! /bin/bash 一样。<!-- -->
-<ol>
-<li class="">npm 发布相关命令   <a href="https://docs.npmjs.com/cli/v7/commands" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/cli/v7/commands</a>
+<li class="">函数<!-- -->
 <ul>
-<li class="">npm login</li>
-<li class="">npm public</li>
-<li class="">npm deprecate</li>
+<li class="">@param/@argument/@arg</li>
+<li class="">@returns/@return</li>
+<li class="">@throws</li>
+<li class="">@deprecated</li>
 </ul>
 </li>
-</ol>
-</li>
-<li class="">npm 的语义化版本<!-- -->
-<ol>
-<li class=""><a href="https://docs.npmjs.com/about-semantic-versioning" target="_blank" rel="noopener noreferrer" class="">https://docs.npmjs.com/about-semantic-versioning</a></li>
-<li class=""><a href="https://semver.org/" target="_blank" rel="noopener noreferrer" class="">https://semver.org</a></li>
-</ol>
-</li>
-<li class="">了解包 semantic-release  系列的包 <a href="https://github.com/semantic-release/semantic-release" target="_blank" rel="noopener noreferrer" class="">https://github.com/semantic-release/semantic-release</a></li>
-<li class="">了解 conventional-changelog 系列的包<!-- -->
-<ol>
-<li class=""><a href="https://www.conventionalcommits.org/" target="_blank" rel="noopener noreferrer" class="">https://www.conventionalcommits.org/</a></li>
-<li class=""><a href="https://github.com/conventional-changelog" target="_blank" rel="noopener noreferrer" class="">https://github.com/conventional-changelog</a></li>
-</ol>
-</li>
-</ol>]]></content>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="npm" term="npm"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nodejs Process 信号事件]]></title>
-        <id>https://blog.mengfei.tech/blog/nodejs-process-event</id>
-        <link href="https://blog.mengfei.tech/blog/nodejs-process-event"/>
-        <updated>2021-09-07T02:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Nodejs Process 信号事件]]></summary>
-        <content type="html"><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
-<p><strong>信号在 Worker 线程上不可用。</strong></p>
+<li class="">类和继承<!-- -->
 <ul>
-<li class="">
-<p><strong>'SIGINT' 所有平台都支持来自终端的 'SIGINT'，通常可以使用 Ctrl+C 生成（但是这是可配置的）。 当启用终端原始模式并使用 Ctrl+C 时不会生成它。</strong></p>
+<li class="">@constructor/@class</li>
+<li class="">@this</li>
+<li class="">@extends</li>
+<li class="">@public</li>
+<li class="">@private</li>
+<li class="">@protected</li>
+<li class="">@readonly</li>
+</ul>
 </li>
-<li class="">
-<p><strong>'SIGKILL' 不能安装监听器，它会无条件地终止所有平台上的 Node.js。</strong></p>
+<li class="">文档<!-- -->
+<ul>
+<li class="">@fileoverview</li>
+<li class="">@author</li>
+<li class="">@example</li>
+<li class="">@description</li>
+<li class="">@see</li>
+<li class="">@link</li>
+<li class="">@license</li>
+<li class="">@preserve</li>
+</ul>
 </li>
-<li class="">
-<p><strong>发送 SIGINT、SIGTERM、和 SIGKILL 会导致目标进程无条件的终止，之后子进程会报告进程被信号终止。</strong></p>
-</li>
-<li class="">
-<p>'SIGUSR1' 由 Node.js 预留以启动调试器。 可以安装监听器，但这样做可能会干扰调试器。</p>
-</li>
-<li class="">
-<p>'SIGTERM' 和 'SIGINT' 在非 Windows 平台上具有默认的句柄，其在使用代码 128 + signal number 退出之前重置终端模式。 如果这些信号之一安装了监听器，则其默认行为将被删除（Node.js 将不再退出）。</p>
-</li>
-<li class="">
-<p>'SIGPIPE' 默认情况下忽略。 它可以安装监听器。</p>
-</li>
-<li class="">
-<p>'SIGHUP' 在 Windows 上是在关闭控制台窗口时生成，在其他平台上是在各种类似条件下生成。 参见 signal(7)。 它可以安装监听器，但是 Node.js 将在大约 10 秒后被 Windows 无条件地终止。 在非 Windows 平台上，SIGHUP 的默认行为是终止 Node.js，但一旦安装了监听器，则其默认行为将被删除。</p>
-</li>
-<li class="">
-<p>'SIGTERM' Windows 上不支持，可以监听。</p>
-</li>
-<li class="">
-<p>'SIGBREAK' 在 Windows 上，当按下 Ctrl+Break 时会发送。 在非 Windows 平台上，它可以被监听，但无法发送或生成它。</p>
-</li>
-<li class="">
-<p>'SIGWINCH' 当调整控制台大小时会发送。 在 Windows 上，这只会发生在当光标移动时写入控制台，或者当在原始模式下使用可读的终端时。</p>
-</li>
-<li class="">
-<p>'SIGSTOP' 不能安装监听器。</p>
-</li>
-<li class="">
-<p>'SIGBUS'、'SIGFPE'、'SIGSEGV' 和 'SIGILL'，当没有使用 kill(2) 人为引发时，本质上会使进程处于调用 JS 监听器不安全的状态。 这样做可能会导致进程停止响应。</p>
-</li>
-<li class="">
-<p>0 可以发送来测试进程是否存在，如果进程存在则没影响，如果进程不存在则抛出错误。
-Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.js 提供了一些对 process.kill() 和 subprocess.kill() 的模拟：</p>
-</li>
-<li class="">
-<p>发送信号 0 可以作为独立于平台的方式来测试进程是否存在。</p>
-</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用示例">使用示例<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" class="hash-link" aria-label="Direct link to 使用示例" title="Direct link to 使用示例" translate="no">​</a></h2>
+<p>定义类型：</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">|</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">TypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Object</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@property</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@property</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * desc desc desc</span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@typedef</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> name</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">string</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> age</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> count</span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">:</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> string </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">|</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">;</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name operator" style="color:#393A34;font-style:italic">*</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></div><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * /</span><br></div></code></pre></div></div>
+<p>使用类型</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@type</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">TypeName</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> **/</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> a </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">''</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@type</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">ObjectTypeName</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> **/</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">let</span><span class="token plain"> obj </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-中类型和-typescipt中类型的区别">JSDOC 中类型和 Typescipt中类型的区别<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E4%B8%AD%E7%B1%BB%E5%9E%8B%E5%92%8C-typescipt%E4%B8%AD%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8C%BA%E5%88%AB" class="hash-link" aria-label="Direct link to JSDOC 中类型和 Typescipt中类型的区别" title="Direct link to JSDOC 中类型和 Typescipt中类型的区别" translate="no">​</a></h2>
+<ol>
+<li class="">不支持泛型。</li>
+<li class="">JSDOC 本质就是注释， 无法支持， ts的类型检查。只能提供类型提示。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jsdoc-好处">JSDOC 好处<a href="https://blog.mengfei.tech/blog/write-ts-in-js#jsdoc-%E5%A5%BD%E5%A4%84" class="hash-link" aria-label="Direct link to JSDOC 好处" title="Direct link to JSDOC 好处" translate="no">​</a></h2>
+<ol>
+<li class="">注释更加规范化，</li>
+<li class="">让js 具备类型提示，代码提示。</li>
+<li class="">增加js代码可读性，可维护性。</li>
+<li class="">可以直接生成 api 文档。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用jsdoc-的开源项目">使用JSDOC 的开源项目<a href="https://blog.mengfei.tech/blog/write-ts-in-js#%E4%BD%BF%E7%94%A8jsdoc-%E7%9A%84%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Direct link to 使用JSDOC 的开源项目" title="Direct link to 使用JSDOC 的开源项目" translate="no">​</a></h2>
+<ul>
+<li class="">loadash <a href="https://github.com/lodash/lodash" target="_blank" rel="noopener noreferrer" class="">https://github.com/lodash/lodash</a></li>
+<li class="">axios <a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer" class="">https://github.com/axios/axios</a></li>
+<li class="">mathjs <a href="https://github.com/josdejong/mathjs" target="_blank" rel="noopener noreferrer" class="">https://github.com/josdejong/mathjs</a></li>
+<li class="">ramda <a href="https://github.com/ramda/ramda" target="_blank" rel="noopener noreferrer" class="">https://github.com/ramda/ramda</a></li>
 </ul>]]></content>
         <author>
             <name>MengFei</name>
             <uri>https://github.com/mengfei0053</uri>
         </author>
-        <category label="nodejs" term="nodejs"/>
+        <category label="typescript" term="typescript"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Powershell 下无法使用 npm 全局包]]></title>
