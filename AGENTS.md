@@ -30,7 +30,7 @@
 - **Language**: TypeScript 6.0（部分页面/组件）
 - **Package manager**: pnpm 9.15.9（Corepack）
 - **Runtime**: Node.js >= 20（`engines` 字段）
-- **CI**: 未检测到 GitHub Actions / Travis（已移除 `.travis.yml`）
+- **CI**: GitHub Actions（`.github/workflows/deploy.yml`）在推送到 `master` 时用 Corepack 启用 pnpm 9.15.9，执行 `pnpm install --frozen-lockfile` 与 `pnpm build`，再将 `build/` 发布到 `gh-pages`（Pages 源为该分支的 `/`，自定义域名 `blog.mengfei.tech`）。本地 `pnpm deploy` 不变。若推送报无写权限，到 Settings → Actions → General → Workflow permissions 选 **Read and write permissions**（只用默认 `GITHUB_TOKEN`，无需额外 secret）。
 - **云开发**: Gitpod（`.gitpod.yml`：`pnpm install && build`，`pnpm start`）
 
 ## Common Commands
@@ -53,8 +53,10 @@ pnpm serve
 # TypeScript 检查（不产出构建物）
 pnpm typecheck
 
-# 部署到 GitHub Pages（需配置 GIT_USER 等）
+# 部署到 GitHub Pages（本地，需配置 GIT_USER 等；不经过 Actions）
 pnpm deploy
+
+# 推送到 master 会触发 .github/workflows/deploy.yml 自动发布到 gh-pages
 
 # 构建后推送 URL 到百度收录（需环境变量 BAIDU_ZZ）
 pnpm build && node ./scripts/push-baidu.js
