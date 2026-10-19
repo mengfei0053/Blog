@@ -24,7 +24,6 @@ const sidebars = {
       collapsed: true,
       link: {type: 'doc', id: 'intro'},
       items: [
-        'intro',
         {
           type: 'category',
           label: 'Tutorial - Basics',
