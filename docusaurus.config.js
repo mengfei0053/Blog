@@ -5,7 +5,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
 (module.exports = {
   title: 'Meng',
   tagline: "个人站",
-  url: 'https://blog.mengfei0053.com',
+  url: 'https://blog.mengfei.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   markdown: {

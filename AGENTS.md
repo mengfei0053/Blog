@@ -1,6 +1,6 @@
 # Blog（Meng 个人站）
 
-基于 Docusaurus 3 的静态技术博客，发布于 https://blog.mengfei0053.com。主要内容在 `blog/`（文章）与 `src/pages/`（自定义页面），首页重定向到 `/blog`。
+基于 Docusaurus 3 的静态技术博客，发布于 https://blog.mengfei.tech。主要内容在 `blog/`（文章）与 `src/pages/`（自定义页面），首页重定向到 `/blog`。
 
 ## Project Layout
 
