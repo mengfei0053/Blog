@@ -60,6 +60,22 @@ const {themes: prismThemes} = require('prism-react-renderer');
     },
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        language: ['en', 'zh'],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: '/blog',
+      }),
+    ],
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -98,6 +114,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
           src: 'img/img_133326.png',
         },
         items: [
+          { to: '/blog/tags/ai', label: 'AI', position: 'left' },
           { to:'/markdown-page', label:'常用设置', position: 'left' },
           { to:'/front-end-recommendation-libraries', label:'前端社区精选', position: 'left' },
           { to: '/blog', label: '文章', position: 'left'},

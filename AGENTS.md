@@ -26,6 +26,7 @@
 ## Tech Stack
 
 - **Framework**: Docusaurus 3.10.2（`@docusaurus/preset-classic`）
+- **Search**: `@easyops-cn/docusaurus-search-local`（本地搜索，`language: ['en', 'zh']`，索引 blog / docs / pages；搜索框由主题注入导航栏右侧）
 - **UI**: React 19、MDX 3
 - **Language**: TypeScript 6.0（部分页面/组件）
 - **Package manager**: pnpm 9.15.9（Corepack）
