@@ -1,0 +1,62 @@
+# Publish the Docusaurus build to the existing GitHub Pages source.
+# Pages is already "Deploy from a branch": gh-pages / /, custom domain
+# blog.mengfei.tech. Pushing build/ keeps that setup. This does not switch
+# the site to the GitHub Actions Pages source (actions/deploy-pages).
+#
+# Uses the default GITHUB_TOKEN. If the push fails with
+# "Write access to repository not granted", set
+# Settings → Actions → General → Workflow permissions
+# to "Read and write permissions". No extra repository secret is required.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-gh-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    env:
+      COREPACK_ENABLE_DOWNLOAD_PROMPT: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+
+      - name: Enable Corepack and pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@9.15.9 --activate
+          pnpm --version
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Check CNAME
+        run: grep -qx 'blog.mengfei.tech' build/CNAME
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          cname: blog.mengfei.tech
