@@ -96,6 +96,12 @@ Herdr 默认是「一个后台服务器 + 若干个终端客户端」。
 
 往上汇总的规则很直接：有一个 blocked，窗格、tab、workspace 都显示 blocked；有 working，workspace 看起来还在忙；done 会一直留着，直到你看过。
 
+
+![侧边栏同时标出 blocked、idle 和 working](./img/herdr/02-pane-status.webp)
+
+官方 README 演示里的这一帧：停在批准框上的窗格被标成 blocked，另外两个分别是 idle 和 working。
+
+
 状态有两条来源：
 
 1. **Herdr 自己认。** 它找窗格里的前台进程，读窗格最底下正在画的那一块（不是你滚上去的历史），用检测清单判断 idle / working / blocked。集成如果也在上报，就改用上报，不再读屏幕。
@@ -283,6 +289,16 @@ herdr session delete side-project
 | 本地 UI 挂一台 | `herdr --remote workbox` 或 `herdr --remote ssh://you@server:2222` | 窗格在远程服务器，界面用本机主题和键位来画。本机剪贴板里的图片可以桥过去。 |
 | 一个窗口里多台 | `herdr machine add workbox` | 每台机器自己的 Herdr 服务器和进程。断一台不影响其他台。从侧边栏拿掉这台机器只断开客户端，不停止那边的会话。 |
 
+
+![手机 SSH 里打开的 Herdr 会话](./img/herdr/05-phone-session.webp)
+
+官方文档里的手机截图：SSH 到跑着 Agent 的机器，再执行 `herdr`。窄屏上仍是同一套窗格。
+
+![手机上的切换菜单，底部有 detach](./img/herdr/06-phone-switch.webp)
+
+同一页的切换菜单列出 workspace、tab 和 Agent 状态。菜单底部的 detach 只脱离客户端，服务端里的窗格继续跑。
+
+
 先确认普通 SSH 能登录。交互终端里添加机器，这样需要安装或替换远程二进制时 Herdr 会先问你，默认答案是不停止正在跑的服务器：
 
 ```bash
@@ -292,6 +308,16 @@ herdr machine add workbox --label "Build machine"
 herdr machine add workbox --remote-session agents
 herdr machine list
 ```
+
+
+![herdr machine add 把远程机器加进侧边栏](./img/herdr/03-machine-add.webp)
+
+官方「Connecting the machines」演示：在本机窗格里执行 `herdr machine add`，侧边栏出现 local，以及正在连接的 remotebox。
+
+![一个窗口里同时有本机和远程机器](./img/herdr/04-remote-machines.webp)
+
+连上之后，侧边栏同时列出本机和 remotebox 的 workspace。当前窗格里的 Codex 跑在远程目录上。
+
 
 脚本要操作某一台已保存机器上的 Agent 时，加上 `--machine` 和 `herdr machine list` 里的配置名，例如 `herdr --machine workbox agent list`。不带这个前缀的命令仍走当前窗格继承到的那一个 socket。
 

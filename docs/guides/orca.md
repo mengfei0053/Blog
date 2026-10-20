@@ -233,6 +233,16 @@ brew install --cask stablyai/orca/orca
 
 Run on 用来选这件工作跑在本机、某台 SSH 主机，还是一台已配对的服务器。主机还没为这个项目准备好检出时，可以在创建表单里指定项目位置，不必先退出对话框。
 
+
+![侧边栏里的 worktree，以及同一个任务下的多个 Agent](./img/orca/05-worktree-list.webp)
+
+官方文档里的侧边栏：每条 worktree 标明跑在本机还是 SSH 主机上，展开后能看到同一个任务里并行的多个 Agent。
+
+![新建 worktree 时选择 Run on 和 Agent](./img/orca/06-create-worktree.webp)
+
+创建对话框里选仓库、Run on（本机或已保存的 SSH 主机）和要启动的 Agent。
+
+
 ### 用 CLI 做同样的事
 
 先列出或确认仓库 id，再创建。在一份 Orca worktree 里面执行 `worktree create` 时，Orca 能推断的话会把新 worktree 记成子节点。要明确关系就加 `--parent-worktree active`，彼此无关就加 `--no-parent`。
@@ -248,6 +258,12 @@ orca worktree rm --worktree id:<worktreeId> --force --json
 ```
 
 `--setup` 取 `run`、`skip` 或 `inherit`。`inherit` 跟随仓库策略。`--prompt` 会把第一段工作直接送给刚启动的那个 Agent。
+
+
+![在终端里执行 orca worktree create](./img/orca/07-cli-worktree-create.webp)
+
+官方 CLI 演示：先 `orca repo add` 把仓库登记进正在运行的 Orca，再 `orca worktree create` 指定仓库名、任务名和基线分支。
+
 
 已有 workspace 里再启动一个 Agent：
 
@@ -309,6 +325,16 @@ orca serve --pairing-address 192.0.2.10
 ```
 
 把地址换成那台机器在你网络里真正能被连到的 Tailscale IP 或主机名。
+
+
+![把这台 Orca 宣告成服务器并生成配对链接](./img/orca/08-remote-server-share.webp)
+
+官方文档：在服务器上选一个其他设备能够访问的地址（示例是 Tailscale），再生成配对链接。链接在截图里已打码。
+
+![客户端粘贴配对链接并添加 Remote Orca Server](./img/orca/09-remote-server-add.webp)
+
+客户端在 Settings → Remote Orca Servers 里填写名字，贴上 `orca://pair` 链接，再点 Add Server。
+
 
 ### 手机
 
