@@ -9,6 +9,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
   baseUrl: '/',
   onBrokenLinks: 'throw',
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -61,6 +62,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
   ],
 
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
