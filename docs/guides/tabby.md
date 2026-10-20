@@ -205,9 +205,3 @@ Tabby 值得一试。
 
 官网：https://tabby.sh  
 GitHub：https://github.com/Eugeny/tabby
-
----
-
-## 相关工具
-
-如果你经常用 Tabby 连接远程服务器、跑脚本或管理 AI 开发环境，可以了解一下 [EbeeAI](https://ebeeai.net)。它提供多模型统一接入和用量管理，新用户注册后有 $10 试用额度，适合先在远程开发或自动化任务里做小规模验证。

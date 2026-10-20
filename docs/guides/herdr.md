@@ -363,9 +363,3 @@ Herdr 值得记住的分界只有一条：脱离客户端时，窗格里的进�
 官网：https://herdr.dev  
 文档：https://herdr.dev/docs/  
 GitHub：https://github.com/herdrdev/herdr
-
----
-
-## 相关工具
-
-如果多个 Claude Code、Codex 或其他终端 Agent 开始抢账号和额度，可以了解一下 [EbeeAI](https://ebeeai.net)。它提供统一的 AI API 接入和用量管理，新用户注册后有 $10 试用额度，适合先用小规模 Agent 任务看成本和稳定性。Herdr 本身不代理这些模型的订阅。

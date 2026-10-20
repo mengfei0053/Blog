@@ -534,9 +534,3 @@ RAGFlow 不是又一个简单的「上传文件 → 向量检索 → LLM 回答�
 GitHub：https://github.com/infiniflow/ragflow  
 文档：https://ragflow.io/docs/dev/  
 云服务：https://cloud.ragflow.io
-
----
-
-## 相关工具：EbeeAI
-
-如果你希望更快体验 AI 知识库、企业文档问答或 RAG 类应用，而不想一开始就投入服务器部署、模型配置、文档解析和运维成本，也可以了解一下 [EbeeAI](https://ebeeai.net)。它适合作为 RAGFlow 自建方案之外的补充选择：前者更适合需要深度定制、私有化部署和技术掌控的团队；托管型平台更适合希望快速验证场景、降低使用门槛的用户。新用户注册后有 $10 试用额度，可以先用小规模数据做一轮验证。

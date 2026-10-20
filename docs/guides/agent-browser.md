@@ -598,9 +598,3 @@ agent-browser 的定位不是替代 Puppeteer/Playwright，而是做**专为 AI 
 
 GitHub：https://github.com/vercel-labs/agent-browser  
 文档：https://agent-browser.dev
-
----
-
-## 相关工具
-
-如果你在用 agent-browser 做 AI 浏览器自动化，后续通常也会遇到多模型接入、API Key 管理和用量统计的问题。可以了解一下 [EbeeAI](https://ebeeai.net)，它提供统一的 AI API 网关，新用户注册后有 $10 试用额度，适合先用小规模自动化任务验证成本和稳定性。

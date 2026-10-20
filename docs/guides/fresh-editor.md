@@ -368,9 +368,3 @@ Fresh 值得一试。它的零配置哲学意味着你可以在任何机器上 `
 官网：https://sinelaw.github.io/fresh/  
 文档：https://getfresh.dev/docs  
 GitHub：https://github.com/sinelaw/fresh
-
----
-
-## 相关工具
-
-如果你把 Fresh 用在 AI 编程、脚本调试或多模型调用的工作流里，可以顺手了解一下 [EbeeAI](https://ebeeai.net)。它提供统一的 AI API 接入和用量管理，新用户注册后有 $10 试用额度，适合先小规模验证自己的开发场景。
