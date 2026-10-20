@@ -9,7 +9,7 @@ description: "以 FastAPI + LlamaIndex + Chroma 的公开示例为线索：文�
 
 **一句话定位：** [llamaindex-rag-demo](https://github.com/mengfei0053/llamaindex-rag-demo) 把三份虚构公司文档建成向量索引，用 FastAPI 回答问题，并在响应里带回出处。向量在进程内用 FastEmbed 计算，对话走一个只提供 chat 的 OpenAI 兼容代理。
 
-线上实例：<http://132.145.20.203:8000>。写作时 `GET /health` 返回 `index_ready: true`、`chunks: 3`。接口形状和下面的代码路径对应仓库提交 [`8acf189`](https://github.com/mengfei0053/llamaindex-rag-demo/commit/8acf18965224302669cb1f68ba03de49d72a9394)。
+线上实例：[http://132.145.20.203:8000](http://132.145.20.203:8000)。写作时 `GET /health` 返回 `index_ready: true`、`chunks: 3`。接口形状和下面的代码路径对应仓库提交 [`8acf189`](https://github.com/mengfei0053/llamaindex-rag-demo/commit/8acf18965224302669cb1f68ba03de49d72a9394)。
 
 语料是「北辰软件 / Northstar Software」的说明，产品叫岚图协作。它用来把检索路径走通。价格、退款和工时都是编的。
 
@@ -48,12 +48,12 @@ description: "以 FastAPI + LlamaIndex + Chroma 的公开示例为线索：文�
 提问路径：
 
 ```mermaid
-flowchart LR
-  Q["POST /query"] --> Emb["用同一套向量模型编码问题"]
-  Emb --> Store["Chroma company_docs<br/>cosine，top_k = 3"]
-  Store --> Prompt["QA_TEMPLATE<br/>只根据这些片段作答"]
-  Prompt --> LLM["OpenAI 兼容对话接口"]
-  LLM --> Out["answer + sources"]
+flowchart TB
+  Q["POST /query"] --> Emb["编码问题<br/>同一向量模型"]
+  Emb --> Store["Chroma cosine<br/>top_k = 3"]
+  Store --> Prompt["填入提示词<br/>只依据片段"]
+  Prompt --> LLM["兼容对话接口"]
+  LLM --> Out["返回答案<br/>和 sources"]
 ```
 
 ---
@@ -146,7 +146,7 @@ LlamaIndex 自带的 `OpenAI` LLM 会按模型名查上下文长度。Claude 的
 
 ## 五、运行和调用
 
-仓库地址：<https://github.com/mengfei0053/llamaindex-rag-demo>。密钥放在本机 `.env`，不要提交。`.env.example` 里的键是空的。
+仓库地址：[https://github.com/mengfei0053/llamaindex-rag-demo](https://github.com/mengfei0053/llamaindex-rag-demo)。密钥放在本机 `.env`，不要提交。`.env.example` 里的键是空的。
 
 ```bash
 git clone https://github.com/mengfei0053/llamaindex-rag-demo.git
