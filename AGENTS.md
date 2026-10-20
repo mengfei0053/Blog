@@ -7,7 +7,7 @@
 ### Top-Level Directories
 
 - `blog/` — 博客文章（按主题分子目录：Nodejs、React、Ts、Docker、Linux、Windows、Others、AI）
-- `docs/` — Docusaurus 文档区。`docs/guides/` 是「技术文档」（ASCII 文档 id，中文标题与侧边栏标签；封面与 cmux 配图在 `docs/guides/img/`，WebP）。默认 tutorial 仍在 `docs/intro.md`、`docs/tutorial-basics/`、`docs/tutorial-extras/`，侧边栏归入「教程」
+- `docs/` — Docusaurus 文档区。`docs/guides/` 是「技术文档」（ASCII 文档 id，中文标题与侧边栏标签；封面与 cmux 配图在 `docs/guides/img/`，WebP）。侧边栏只包含这些指南
 - `src/` — 自定义 React 页面、组件与全局样式
 - `static/` — 静态资源（图片、favicon 等）
 - `scripts/` — 构建后脚本（百度 URL 推送）
@@ -16,7 +16,7 @@
 ### Key Entry Files
 
 - `docusaurus.config.js` — 站点配置（preset-classic、gtag、百度统计插件、navbar/footer）
-- `sidebars.js` — docs 侧边栏：「技术文档」（`docs/guides/_category_.json`）在前，「教程」在后
+- `sidebars.js` — docs 侧边栏只有「技术文档」（`docs/guides/_category_.json`）
 - `package.json` — 依赖与 scripts（`packageManager: pnpm@9.15.9`）
 - `pnpm-lock.yaml` — 锁文件
 - `.npmrc` — `node-linker=hoisted`（兼容 Docusaurus）
@@ -67,7 +67,7 @@ pnpm build && node ./scripts/push-baidu.js
 
 - 改动前先读 `docusaurus.config.js` 与受影响的内容目录（`blog/`、`src/pages/`）。
 - 博客 `tags` 使用英文小写规范 slug（主标签对齐目录，最多两个次标签）。约定见 `blog/AGENTS.md`。导航「分类」下拉链到 `/blog/tags/<slug>`。
-- 保持 diff 小且聚焦；不要顺手重构无关文章或默认 tutorial 文档。
+- 保持 diff 小且聚焦；不要顺手重构无关文章。
 - 新增/修改 `package.json` scripts 或目录结构后，同步更新本文件与 `README.md`。
 - `docusaurus.config.js` 中 `onBrokenLinks: 'throw'` — 断链会导致构建失败。
 - 首页通过 `src/pages/index.tsx` 的 `<Redirect to="/blog" />` 实现，勿改回客户端-only 路由以免 SSG 失败。

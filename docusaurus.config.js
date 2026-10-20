@@ -152,10 +152,6 @@ const {themes: prismThemes} = require('prism-react-renderer');
                 label: '技术文档',
                 to: '/docs/guides',
               },
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
             ],
           },
           {
