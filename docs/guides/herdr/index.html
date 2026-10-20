@@ -15,8 +15,8 @@
 
 <link rel="preconnect" href="https://hm.baidu.com">
 <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?51c5281e73e26b61eee7a274241d5123";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><link rel="stylesheet" href="/assets/css/styles.f53efa99.css">
-<script src="/assets/js/runtime~main.799aa20f.js" defer="defer"></script>
-<script src="/assets/js/main.7e417a23.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.98115868.js" defer="defer"></script>
+<script src="/assets/js/main.7b17e709.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -65,6 +65,8 @@
 <p>侧边栏上的状态不是装饰。官方定义是：</p>
 <table><thead><tr><th>状态</th><th>含义</th></tr></thead><tbody><tr><td><code>blocked</code></td><td>需要输入、批准或做决定。检测故意很严：只有窗格最底部的实时画面匹配已知的批准、提问或权限界面才标这个。</td></tr><tr><td><code>working</code></td><td>正在跑。</td></tr><tr><td><code>done</code></td><td>已经结束，而这个客户端还没看过。</td></tr><tr><td><code>idle</code></td><td>已经结束或在等，并且已经被看过。CLI / API 里的 <code>idle</code> 和 <code>done</code> 都表示可以再输入；每个客户端各自记自己看过没有，所以徽章可以和另一个客户端或 CLI 不一致。</td></tr><tr><td><code>unknown</code></td><td>认得出是 Agent，但分不了类。它不表示任务成功。</td></tr></tbody></table>
 <p>往上汇总的规则很直接：有一个 blocked，窗格、tab、workspace 都显示 blocked；有 working，workspace 看起来还在忙；done 会一直留着，直到你看过。</p>
+<p><img decoding="async" loading="lazy" alt="侧边栏同时标出 blocked、idle 和 working" src="/assets/images/02-pane-status-3a44a0d495e5428c5d9c056b8dc77161.webp" width="1280" height="720" class="img_ev3q"></p>
+<p>官方 README 演示里的这一帧：停在批准框上的窗格被标成 blocked，另外两个分别是 idle 和 working。</p>
 <p>状态有两条来源：</p>
 <ol>
 <li class=""><strong>Herdr 自己认。</strong> 它找窗格里的前台进程，读窗格最底下正在画的那一块（不是你滚上去的历史），用检测清单判断 idle / working / blocked。集成如果也在上报，就改用上报，不再读屏幕。</li>
@@ -135,8 +137,16 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="七多机直接附着和插件">七、多机、直接附着和插件<a href="#七多机直接附着和插件" class="hash-link" aria-label="Direct link to 七、多机、直接附着和插件" title="Direct link to 七、多机、直接附着和插件" translate="no">​</a></h2>
 <p>有三条远程路径，选错会以为「进程丢了」：</p>
 <table><thead><tr><th>路径</th><th>怎么用</th><th>进程在哪</th></tr></thead><tbody><tr><td>普通 SSH</td><td><code>ssh you@server</code> 然后 <code>herdr</code></td><td>全在远程。手机 SSH 客户端也走这条。脱离后重新 SSH，再执行 <code>herdr</code>。</td></tr><tr><td>本地 UI 挂一台</td><td><code>herdr --remote workbox</code> 或 <code>herdr --remote ssh://you@server:2222</code></td><td>窗格在远程服务器，界面用本机主题和键位来画。本机剪贴板里的图片可以桥过去。</td></tr><tr><td>一个窗口里多台</td><td><code>herdr machine add workbox</code></td><td>每台机器自己的 Herdr 服务器和进程。断一台不影响其他台。从侧边栏拿掉这台机器只断开客户端，不停止那边的会话。</td></tr></tbody></table>
+<p><img decoding="async" loading="lazy" alt="手机 SSH 里打开的 Herdr 会话" src="/assets/images/05-phone-session-0f23ce8603d34559b5c63a9f4c4f49f8.webp" width="520" height="1129" class="img_ev3q"></p>
+<p>官方文档里的手机截图：SSH 到跑着 Agent 的机器，再执行 <code>herdr</code>。窄屏上仍是同一套窗格。</p>
+<p><img decoding="async" loading="lazy" alt="手机上的切换菜单，底部有 detach" src="/assets/images/06-phone-switch-e874e564078ef6929ec766e581f77b33.webp" width="520" height="1129" class="img_ev3q"></p>
+<p>同一页的切换菜单列出 workspace、tab 和 Agent 状态。菜单底部的 detach 只脱离客户端，服务端里的窗格继续跑。</p>
 <p>先确认普通 SSH 能登录。交互终端里添加机器，这样需要安装或替换远程二进制时 Herdr 会先问你，默认答案是不停止正在跑的服务器：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">ssh workbox</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr machine add workbox</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr machine add workbox --label &quot;Build machine&quot;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr machine add workbox --remote-session agents</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr machine list</span><br></div></code></pre></div></div>
+<p><img decoding="async" loading="lazy" alt="herdr machine add 把远程机器加进侧边栏" src="/assets/images/03-machine-add-cec729cf723ebd25724a49a9b362c243.webp" width="1920" height="1080" class="img_ev3q"></p>
+<p>官方「Connecting the machines」演示：在本机窗格里执行 <code>herdr machine add</code>，侧边栏出现 local，以及正在连接的 remotebox。</p>
+<p><img decoding="async" loading="lazy" alt="一个窗口里同时有本机和远程机器" src="/assets/images/04-remote-machines-c3c98058ac6049f45e25e35b8d54690a.webp" width="1920" height="1080" class="img_ev3q"></p>
+<p>连上之后，侧边栏同时列出本机和 remotebox 的 workspace。当前窗格里的 Codex 跑在远程目录上。</p>
 <p>脚本要操作某一台已保存机器上的 Agent 时，加上 <code>--machine</code> 和 <code>herdr machine list</code> 里的配置名，例如 <code>herdr --machine workbox agent list</code>。不带这个前缀的命令仍走当前窗格继承到的那一个 socket。</p>
 <p>只想把当前终端接到某一个 Agent，而不是整块 UI（Linux 和 macOS，原生 Windows 没有这条）：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">herdr agent attach reviewer</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr terminal attach term_abc123</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">herdr terminal attach term_abc123 --takeover</span><br></div></code></pre></div></div>

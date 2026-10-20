@@ -15,8 +15,8 @@
 
 <link rel="preconnect" href="https://hm.baidu.com">
 <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?51c5281e73e26b61eee7a274241d5123";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><link rel="stylesheet" href="/assets/css/styles.f53efa99.css">
-<script src="/assets/js/runtime~main.799aa20f.js" defer="defer"></script>
-<script src="/assets/js/main.7e417a23.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.98115868.js" defer="defer"></script>
+<script src="/assets/js/main.7b17e709.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -118,10 +118,16 @@
 <li class="">归档，或删除。删除会收掉 worktree 目录和分支。</li>
 </ol>
 <p>Run on 用来选这件工作跑在本机、某台 SSH 主机，还是一台已配对的服务器。主机还没为这个项目准备好检出时，可以在创建表单里指定项目位置，不必先退出对话框。</p>
+<p><img decoding="async" loading="lazy" alt="侧边栏里的 worktree，以及同一个任务下的多个 Agent" src="/assets/images/05-worktree-list-8d638a1e5b5e6880536f6a15d4a44ca8.webp" width="266" height="355" class="img_ev3q"></p>
+<p>官方文档里的侧边栏：每条 worktree 标明跑在本机还是 SSH 主机上，展开后能看到同一个任务里并行的多个 Agent。</p>
+<p><img decoding="async" loading="lazy" alt="新建 worktree 时选择 Run on 和 Agent" src="/assets/images/06-create-worktree-a4bf91a3b601f71eb0cb85f7bf1eddde.webp" width="509" height="508" class="img_ev3q"></p>
+<p>创建对话框里选仓库、Run on（本机或已保存的 SSH 主机）和要启动的 Agent。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="用-cli-做同样的事">用 CLI 做同样的事<a href="#用-cli-做同样的事" class="hash-link" aria-label="Direct link to 用 CLI 做同样的事" title="Direct link to 用 CLI 做同样的事" translate="no">​</a></h3>
 <p>先列出或确认仓库 id，再创建。在一份 Orca worktree 里面执行 <code>worktree create</code> 时，Orca 能推断的话会把新 worktree 记成子节点。要明确关系就加 <code>--parent-worktree active</code>，彼此无关就加 <code>--no-parent</code>。</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree ps --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree create --repo id:&lt;repoId&gt; --name fix-login --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree create --repo id:&lt;repoId&gt; --name my-task --issue 123 --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree create --name review-api --agent claude --setup run --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree create --name quick-check --agent codex --prompt &quot;Summarize the diff&quot; --setup skip --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree set --worktree active --comment &quot;reproduced failure; testing token refresh fix&quot; --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca worktree rm --worktree id:&lt;worktreeId&gt; --force --json</span><br></div></code></pre></div></div>
 <p><code>--setup</code> 取 <code>run</code>、<code>skip</code> 或 <code>inherit</code>。<code>inherit</code> 跟随仓库策略。<code>--prompt</code> 会把第一段工作直接送给刚启动的那个 Agent。</p>
+<p><img decoding="async" loading="lazy" alt="在终端里执行 orca worktree create" src="/assets/images/07-cli-worktree-create-9841ced32c975e22255fb34abd5f821f.webp" width="960" height="400" class="img_ev3q"></p>
+<p>官方 CLI 演示：先 <code>orca repo add</code> 把仓库登记进正在运行的 Orca，再 <code>orca worktree create</code> 指定仓库名、任务名和基线分支。</p>
 <p>已有 workspace 里再启动一个 Agent：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">orca agent launch --agent codex --json</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">orca agent launch --agent claude --worktree path:/projects/myapp --focus --json</span><br></div></code></pre></div></div>
 <p>Chat UI 打开、并且这个 Agent 和主机支持时，启动结果是结构化对话；否则是一个终端。返回值里的 <code>outcome.kind</code> 说明打开的是哪一种。<code>--model</code> 接受提供商自己的模型 id，只对这一次启动生效，不要自己编一个名字。</p>
@@ -147,6 +153,10 @@
 <p>没有图形界面的 Linux 可以用：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">orca serve --pairing-address 192.0.2.10</span><br></div></code></pre></div></div>
 <p>把地址换成那台机器在你网络里真正能被连到的 Tailscale IP 或主机名。</p>
+<p><img decoding="async" loading="lazy" alt="把这台 Orca 宣告成服务器并生成配对链接" src="/assets/images/08-remote-server-share-09ed2c6a410e81979106cefe92f3c600.webp" width="832" height="624" class="img_ev3q"></p>
+<p>官方文档：在服务器上选一个其他设备能够访问的地址（示例是 Tailscale），再生成配对链接。链接在截图里已打码。</p>
+<p><img decoding="async" loading="lazy" alt="客户端粘贴配对链接并添加 Remote Orca Server" src="/assets/images/09-remote-server-add-7e7c2164620f32697492865ee5e793d5.webp" width="832" height="832" class="img_ev3q"></p>
+<p>客户端在 Settings → Remote Orca Servers 里填写名字，贴上 <code>orca://pair</code> 链接，再点 Add Server。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="手机">手机<a href="#手机" class="hash-link" aria-label="Direct link to 手机" title="Direct link to 手机" translate="no">​</a></h3>
 <p>配套应用配对之后，可以看到哪些桌面在线、哪些任务在跑、哪些终端停在等待权限。它驱动的是已经配对的那台运行时，不是在手机上再克隆一份仓库。</p>
 <p><img decoding="async" loading="lazy" alt="SSH 目标加在 Orca 的设置里" src="/assets/images/04-ssh-b7b7c02aa35ee4a6e400e6e3b2a4db01.webp" width="960" height="540" class="img_ev3q"></p>
