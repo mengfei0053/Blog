@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.mengfei.tech/blog</id>
     <title>Meng Blog</title>
-    <updated>2026-10-19T10:36:32.000Z</updated>
+    <updated>2026-10-20T01:51:31.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.mengfei.tech/blog"/>
     <subtitle>Meng Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[AGENTS]]></title>
         <id>https://blog.mengfei.tech/blog/AGENTS</id>
         <link href="https://blog.mengfei.tech/blog/AGENTS"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-layout">Current Layout<a href="https://blog.mengfei.tech/blog/AGENTS#current-layout" class="hash-link" aria-label="Direct link to Current Layout" title="Direct link to Current Layout" translate="no">​</a></h2>
@@ -36,7 +36,7 @@
         <title type="html"><![CDATA[Docker常用命令]]></title>
         <id>https://blog.mengfei.tech/blog/used-commands</id>
         <link href="https://blog.mengfei.tech/blog/used-commands"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Docker常用命令]]></summary>
         <author>
             <name>MengFei</name>
@@ -48,7 +48,7 @@
         <title type="html"><![CDATA[Linux下nodejs安装源nodesource]]></title>
         <id>https://blog.mengfei.tech/blog/linux-install-nodejs</id>
         <link href="https://blog.mengfei.tech/blog/linux-install-nodejs"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Linux下nodejs安装源nodesource]]></summary>
         <content type="html"><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
@@ -68,7 +68,7 @@
         <title type="html"><![CDATA[NPM包开发KnowledgeMap]]></title>
         <id>https://blog.mengfei.tech/blog/npm-development-knowledgemap</id>
         <link href="https://blog.mengfei.tech/blog/npm-development-knowledgemap"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></summary>
         <content type="html"><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
@@ -144,7 +144,7 @@
         <title type="html"><![CDATA[Npm包安全检查]]></title>
         <id>https://blog.mengfei.tech/blog/npm-security-check</id>
         <link href="https://blog.mengfei.tech/blog/npm-security-check"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Npm包安全检查]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言---npm包安全问题">前言 - npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E5%89%8D%E8%A8%80---npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 前言 - npm包安全问题" title="Direct link to 前言 - npm包安全问题" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="细数历年npm包安全问题">细数历年npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E7%BB%86%E6%95%B0%E5%8E%86%E5%B9%B4npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 细数历年npm包安全问题" title="Direct link to 细数历年npm包安全问题" translate="no">​</a></h3>
@@ -195,7 +195,7 @@
         <title type="html"><![CDATA[Npm源管理]]></title>
         <id>https://blog.mengfei.tech/blog/npm-resource-manager</id>
         <link href="https://blog.mengfei.tech/blog/npm-resource-manager"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></summary>
         <content type="html"><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
 Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
@@ -233,7 +233,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <title type="html"><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
         <id>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</id>
         <link href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[关于 shrinkwrap 的更新]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于-shrinkwrap-的更新">关于 shrinkwrap 的更新<a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#%E5%85%B3%E4%BA%8E-shrinkwrap-%E7%9A%84%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="Direct link to 关于 shrinkwrap 的更新" title="Direct link to 关于 shrinkwrap 的更新" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="v1316v2152"><a href="https://github.com/npm/cli/blob/v2.15.12/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">v1.3.16~v2.15.2</a><a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#v1316v2152" class="hash-link" aria-label="Direct link to v1316v2152" title="Direct link to v1316v2152" translate="no">​</a></h3>
@@ -599,7 +599,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <title type="html"><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.loc]]></title>
         <id>https://blog.mengfei.tech/blog/fe-lock</id>
         <link href="https://blog.mengfei.tech/blog/fe-lock"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[初始]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="初始">初始<a href="https://blog.mengfei.tech/blog/fe-lock#%E5%88%9D%E5%A7%8B" class="hash-link" aria-label="Direct link to 初始" title="Direct link to 初始" translate="no">​</a></h2>
 <p>锁版本的起始
@@ -624,7 +624,7 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <title type="html"><![CDATA[Nodejs Process 信号事件]]></title>
         <id>https://blog.mengfei.tech/blog/nodejs-process-event</id>
         <link href="https://blog.mengfei.tech/blog/nodejs-process-event"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Nodejs Process 信号事件]]></summary>
         <content type="html"><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
 <p><strong>信号在 Worker 线程上不可用。</strong></p>
@@ -683,7 +683,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[前端自动化测试]]></title>
         <id>https://blog.mengfei.tech/blog/fe-autest</id>
         <link href="https://blog.mengfei.tech/blog/fe-autest"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[前端自动化测试]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/fe-autest#%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95" class="">前端自动化测试</a>
@@ -750,7 +750,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[Github快速接入github action]]></title>
         <id>https://blog.mengfei.tech/blog/github-actions</id>
         <link href="https://blog.mengfei.tech/blog/github-actions"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Github快速接入github action]]></summary>
         <author>
             <name>MengFei</name>
@@ -762,7 +762,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[Github快速接入travis]]></title>
         <id>https://blog.mengfei.tech/blog/github-travis</id>
         <link href="https://blog.mengfei.tech/blog/github-travis"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Github快速接入travis]]></summary>
         <author>
             <name>MengFei</name>
@@ -774,7 +774,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[前端常用命令速查备忘]]></title>
         <id>https://blog.mengfei.tech/blog/quick-look</id>
         <link href="https://blog.mengfei.tech/blog/quick-look"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[前端常用命令速查备忘]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content>
@@ -788,7 +788,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[ReactHooks]]></title>
         <id>https://blog.mengfei.tech/blog/react-hooks</id>
         <link href="https://blog.mengfei.tech/blog/react-hooks"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[ReactHooks]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
@@ -870,7 +870,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[Typescript使用总结及部分小技巧]]></title>
         <id>https://blog.mengfei.tech/blog/ts-usage-summary</id>
         <link href="https://blog.mengfei.tech/blog/ts-usage-summary"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[Typescript使用总结及部分小技巧]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/ts-usage-summary#typescript-%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%E5%8F%8A%E9%83%A8%E5%88%86%E5%B0%8F%E6%8A%80%E5%B7%A7" class="">Typescript 使用总结及部分小技巧</a>
@@ -1029,7 +1029,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[如何在JS文件里写类型]]></title>
         <id>https://blog.mengfei.tech/blog/write-ts-in-js</id>
         <link href="https://blog.mengfei.tech/blog/write-ts-in-js"/>
-        <updated>2026-10-19T10:36:32.000Z</updated>
+        <updated>2026-10-20T01:51:31.000Z</updated>
         <summary type="html"><![CDATA[如何在JS文件里写类型]]></summary>
         <content type="html"><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
 这里引出了三个问题：</p>
