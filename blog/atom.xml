@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.mengfei.tech/blog</id>
     <title>Meng Blog</title>
-    <updated>2026-10-20T02:15:02.000Z</updated>
+    <updated>2026-10-20T02:25:32.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.mengfei.tech/blog"/>
     <subtitle>Meng Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[AGENTS]]></title>
         <id>https://blog.mengfei.tech/blog/AGENTS</id>
         <link href="https://blog.mengfei.tech/blog/AGENTS"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。]]></summary>
         <content type="html"><![CDATA[<p>Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-layout">Current Layout<a href="https://blog.mengfei.tech/blog/AGENTS#current-layout" class="hash-link" aria-label="Direct link to Current Layout" title="Direct link to Current Layout" translate="no">​</a></h2>
@@ -36,7 +36,7 @@
         <title type="html"><![CDATA[Docker常用命令]]></title>
         <id>https://blog.mengfei.tech/blog/used-commands</id>
         <link href="https://blog.mengfei.tech/blog/used-commands"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Docker常用命令]]></summary>
         <author>
             <name>MengFei</name>
@@ -48,7 +48,7 @@
         <title type="html"><![CDATA[Linux下nodejs安装源nodesource]]></title>
         <id>https://blog.mengfei.tech/blog/linux-install-nodejs</id>
         <link href="https://blog.mengfei.tech/blog/linux-install-nodejs"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Linux下nodejs安装源nodesource]]></summary>
         <content type="html"><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
@@ -68,7 +68,7 @@
         <title type="html"><![CDATA[NPM包开发KnowledgeMap]]></title>
         <id>https://blog.mengfei.tech/blog/npm-development-knowledgemap</id>
         <link href="https://blog.mengfei.tech/blog/npm-development-knowledgemap"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></summary>
         <content type="html"><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
@@ -144,7 +144,7 @@
         <title type="html"><![CDATA[Npm包安全检查]]></title>
         <id>https://blog.mengfei.tech/blog/npm-security-check</id>
         <link href="https://blog.mengfei.tech/blog/npm-security-check"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Npm包安全检查]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言---npm包安全问题">前言 - npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E5%89%8D%E8%A8%80---npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 前言 - npm包安全问题" title="Direct link to 前言 - npm包安全问题" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="细数历年npm包安全问题">细数历年npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E7%BB%86%E6%95%B0%E5%8E%86%E5%B9%B4npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 细数历年npm包安全问题" title="Direct link to 细数历年npm包安全问题" translate="no">​</a></h3>
@@ -195,7 +195,7 @@
         <title type="html"><![CDATA[Npm源管理]]></title>
         <id>https://blog.mengfei.tech/blog/npm-resource-manager</id>
         <link href="https://blog.mengfei.tech/blog/npm-resource-manager"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></summary>
         <content type="html"><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
 Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
@@ -233,7 +233,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <title type="html"><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
         <id>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</id>
         <link href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[关于 shrinkwrap 的更新]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于-shrinkwrap-的更新">关于 shrinkwrap 的更新<a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#%E5%85%B3%E4%BA%8E-shrinkwrap-%E7%9A%84%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="Direct link to 关于 shrinkwrap 的更新" title="Direct link to 关于 shrinkwrap 的更新" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="v1316v2152"><a href="https://github.com/npm/cli/blob/v2.15.12/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">v1.3.16~v2.15.2</a><a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#v1316v2152" class="hash-link" aria-label="Direct link to v1316v2152" title="Direct link to v1316v2152" translate="no">​</a></h3>
@@ -599,7 +599,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
         <title type="html"><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.loc]]></title>
         <id>https://blog.mengfei.tech/blog/fe-lock</id>
         <link href="https://blog.mengfei.tech/blog/fe-lock"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[初始]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="初始">初始<a href="https://blog.mengfei.tech/blog/fe-lock#%E5%88%9D%E5%A7%8B" class="hash-link" aria-label="Direct link to 初始" title="Direct link to 初始" translate="no">​</a></h2>
 <p>锁版本的起始
@@ -624,7 +624,7 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
         <title type="html"><![CDATA[Nodejs Process 信号事件]]></title>
         <id>https://blog.mengfei.tech/blog/nodejs-process-event</id>
         <link href="https://blog.mengfei.tech/blog/nodejs-process-event"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Nodejs Process 信号事件]]></summary>
         <content type="html"><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
 <p><strong>信号在 Worker 线程上不可用。</strong></p>
@@ -683,7 +683,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[前端自动化测试]]></title>
         <id>https://blog.mengfei.tech/blog/fe-autest</id>
         <link href="https://blog.mengfei.tech/blog/fe-autest"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[前端自动化测试]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/fe-autest#%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95" class="">前端自动化测试</a>
@@ -750,7 +750,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[Github快速接入github action]]></title>
         <id>https://blog.mengfei.tech/blog/github-actions</id>
         <link href="https://blog.mengfei.tech/blog/github-actions"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Github快速接入github action]]></summary>
         <author>
             <name>MengFei</name>
@@ -762,7 +762,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[Github快速接入travis]]></title>
         <id>https://blog.mengfei.tech/blog/github-travis</id>
         <link href="https://blog.mengfei.tech/blog/github-travis"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Github快速接入travis]]></summary>
         <author>
             <name>MengFei</name>
@@ -774,7 +774,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[前端常用命令速查备忘]]></title>
         <id>https://blog.mengfei.tech/blog/quick-look</id>
         <link href="https://blog.mengfei.tech/blog/quick-look"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[前端常用命令速查备忘]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content>
@@ -785,10 +785,92 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <category label="nodejs" term="nodejs"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ReactHooks]]></title>
+        <id>https://blog.mengfei.tech/blog/react-hooks</id>
+        <link href="https://blog.mengfei.tech/blog/react-hooks"/>
+        <updated>2026-10-20T02:25:32.000Z</updated>
+        <summary type="html"><![CDATA[ReactHooks]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
+<ul>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usestate" class="">useState</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useeffect" class="">useEffect</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usecontext" class="">useContext</a></li>
+</ul>
+</li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%85%B6%E4%BB%96-hooks" class="">其他 hooks</a>
+<ul>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usereducer" class="">useReducer</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usecallback" class="">useCallback</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usememo" class="">useMemo</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useref" class="">useRef</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useimperativehandle" class="">useImperativeHandle</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#uselayouteffect" class="">useLayoutEffect</a></li>
+<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usedebugvalue" class="">useDebugValue</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>React 16.8 加入的特性。 React hooks 允许开发者，在函数组件中，使用 state,和类似生命周期的功能。</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础-hooks">基础 hooks<a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="hash-link" aria-label="Direct link to 基础 hooks" title="Direct link to 基础 hooks" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usestate">useState<a href="https://blog.mengfei.tech/blog/react-hooks#usestate" class="hash-link" aria-label="Direct link to useState" title="Direct link to useState" translate="no">​</a></h3>
+<p>概述：用来声明状态，和改变该状态的函数。</p>
+<p>参数：状态初始值，或者一个返回初始值的函数。只会在组件出初次渲染时执行。</p>
+<p>用法：</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const [state, setState] = useState(initialState); // 参考Es6 数组的结构赋值</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">const [state, setState] = useState(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">   const initialState = someExpensiveComputation(props);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">   return initialState;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">});</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
+<p>eg：</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function Counter({initialCount}) {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const [count, setCount] = useState(initialCount);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return (</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      Count: {count}</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(0)}&gt;Reset&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(prevCount =&gt; prevCount + 1)}&gt;+&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(prevCount =&gt; prevCount - 1)}&gt;-&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;/&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  );</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useeffect">useEffect<a href="https://blog.mengfei.tech/blog/react-hooks#useeffect" class="hash-link" aria-label="Direct link to useEffect" title="Direct link to useEffect" translate="no">​</a></h3>
+<p>概述：处理具有副作用的行为，例如（订阅，计时器，日志记录等。），并在函数组件渲染结束后运行。</p>
+<p>参数：</p>
+<ol>
+<li class="">第一个参数，接收一个可能具有副作用（订阅，计时器，日志记录等。）的函数。该函数的返回值，可能是一个清理函数。</li>
+<li class="">第二个参数（可选），含有执行依赖的数组。当该参数为空数组时，该 effects 只在初次渲染后执行。</li>
+</ol>
+<p>用法：</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">useEffect(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const subscription = props.source.subscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; { // 组件被移除前执行清理函数</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      subscription.unsubscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [props.source], // 依赖改变，订阅函数才会执行</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">useEffect(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const subscription = props.source.subscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; { // 组件被移除前执行清理函数</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      subscription.unsubscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [], // 初次渲染 执行</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usecontext">useContext<a href="https://blog.mengfei.tech/blog/react-hooks#usecontext" class="hash-link" aria-label="Direct link to useContext" title="Direct link to useContext" translate="no">​</a></h3>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const MyContext = React.createContext(defaultValue);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">const value = useContext(MyContext);</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他-hooks">其他 hooks<a href="https://blog.mengfei.tech/blog/react-hooks#%E5%85%B6%E4%BB%96-hooks" class="hash-link" aria-label="Direct link to 其他 hooks" title="Direct link to 其他 hooks" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usereducer">useReducer<a href="https://blog.mengfei.tech/blog/react-hooks#usereducer" class="hash-link" aria-label="Direct link to useReducer" title="Direct link to useReducer" translate="no">​</a></h3>
+<p>概述：在状态较复杂时使用.我的理解是，和 redux 类似的概念。因为工作一直在 使用 redux。所以这个概念，暂时不做深入了解。以后有机会用到的话，再深入学习。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usecallback">useCallback<a href="https://blog.mengfei.tech/blog/react-hooks#usecallback" class="hash-link" aria-label="Direct link to useCallback" title="Direct link to useCallback" translate="no">​</a></h3>
+<p>概述：类似 useMemo，返回一个 callback 函数，</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const memoizedCallback = useCallback(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    doSomething(a, b);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [a, b],</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div></code></pre></div></div>
+<ul>
+<li class="">测试中，遇到问题：依赖值没变，但会重新进行计算。</li>
+<li class="">有点没搞懂，这个 hook 的使用场景</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usememo">useMemo<a href="https://blog.mengfei.tech/blog/react-hooks#usememo" class="hash-link" aria-label="Direct link to useMemo" title="Direct link to useMemo" translate="no">​</a></h3>
+<p>概述：返回一个计算值，只在依赖发生变化时计算。</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const memoizedValue = useMemo(() =&gt; computeExpensiveValue(a, b), [a, b]);</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useref">useRef<a href="https://blog.mengfei.tech/blog/react-hooks#useref" class="hash-link" aria-label="Direct link to useRef" title="Direct link to useRef" translate="no">​</a></h3>
+<p>概述：useRef 返回一个可变的 ref 对象。初始化时，初始化参数将被赋值给该对象的 current 属性。这个 ref 对象，存在在整个组件的生命周期内</p>
+<p>最常用的用法，是用 ref 对象存储一个 dom 对象。eg:</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function TextInputWithFocusButton() {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const inputEl = useRef(null);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const onButtonClick = () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    // `current` points to the mounted text input element</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    inputEl.current.focus();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return (</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;input ref={inputEl} type="text" /&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={onButtonClick}&gt;Focus the input&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;/&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  );</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
+<p>但是，ref 对象并不是只能存储 dom 对象。它是一个通用容器。有些类似 类的实例属性。可以存储任意类型的值。eg:</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function Timer() {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const intervalRef = useRef();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  useEffect(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const id = setInterval(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      // ...</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    });</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    intervalRef.current = id;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      clearInterval(intervalRef.current);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  });</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  // ...</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useimperativehandle">useImperativeHandle<a href="https://blog.mengfei.tech/blog/react-hooks#useimperativehandle" class="hash-link" aria-label="Direct link to useImperativeHandle" title="Direct link to useImperativeHandle" translate="no">​</a></h3>
+<p>概述：在使用 ref 时，可以使用 useImperativeHandle，选择特定的实例属性暴漏给父组件。</p>
+<p>必须结合 forwardRef 使用</p>
+<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function FancyInput(props, ref) {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const inputRef = useRef();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  useImperativeHandle(ref, () =&gt; ({</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    focus: () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      inputRef.current.focus();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  }));</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return &lt;input ref={inputRef} ... /&gt;;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">FancyInput = forwardRef(FancyInput);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">// 在父组件中拿到的ref引用，是一个 { focus:Function } 的对象。</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uselayouteffect">useLayoutEffect<a href="https://blog.mengfei.tech/blog/react-hooks#uselayouteffect" class="hash-link" aria-label="Direct link to useLayoutEffect" title="Direct link to useLayoutEffect" translate="no">​</a></h3>
+<p>与 useEffect 类似，</p>
+<p>useLayoutEffect 在 componentDidMount 和 componentDidUpdate 相同的阶段触发。</p>
+<p>React 官方建议，优先使用 useEffect，只在使用 useEffect 遇到问题时，尝试使用 useLayoutEffect</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usedebugvalue">useDebugValue<a href="https://blog.mengfei.tech/blog/react-hooks#usedebugvalue" class="hash-link" aria-label="Direct link to useDebugValue" title="Direct link to useDebugValue" translate="no">​</a></h3>]]></content>
+        <author>
+            <name>MengFei</name>
+            <uri>https://github.com/mengfei0053</uri>
+        </author>
+        <category label="react" term="react"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Typescript使用总结及部分小技巧]]></title>
         <id>https://blog.mengfei.tech/blog/ts-usage-summary</id>
         <link href="https://blog.mengfei.tech/blog/ts-usage-summary"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[Typescript使用总结及部分小技巧]]></summary>
         <content type="html"><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/ts-usage-summary#typescript-%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%E5%8F%8A%E9%83%A8%E5%88%86%E5%B0%8F%E6%8A%80%E5%B7%A7" class="">Typescript 使用总结及部分小技巧</a>
@@ -947,7 +1029,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
         <title type="html"><![CDATA[如何在JS文件里写类型]]></title>
         <id>https://blog.mengfei.tech/blog/write-ts-in-js</id>
         <link href="https://blog.mengfei.tech/blog/write-ts-in-js"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
+        <updated>2026-10-20T02:25:32.000Z</updated>
         <summary type="html"><![CDATA[如何在JS文件里写类型]]></summary>
         <content type="html"><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
 这里引出了三个问题：</p>
@@ -1065,88 +1147,6 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <uri>https://github.com/mengfei0053</uri>
         </author>
         <category label="typescript" term="typescript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ReactHooks]]></title>
-        <id>https://blog.mengfei.tech/blog/react-hooks</id>
-        <link href="https://blog.mengfei.tech/blog/react-hooks"/>
-        <updated>2026-10-20T02:15:02.000Z</updated>
-        <summary type="html"><![CDATA[ReactHooks]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
-<ul>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usestate" class="">useState</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useeffect" class="">useEffect</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usecontext" class="">useContext</a></li>
-</ul>
-</li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%85%B6%E4%BB%96-hooks" class="">其他 hooks</a>
-<ul>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usereducer" class="">useReducer</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usecallback" class="">useCallback</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usememo" class="">useMemo</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useref" class="">useRef</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#useimperativehandle" class="">useImperativeHandle</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#uselayouteffect" class="">useLayoutEffect</a></li>
-<li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#usedebugvalue" class="">useDebugValue</a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>React 16.8 加入的特性。 React hooks 允许开发者，在函数组件中，使用 state,和类似生命周期的功能。</p>
-</blockquote>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="基础-hooks">基础 hooks<a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="hash-link" aria-label="Direct link to 基础 hooks" title="Direct link to 基础 hooks" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usestate">useState<a href="https://blog.mengfei.tech/blog/react-hooks#usestate" class="hash-link" aria-label="Direct link to useState" title="Direct link to useState" translate="no">​</a></h3>
-<p>概述：用来声明状态，和改变该状态的函数。</p>
-<p>参数：状态初始值，或者一个返回初始值的函数。只会在组件出初次渲染时执行。</p>
-<p>用法：</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const [state, setState] = useState(initialState); // 参考Es6 数组的结构赋值</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">const [state, setState] = useState(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">   const initialState = someExpensiveComputation(props);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">   return initialState;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">});</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<p>eg：</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function Counter({initialCount}) {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const [count, setCount] = useState(initialCount);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return (</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      Count: {count}</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(0)}&gt;Reset&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(prevCount =&gt; prevCount + 1)}&gt;+&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={() =&gt; setCount(prevCount =&gt; prevCount - 1)}&gt;-&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;/&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  );</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useeffect">useEffect<a href="https://blog.mengfei.tech/blog/react-hooks#useeffect" class="hash-link" aria-label="Direct link to useEffect" title="Direct link to useEffect" translate="no">​</a></h3>
-<p>概述：处理具有副作用的行为，例如（订阅，计时器，日志记录等。），并在函数组件渲染结束后运行。</p>
-<p>参数：</p>
-<ol>
-<li class="">第一个参数，接收一个可能具有副作用（订阅，计时器，日志记录等。）的函数。该函数的返回值，可能是一个清理函数。</li>
-<li class="">第二个参数（可选），含有执行依赖的数组。当该参数为空数组时，该 effects 只在初次渲染后执行。</li>
-</ol>
-<p>用法：</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">useEffect(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const subscription = props.source.subscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; { // 组件被移除前执行清理函数</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      subscription.unsubscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [props.source], // 依赖改变，订阅函数才会执行</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">useEffect(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const subscription = props.source.subscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; { // 组件被移除前执行清理函数</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      subscription.unsubscribe();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [], // 初次渲染 执行</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usecontext">useContext<a href="https://blog.mengfei.tech/blog/react-hooks#usecontext" class="hash-link" aria-label="Direct link to useContext" title="Direct link to useContext" translate="no">​</a></h3>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const MyContext = React.createContext(defaultValue);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">const value = useContext(MyContext);</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="其他-hooks">其他 hooks<a href="https://blog.mengfei.tech/blog/react-hooks#%E5%85%B6%E4%BB%96-hooks" class="hash-link" aria-label="Direct link to 其他 hooks" title="Direct link to 其他 hooks" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usereducer">useReducer<a href="https://blog.mengfei.tech/blog/react-hooks#usereducer" class="hash-link" aria-label="Direct link to useReducer" title="Direct link to useReducer" translate="no">​</a></h3>
-<p>概述：在状态较复杂时使用.我的理解是，和 redux 类似的概念。因为工作一直在 使用 redux。所以这个概念，暂时不做深入了解。以后有机会用到的话，再深入学习。</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usecallback">useCallback<a href="https://blog.mengfei.tech/blog/react-hooks#usecallback" class="hash-link" aria-label="Direct link to useCallback" title="Direct link to useCallback" translate="no">​</a></h3>
-<p>概述：类似 useMemo，返回一个 callback 函数，</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const memoizedCallback = useCallback(</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    doSomething(a, b);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  },</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  [a, b],</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">);</span><br></div></code></pre></div></div>
-<ul>
-<li class="">测试中，遇到问题：依赖值没变，但会重新进行计算。</li>
-<li class="">有点没搞懂，这个 hook 的使用场景</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usememo">useMemo<a href="https://blog.mengfei.tech/blog/react-hooks#usememo" class="hash-link" aria-label="Direct link to useMemo" title="Direct link to useMemo" translate="no">​</a></h3>
-<p>概述：返回一个计算值，只在依赖发生变化时计算。</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">const memoizedValue = useMemo(() =&gt; computeExpensiveValue(a, b), [a, b]);</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useref">useRef<a href="https://blog.mengfei.tech/blog/react-hooks#useref" class="hash-link" aria-label="Direct link to useRef" title="Direct link to useRef" translate="no">​</a></h3>
-<p>概述：useRef 返回一个可变的 ref 对象。初始化时，初始化参数将被赋值给该对象的 current 属性。这个 ref 对象，存在在整个组件的生命周期内</p>
-<p>最常用的用法，是用 ref 对象存储一个 dom 对象。eg:</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function TextInputWithFocusButton() {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const inputEl = useRef(null);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const onButtonClick = () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    // `current` points to the mounted text input element</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    inputEl.current.focus();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return (</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;input ref={inputEl} type="text" /&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      &lt;button onClick={onButtonClick}&gt;Focus the input&lt;/button&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    &lt;/&gt;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  );</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
-<p>但是，ref 对象并不是只能存储 dom 对象。它是一个通用容器。有些类似 类的实例属性。可以存储任意类型的值。eg:</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function Timer() {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const intervalRef = useRef();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  useEffect(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    const id = setInterval(() =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      // ...</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    });</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    intervalRef.current = id;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    return () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      clearInterval(intervalRef.current);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    };</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  });</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  // ...</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="useimperativehandle">useImperativeHandle<a href="https://blog.mengfei.tech/blog/react-hooks#useimperativehandle" class="hash-link" aria-label="Direct link to useImperativeHandle" title="Direct link to useImperativeHandle" translate="no">​</a></h3>
-<p>概述：在使用 ref 时，可以使用 useImperativeHandle，选择特定的实例属性暴漏给父组件。</p>
-<p>必须结合 forwardRef 使用</p>
-<div class="language-react codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-react codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">function FancyInput(props, ref) {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  const inputRef = useRef();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  useImperativeHandle(ref, () =&gt; ({</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    focus: () =&gt; {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      inputRef.current.focus();</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  }));</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  return &lt;input ref={inputRef} ... /&gt;;</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">}</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">FancyInput = forwardRef(FancyInput);</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">// 在父组件中拿到的ref引用，是一个 { focus:Function } 的对象。</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uselayouteffect">useLayoutEffect<a href="https://blog.mengfei.tech/blog/react-hooks#uselayouteffect" class="hash-link" aria-label="Direct link to useLayoutEffect" title="Direct link to useLayoutEffect" translate="no">​</a></h3>
-<p>与 useEffect 类似，</p>
-<p>useLayoutEffect 在 componentDidMount 和 componentDidUpdate 相同的阶段触发。</p>
-<p>React 官方建议，优先使用 useEffect，只在使用 useEffect 遇到问题时，尝试使用 useLayoutEffect</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="usedebugvalue">useDebugValue<a href="https://blog.mengfei.tech/blog/react-hooks#usedebugvalue" class="hash-link" aria-label="Direct link to useDebugValue" title="Direct link to useDebugValue" translate="no">​</a></h3>]]></content>
-        <author>
-            <name>MengFei</name>
-            <uri>https://github.com/mengfei0053</uri>
-        </author>
-        <category label="react" term="react"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[AI 笔记]]></title>
