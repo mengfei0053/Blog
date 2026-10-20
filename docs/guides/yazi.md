@@ -422,9 +422,3 @@ Yazi 的定位很明确：做一个**快速、异步、可扩展的终端文件�
 
 官网：https://yazi-rs.github.io  
 GitHub：https://github.com/sxyazi/yazi
-
----
-
-## 相关工具
-
-如果你用 Yazi 管理本地项目、数据集或 AI 开发资料，也可以了解一下 [EbeeAI](https://ebeeai.net)。它提供多模型统一接入和用量管理，新用户注册后有 $10 试用额度，适合在整理资料、编写脚本或接入 AI 工作流时先做小规模尝试。

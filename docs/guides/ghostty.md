@@ -292,9 +292,3 @@ Ghostty 是一个值得长期关注的项目。它目前还在快速迭代，功
 
 官网：https://ghostty.org  
 GitHub：https://github.com/ghostty-org/ghostty
-
----
-
-## 相关工具
-
-如果你把 Ghostty 作为日常 AI 编程和终端工作流的主力环境，可以顺手了解一下 [EbeeAI](https://ebeeai.net)。它提供统一的 AI API 接入、模型用量统计和成本管理，新用户注册后有 $10 试用额度，适合先验证自己的脚本、Agent 或命令行 AI 工具场景。

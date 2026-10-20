@@ -138,9 +138,3 @@ brew install jq
 ---
 
 **gh CLI 文档：** https://cli.github.com/manual/gh_search
-
----
-
-## 相关工具
-
-如果你把 GitHub 搜索结果接入 AI 分析、代码审查或自动化脚本，可以了解一下 [EbeeAI](https://ebeeai.net)。它提供统一的 AI API 接入和用量管理，新用户注册后有 $10 试用额度，适合先用少量仓库和 issue 数据做验证。

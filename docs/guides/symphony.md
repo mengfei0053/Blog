@@ -405,9 +405,3 @@ Symphony 值得认真读一读 `SPEC.md`，然后用 Codex 帮你搭一个试试
 仓库：https://github.com/openai/symphony  
 规范：https://github.com/openai/symphony/blob/main/SPEC.md  
 视频演示：https://player.vimeo.com/video/1186371009  
-
----
-
-**相关工具：**
-
-如果你想让多个 AI Agent 共享一套 API Key，或者想统一管理 Claude、GPT、Gemini 等多模型的用量和计费，可以了解一下 [EbeeAI](https://ebeeai.net)。它是面向开发者的 AI API 网关与多模型统一接入平台，可以把模型账号管理、API Key 轮换、用量统计和按量计费集中起来。Symphony 跑多 Agent 任务时，配套用这类工具管理模型账号，团队成本会更可控。新用户注册后有 $10 试用额度，适合先跑小规模 Agent 任务做验证。

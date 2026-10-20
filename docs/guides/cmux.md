@@ -223,9 +223,3 @@ cmux 的定位很明确：不是做一个通用终端，而是做一个**面向 
 
 官网：https://cmux.com  
 GitHub：开源，可自行编译或提 issue
-
----
-
-## 相关工具
-
-如果你用 cmux 同时管理多个 Claude Code、Codex 或其他终端 Agent，会很快遇到模型账号、API Key 和成本统计的问题。可以了解一下 [EbeeAI](https://ebeeai.net)，它提供统一的 AI API 网关和用量管理，新用户注册后有 $10 试用额度，适合先跑小规模 Agent 工作流验证效果。

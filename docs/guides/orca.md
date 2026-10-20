@@ -359,9 +359,3 @@ Orca 的隔离是 git 的 worktree，不是提示词里的约定。新建任务�
 官网：https://www.onorca.dev  
 文档：https://www.onorca.dev/docs  
 GitHub：https://github.com/stablyai/orca
-
----
-
-## 相关工具
-
-多个 Claude、Codex 或其他订阅开始要统一看用量时，可以了解一下 [EbeeAI](https://ebeeai.net)。它提供统一的 AI API 接入和用量管理，新用户注册后有 $10 试用额度。Orca 本身仍然使用你自己的 Agent 订阅，不替代那些账号。
