@@ -4,13 +4,13 @@ title: Google A2A 协议介绍
 authors: [meng]
 tags: [ai]
 date: 2026-10-23
-keywords: [A2A, Agent2Agent, AI Agent, MCP]
-description: 介绍 Google 的 A2A（Agent2Agent）协议：它解决跨框架 Agent 协作的什么问题，Agent Card、Task、Message 这些对象怎么配合，以及它和 MCP 为什么是互补而不是替代。
+keywords: [A2A, Agent2Agent, "AI Agent", MCP, Herdr, "Claude Code", "跨 Agent"]
+description: 介绍 A2A（Agent2Agent）：跨框架 Agent 如何互相发现和交任务，它和 MCP 如何分工；并说明截至 2026-10，Claude Code 等编码 Agent 与 Herdr 这类本机编排实际走哪条跨 Agent 通道。
 ---
 
 # Google A2A 协议介绍
 
-2025 年 4 月 9 日，Google 在 Developers Blog 上发布了 Agent2Agent（A2A）。它是一套开放协议，让不同团队、不同框架写出来的 AI Agent 用同一种方式互相发现、交任务、拿结果。官网现在的规范在 [a2a-protocol.org](https://a2a-protocol.org/latest/topics/what-is-a2a/)。
+2025 年 4 月 9 日，Google 在 Developers Blog 上发布了 Agent2Agent（A2A）。它是一套开放协议，让不同团队、不同框架写出来的 AI Agent 用同一种方式互相发现、交任务、拿结果。官网现在的规范在 [a2a-protocol.org](https://a2a-protocol.org/latest/topics/what-is-a2a/)。治理上它已经离开单一厂商：2025 年 6 月 23 日 Google 把它捐给 Linux Foundation；2026 年 8 月，官网宣布 A2A 作为 Growth Stage 项目加入 Linux Foundation 下的 [Agentic AI Foundation（AAIF）](https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/)。下文关于具体产品的说法，截至 2026-10。
 
 一个助手要订国际行程，往往得同时找航班、酒店、汇率和当地活动。这些能力如果来自不同供应商，常见做法是把对方包成工具再调用。工具调用适合「给参数、拿返回值」的短操作，但 Agent 会追问、会改计划，任务也可能跑很久。每次对接都写一套点对点代码，Agent 一多就难维护，鉴权也不统一。A2A 要填的就是这个空。
 
@@ -102,6 +102,49 @@ MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据
 
 可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。
 
+## 主流编码 Agent 对 A2A 的支持现状
+
+支持要拆成两层：作为 **A2A client** 去调别人，以及作为 **A2A server** 被别人调。截至 2026-10，Claude Code、Cursor 这类日常编码 Agent，默认两层都不原生做。
+
+它们可以当客户端，但要另外装。官方 [a2a-cli](https://github.com/a2aproject/a2a-cli) 带一份 Agent Skill，教 Claude Code、Cursor（以及 Codex）去驱动本机的 `a2a` 命令：读 Agent Card、发消息、跟任务。Skill 负责把用法交给 harness，协议仍由 `a2a` 这个可执行文件执行，所以要先装 CLI。2026 年 10 月 1 日的官方介绍把这条路径写成编码助手把活交给 A2A Agent 的入口。
+
+要让这些 CLI 被别人按 A2A 调用，还得再包一层服务端。[Fang](https://github.com/kariemSeiam/fangai)、[Plumb](https://github.com/kariemSeiam/plumb)、[a2abridge](https://github.com/vbcherepanov/a2abridge) 做的就是这件事：拉起现成的 coding CLI，对外露出 Agent Card 和协议端点。a2abridge 同时把收件箱做成 MCP 工具，方便 IDE 里直接用。对外的协议端点由这层桥提供。
+
+pi 有第三方扩展 [`pi-a2a-adaptor`](https://pi.dev/packages/pi-a2a-adaptor)（`pi install npm:pi-a2a-adaptor`）。它是客户端：发现远端 Agent Card、用 `/a2a-send` 派任务。pi 自己要被别人调用时，同样走上面那种 CLI 桥。
+
+Devin 截至 2026-10 没有公开、可靠的开箱原生 A2A 文档。是否接入，以当前产品文档为准。
+
+所以在这些工具里，日常把一个编码 Agent 交给另一个，更多还是靠 MCP 把对方包成工具、用框架自带的 subagent，或者用 CLI 桥。官方 [roadmap](https://a2a-protocol.org/latest/roadmap/)（页上标注最近更新 2026-09-15）仍把 coding harness 集成放在近期待办里；a2a-cli 是在补这条缺口。
+
+## Herdr 这类本机编排走什么通道
+
+Herdr 里几个编码 Agent 互相传话，用的是自有协议 [`herdr-link/1`](https://cdn.jsdelivr.net/npm/herdr-link@0.6.0/PROTOCOL.md)（仓库 [herdr-link](https://github.com/LZHcode1986/herdr-link)），和 A2A 是两条通道。下面按这份 0.6.0 规范来说。
+
+Envelope 只有五个字段：`protocol`、`id`、`from`、`to`、`message`。没有任务状态、产物或鉴权方案。`protocol`、`id`、`from` 由适配器填，模型只提交发给谁、说什么。地址是同一个 workspace 里的 Agent Name。发出去之后，适配器把这条消息投进对方所在的 pane；`sent` 只表示这次投递被接受，不表示对方做完了。
+
+工具是懒激活的。默认只露出一个很小的入口 `herdr_link`。当前会话调用它之后，才看得到 `herdr_link_peers`、`herdr_link_send`、`herdr_link_close`，以及用来拉起对方的 `herdr_link_start`。Pi 用原生扩展呈现这组工具；Claude Code 等 runtime 走 MCP，名字和语义仍是这一套。协议把通信域收在当前 workspace，也不做跨机器传输。
+
+可以按部署位置选通道。同一台机器、同一个 workspace 里把相邻会话接起来，Herdr Link 这种私有通道就够用。要跨组织、让对方在公网上用 HTTP 发现你并交任务，才是 A2A 要标准化的那一层。
+
+## 还有哪些跨 Agent 方案
+
+名字容易叠在一起。截至 2026-10，常见的几条可以这样分开记。
+
+| 方案 | 管哪一段 | 实际互通范围 |
+| --- | --- | --- |
+| A2A | agent 对 agent 的开放标准 | 任何按规范暴露 Agent Card 的实现 |
+| MCP | agent 对工具和数据 | 常被用来把另一个 agent 包成工具；调用形态仍是工具调用 |
+| Herdr Link，或用 MCP 做 mailbox / relay | 本机多会话传话 | 同一套编排里的会话 |
+| Fang、Plumb、a2abridge | 把现有 coding CLI 接到 A2A；a2abridge 再暴露 MCP 工具 | 网上看见的是桥 |
+| LangGraph、CrewAI、AutoGen 等 | 框架内部的多 Agent | 只在该框架内互通；出框架要再套 A2A |
+| AG-UI | agent 对用户界面 | 事件流进前端 |
+
+ACP 这个缩写现在有两套。IBM BeeAI 的 Agent Communication Protocol 在 2025 年 8 月宣布并入 A2A，后续开发转到 A2A；旧文里的 ACP 先确认是不是这一支。Zed 的 [Agent Client Protocol](https://zed.dev/acp) 是编辑器接入 coding agent 的协议，Devin 等可以靠它进 Zed。agent 之间派任务不走这一支。
+
+AG-UI 官方分层也是这么切的：AG-UI 接前端，MCP 接工具，A2A 接别的 agent。
+
+开放互操作目前的事实标准是 A2A。本机上的 coding 协作，更多仍是私有通道，或者用 MCP 把另一个 agent 桥成工具。
+
 ## 一次交互大概怎么走
 
 1. **发现能力**。客户端请求 `/.well-known/agent-card.json`，看技能描述、输入输出媒体类型和接口地址，决定要不要把这件活交给它。
@@ -115,7 +158,7 @@ MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据
 
 ## 适合什么场景，以及要注意什么
 
-它适合跨团队、跨供应商的多 Agent 流程，尤其是任务会来回澄清、会跑比较久、产出不只有一段文本的时候。企业内部已经有 OAuth 或 API Key 时，把要求写在 Agent Card 上，沿用现有身份体系即可。发布时就有五十多家技术伙伴参与，方向很明确：企业应用之间的 Agent 要能互操作，而不是每家一套私有接口。
+它适合跨团队、跨供应商的多 Agent 流程，尤其是任务会来回澄清、会跑比较久、产出不只有一段文本的时候。企业内部已经有 OAuth 或 API Key 时，把要求写在 Agent Card 上，沿用现有身份体系即可。发布时就有五十多家技术伙伴参与；协议现由 Linux Foundation / AAIF 维护。合作方名单说明的是生态意向，某一款产品当前是否接上 A2A，仍要看它自己的文档。
 
 用之前有几件事实值得记住。
 
@@ -132,3 +175,13 @@ MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据
 - [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
 - [Core Concepts](https://a2a-protocol.org/latest/topics/key-concepts/)
 - [Announcing the Agent2Agent Protocol（Google Developers Blog，2025-04-09）](https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/)
+- [Google Cloud donates A2A to Linux Foundation（2025-06-23）](https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/)
+- [A2A joins the Agentic AI Foundation（2026-08-27）](https://a2a-protocol.org/latest/blog/2026/08/27/a-new-chapter-for-a2a-joining-the-agentic-ai-foundation/)
+- [A2A roadmap](https://a2a-protocol.org/latest/roadmap/)
+- [a2a-cli](https://github.com/a2aproject/a2a-cli)
+- [Meet the A2A CLI（2026-10-01）](https://a2a-protocol.org/latest/blog/2026/10/01/introducing-a2a-cli/)
+- [pi-a2a-adaptor](https://pi.dev/packages/pi-a2a-adaptor)
+- [Herdr Link 协议 `herdr-link/1`（herdr-link@0.6.0）](https://cdn.jsdelivr.net/npm/herdr-link@0.6.0/PROTOCOL.md)
+- [herdr-link](https://github.com/LZHcode1986/herdr-link)
+- [ACP joins A2A（Linux Foundation，2025-08-29）](https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/)
+- [AG-UI](https://docs.ag-ui.com/introduction)
