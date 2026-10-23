@@ -4,7 +4,7 @@
         <title>Meng Blog</title>
         <link>https://blog.mengfei.tech/blog</link>
         <description>Meng Blog</description>
-        <lastBuildDate>Fri, 23 Oct 2026 06:40:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 06:58:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[AGENTS]]></title>
             <link>https://blog.mengfei.tech/blog/AGENTS</link>
             <guid>https://blog.mengfei.tech/blog/AGENTS</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。]]></description>
             <content:encoded><![CDATA[<p>Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-layout">Current Layout<a href="https://blog.mengfei.tech/blog/AGENTS#current-layout" class="hash-link" aria-label="Direct link to Current Layout" title="Direct link to Current Layout" translate="no">​</a></h2>
@@ -37,7 +37,7 @@
             <title><![CDATA[Docker常用命令]]></title>
             <link>https://blog.mengfei.tech/blog/used-commands</link>
             <guid>https://blog.mengfei.tech/blog/used-commands</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Docker常用命令]]></description>
             <category>docker</category>
         </item>
@@ -45,7 +45,7 @@
             <title><![CDATA[Linux下nodejs安装源nodesource]]></title>
             <link>https://blog.mengfei.tech/blog/linux-install-nodejs</link>
             <guid>https://blog.mengfei.tech/blog/linux-install-nodejs</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Linux下nodejs安装源nodesource]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
@@ -61,7 +61,7 @@
             <title><![CDATA[NPM包开发KnowledgeMap]]></title>
             <link>https://blog.mengfei.tech/blog/npm-development-knowledgemap</link>
             <guid>https://blog.mengfei.tech/blog/npm-development-knowledgemap</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></description>
             <content:encoded><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
@@ -133,7 +133,7 @@
             <title><![CDATA[Npm包安全检查]]></title>
             <link>https://blog.mengfei.tech/blog/npm-security-check</link>
             <guid>https://blog.mengfei.tech/blog/npm-security-check</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Npm包安全检查]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言---npm包安全问题">前言 - npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E5%89%8D%E8%A8%80---npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 前言 - npm包安全问题" title="Direct link to 前言 - npm包安全问题" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="细数历年npm包安全问题">细数历年npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E7%BB%86%E6%95%B0%E5%8E%86%E5%B9%B4npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 细数历年npm包安全问题" title="Direct link to 细数历年npm包安全问题" translate="no">​</a></h3>
@@ -180,7 +180,7 @@
             <title><![CDATA[Npm源管理]]></title>
             <link>https://blog.mengfei.tech/blog/npm-resource-manager</link>
             <guid>https://blog.mengfei.tech/blog/npm-resource-manager</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></description>
             <content:encoded><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
 Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
@@ -214,7 +214,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
             <title><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
             <link>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</link>
             <guid>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[关于 shrinkwrap 的更新]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于-shrinkwrap-的更新">关于 shrinkwrap 的更新<a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#%E5%85%B3%E4%BA%8E-shrinkwrap-%E7%9A%84%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="Direct link to 关于 shrinkwrap 的更新" title="Direct link to 关于 shrinkwrap 的更新" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="v1316v2152"><a href="https://github.com/npm/cli/blob/v2.15.12/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">v1.3.16~v2.15.2</a><a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#v1316v2152" class="hash-link" aria-label="Direct link to v1316v2152" title="Direct link to v1316v2152" translate="no">​</a></h3>
@@ -576,7 +576,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
             <title><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.loc]]></title>
             <link>https://blog.mengfei.tech/blog/fe-lock</link>
             <guid>https://blog.mengfei.tech/blog/fe-lock</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[初始]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="初始">初始<a href="https://blog.mengfei.tech/blog/fe-lock#%E5%88%9D%E5%A7%8B" class="hash-link" aria-label="Direct link to 初始" title="Direct link to 初始" translate="no">​</a></h2>
 <p>锁版本的起始
@@ -597,7 +597,7 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
             <title><![CDATA[Nodejs Process 信号事件]]></title>
             <link>https://blog.mengfei.tech/blog/nodejs-process-event</link>
             <guid>https://blog.mengfei.tech/blog/nodejs-process-event</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Nodejs Process 信号事件]]></description>
             <content:encoded><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
 <p><strong>信号在 Worker 线程上不可用。</strong></p>
@@ -652,7 +652,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[前端自动化测试]]></title>
             <link>https://blog.mengfei.tech/blog/fe-autest</link>
             <guid>https://blog.mengfei.tech/blog/fe-autest</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[前端自动化测试]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/fe-autest#%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95" class="">前端自动化测试</a>
@@ -715,7 +715,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Github快速接入github action]]></title>
             <link>https://blog.mengfei.tech/blog/github-actions</link>
             <guid>https://blog.mengfei.tech/blog/github-actions</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Github快速接入github action]]></description>
             <category>github</category>
         </item>
@@ -723,7 +723,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Github快速接入travis]]></title>
             <link>https://blog.mengfei.tech/blog/github-travis</link>
             <guid>https://blog.mengfei.tech/blog/github-travis</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Github快速接入travis]]></description>
             <category>github</category>
         </item>
@@ -731,7 +731,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[前端常用命令速查备忘]]></title>
             <link>https://blog.mengfei.tech/blog/quick-look</link>
             <guid>https://blog.mengfei.tech/blog/quick-look</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[前端常用命令速查备忘]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content:encoded>
@@ -741,7 +741,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[ReactHooks]]></title>
             <link>https://blog.mengfei.tech/blog/react-hooks</link>
             <guid>https://blog.mengfei.tech/blog/react-hooks</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[ReactHooks]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
@@ -819,7 +819,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Typescript使用总结及部分小技巧]]></title>
             <link>https://blog.mengfei.tech/blog/ts-usage-summary</link>
             <guid>https://blog.mengfei.tech/blog/ts-usage-summary</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[Typescript使用总结及部分小技巧]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/ts-usage-summary#typescript-%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%E5%8F%8A%E9%83%A8%E5%88%86%E5%B0%8F%E6%8A%80%E5%B7%A7" class="">Typescript 使用总结及部分小技巧</a>
@@ -974,7 +974,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[如何在JS文件里写类型]]></title>
             <link>https://blog.mengfei.tech/blog/write-ts-in-js</link>
             <guid>https://blog.mengfei.tech/blog/write-ts-in-js</guid>
-            <pubDate>Fri, 23 Oct 2026 06:40:32 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:58:11 GMT</pubDate>
             <description><![CDATA[如何在JS文件里写类型]]></description>
             <content:encoded><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
 这里引出了三个问题：</p>
@@ -1135,13 +1135,13 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="和-mcp-的关系">和 MCP 的关系<a href="https://blog.mengfei.tech/blog/google-a2a#%E5%92%8C-mcp-%E7%9A%84%E5%85%B3%E7%B3%BB" class="hash-link" aria-label="Direct link to 和 MCP 的关系" title="Direct link to 和 MCP 的关系" translate="no">​</a></h2>
 <p>A2A 和 Anthropic 的 Model Context Protocol（MCP）是互补的。Google 发布时就写了这一点，协议文档也把二者放在不同层。</p>
 <p>MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据库查询，通常无状态，输入输出事先定好。A2A 解决「Agent 怎么找另一个 Agent」。对方会自己推理、追问、把活再分出去，这种多轮协作收成一次函数调用，会丢掉它作为 Agent 的部分。</p>
-<p>可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。</p>
+<p>可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。至于各编码 Agent 目前实际接没接 A2A，见下文「主流编码 Agent 对 A2A 的支持现状」。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="主流编码-agent-对-a2a-的支持现状">主流编码 Agent 对 A2A 的支持现状<a href="https://blog.mengfei.tech/blog/google-a2a#%E4%B8%BB%E6%B5%81%E7%BC%96%E7%A0%81-agent-%E5%AF%B9-a2a-%E7%9A%84%E6%94%AF%E6%8C%81%E7%8E%B0%E7%8A%B6" class="hash-link" aria-label="Direct link to 主流编码 Agent 对 A2A 的支持现状" title="Direct link to 主流编码 Agent 对 A2A 的支持现状" translate="no">​</a></h2>
 <p>支持要拆成两层：作为 <strong>A2A client</strong> 去调别人，以及作为 <strong>A2A server</strong> 被别人调。截至 2026-10，Claude Code、Cursor 这类日常编码 Agent，默认两层都不原生做。</p>
 <p>它们可以当客户端，但要另外装。官方 <a href="https://github.com/a2aproject/a2a-cli" target="_blank" rel="noopener noreferrer" class="">a2a-cli</a> 带一份 Agent Skill，教 Claude Code、Cursor（以及 Codex）去驱动本机的 <code>a2a</code> 命令：读 Agent Card、发消息、跟任务。Skill 负责把用法交给 harness，协议仍由 <code>a2a</code> 这个可执行文件执行，所以要先装 CLI。2026 年 10 月 1 日的官方介绍把这条路径写成编码助手把活交给 A2A Agent 的入口。</p>
 <p>要让这些 CLI 被别人按 A2A 调用，还得再包一层服务端。<a href="https://github.com/kariemSeiam/fangai" target="_blank" rel="noopener noreferrer" class="">Fang</a>、<a href="https://github.com/kariemSeiam/plumb" target="_blank" rel="noopener noreferrer" class="">Plumb</a>、<a href="https://github.com/vbcherepanov/a2abridge" target="_blank" rel="noopener noreferrer" class="">a2abridge</a> 做的就是这件事：拉起现成的 coding CLI，对外露出 Agent Card 和协议端点。a2abridge 同时把收件箱做成 MCP 工具，方便 IDE 里直接用。对外的协议端点由这层桥提供。</p>
 <p>pi 有第三方扩展 <a href="https://pi.dev/packages/pi-a2a-adaptor" target="_blank" rel="noopener noreferrer" class=""><code>pi-a2a-adaptor</code></a>（<code>pi install npm:pi-a2a-adaptor</code>）。它是客户端：发现远端 Agent Card、用 <code>/a2a-send</code> 派任务。pi 自己要被别人调用时，同样走上面那种 CLI 桥。</p>
-<p>Devin 截至 2026-10 没有公开、可靠的开箱原生 A2A 文档。是否接入，以当前产品文档为准。</p>
+<p>Devin（Cognition）没有出现在 2025 年 4 月 <a href="https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/" target="_blank" rel="noopener noreferrer" class="">A2A 发布</a>的公开合作方名单里。截至 2026-10，也未见开箱即用的原生 A2A 文档。client/server 形态以当前产品文档为准。</p>
 <p>所以在这些工具里，日常把一个编码 Agent 交给另一个，更多还是靠 MCP 把对方包成工具、用框架自带的 subagent，或者用 CLI 桥。官方 <a href="https://a2a-protocol.org/latest/roadmap/" target="_blank" rel="noopener noreferrer" class="">roadmap</a>（页上标注最近更新 2026-09-15）仍把 coding harness 集成放在近期待办里；a2a-cli 是在补这条缺口。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="herdr-这类本机编排走什么通道">Herdr 这类本机编排走什么通道<a href="https://blog.mengfei.tech/blog/google-a2a#herdr-%E8%BF%99%E7%B1%BB%E6%9C%AC%E6%9C%BA%E7%BC%96%E6%8E%92%E8%B5%B0%E4%BB%80%E4%B9%88%E9%80%9A%E9%81%93" class="hash-link" aria-label="Direct link to Herdr 这类本机编排走什么通道" title="Direct link to Herdr 这类本机编排走什么通道" translate="no">​</a></h2>
 <p>Herdr 里几个编码 Agent 互相传话，用的是自有协议 <a href="https://cdn.jsdelivr.net/npm/herdr-link@0.6.0/PROTOCOL.md" target="_blank" rel="noopener noreferrer" class=""><code>herdr-link/1</code></a>（仓库 <a href="https://github.com/LZHcode1986/herdr-link" target="_blank" rel="noopener noreferrer" class="">herdr-link</a>），和 A2A 是两条通道。下面按这份 0.6.0 规范来说。</p>

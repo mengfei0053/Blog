@@ -15,7 +15,7 @@
 
 <link rel="preconnect" href="https://hm.baidu.com">
 <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?51c5281e73e26b61eee7a274241d5123";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><link rel="stylesheet" href="/assets/css/styles.50ba89a9.css">
-<script src="/assets/js/runtime~main.37429226.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f359a744.js" defer="defer"></script>
 <script src="/assets/js/main.6cbe857d.js" defer="defer"></script>
 </head>
 <body>
@@ -62,13 +62,13 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="和-mcp-的关系">和 MCP 的关系<a href="#和-mcp-的关系" class="hash-link" aria-label="Direct link to 和 MCP 的关系" title="Direct link to 和 MCP 的关系" translate="no">​</a></h2>
 <p>A2A 和 Anthropic 的 Model Context Protocol（MCP）是互补的。Google 发布时就写了这一点，协议文档也把二者放在不同层。</p>
 <p>MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据库查询，通常无状态，输入输出事先定好。A2A 解决「Agent 怎么找另一个 Agent」。对方会自己推理、追问、把活再分出去，这种多轮协作收成一次函数调用，会丢掉它作为 Agent 的部分。</p>
-<p>可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。</p>
+<p>可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。至于各编码 Agent 目前实际接没接 A2A，见下文「主流编码 Agent 对 A2A 的支持现状」。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="主流编码-agent-对-a2a-的支持现状">主流编码 Agent 对 A2A 的支持现状<a href="#主流编码-agent-对-a2a-的支持现状" class="hash-link" aria-label="Direct link to 主流编码 Agent 对 A2A 的支持现状" title="Direct link to 主流编码 Agent 对 A2A 的支持现状" translate="no">​</a></h2>
 <p>支持要拆成两层：作为 <strong>A2A client</strong> 去调别人，以及作为 <strong>A2A server</strong> 被别人调。截至 2026-10，Claude Code、Cursor 这类日常编码 Agent，默认两层都不原生做。</p>
 <p>它们可以当客户端，但要另外装。官方 <a href="https://github.com/a2aproject/a2a-cli" target="_blank" rel="noopener noreferrer" class="">a2a-cli</a> 带一份 Agent Skill，教 Claude Code、Cursor（以及 Codex）去驱动本机的 <code>a2a</code> 命令：读 Agent Card、发消息、跟任务。Skill 负责把用法交给 harness，协议仍由 <code>a2a</code> 这个可执行文件执行，所以要先装 CLI。2026 年 10 月 1 日的官方介绍把这条路径写成编码助手把活交给 A2A Agent 的入口。</p>
 <p>要让这些 CLI 被别人按 A2A 调用，还得再包一层服务端。<a href="https://github.com/kariemSeiam/fangai" target="_blank" rel="noopener noreferrer" class="">Fang</a>、<a href="https://github.com/kariemSeiam/plumb" target="_blank" rel="noopener noreferrer" class="">Plumb</a>、<a href="https://github.com/vbcherepanov/a2abridge" target="_blank" rel="noopener noreferrer" class="">a2abridge</a> 做的就是这件事：拉起现成的 coding CLI，对外露出 Agent Card 和协议端点。a2abridge 同时把收件箱做成 MCP 工具，方便 IDE 里直接用。对外的协议端点由这层桥提供。</p>
 <p>pi 有第三方扩展 <a href="https://pi.dev/packages/pi-a2a-adaptor" target="_blank" rel="noopener noreferrer" class=""><code>pi-a2a-adaptor</code></a>（<code>pi install npm:pi-a2a-adaptor</code>）。它是客户端：发现远端 Agent Card、用 <code>/a2a-send</code> 派任务。pi 自己要被别人调用时，同样走上面那种 CLI 桥。</p>
-<p>Devin 截至 2026-10 没有公开、可靠的开箱原生 A2A 文档。是否接入，以当前产品文档为准。</p>
+<p>Devin（Cognition）没有出现在 2025 年 4 月 <a href="https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/" target="_blank" rel="noopener noreferrer" class="">A2A 发布</a>的公开合作方名单里。截至 2026-10，也未见开箱即用的原生 A2A 文档。client/server 形态以当前产品文档为准。</p>
 <p>所以在这些工具里，日常把一个编码 Agent 交给另一个，更多还是靠 MCP 把对方包成工具、用框架自带的 subagent，或者用 CLI 桥。官方 <a href="https://a2a-protocol.org/latest/roadmap/" target="_blank" rel="noopener noreferrer" class="">roadmap</a>（页上标注最近更新 2026-09-15）仍把 coding harness 集成放在近期待办里；a2a-cli 是在补这条缺口。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="herdr-这类本机编排走什么通道">Herdr 这类本机编排走什么通道<a href="#herdr-这类本机编排走什么通道" class="hash-link" aria-label="Direct link to Herdr 这类本机编排走什么通道" title="Direct link to Herdr 这类本机编排走什么通道" translate="no">​</a></h2>
 <p>Herdr 里几个编码 Agent 互相传话，用的是自有协议 <a href="https://cdn.jsdelivr.net/npm/herdr-link@0.6.0/PROTOCOL.md" target="_blank" rel="noopener noreferrer" class=""><code>herdr-link/1</code></a>（仓库 <a href="https://github.com/LZHcode1986/herdr-link" target="_blank" rel="noopener noreferrer" class="">herdr-link</a>），和 A2A 是两条通道。下面按这份 0.6.0 规范来说。</p>
