@@ -4,7 +4,7 @@
         <title>Meng Blog</title>
         <link>https://blog.mengfei.tech/blog</link>
         <description>Meng Blog</description>
-        <lastBuildDate>Tue, 20 Oct 2026 10:16:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 06:23:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[AGENTS]]></title>
             <link>https://blog.mengfei.tech/blog/AGENTS</link>
             <guid>https://blog.mengfei.tech/blog/AGENTS</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。]]></description>
             <content:encoded><![CDATA[<p>Docusaurus 博客内容根目录。文章为 Markdown，按主题分子目录发布。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="current-layout">Current Layout<a href="https://blog.mengfei.tech/blog/AGENTS#current-layout" class="hash-link" aria-label="Direct link to Current Layout" title="Direct link to Current Layout" translate="no">​</a></h2>
@@ -37,7 +37,7 @@
             <title><![CDATA[Docker常用命令]]></title>
             <link>https://blog.mengfei.tech/blog/used-commands</link>
             <guid>https://blog.mengfei.tech/blog/used-commands</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Docker常用命令]]></description>
             <category>docker</category>
         </item>
@@ -45,7 +45,7 @@
             <title><![CDATA[Linux下nodejs安装源nodesource]]></title>
             <link>https://blog.mengfei.tech/blog/linux-install-nodejs</link>
             <guid>https://blog.mengfei.tech/blog/linux-install-nodejs</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Linux下nodejs安装源nodesource]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.com/nodesource/distributions" target="_blank" rel="noopener noreferrer" class="">https://github.com/nodesource/distributions</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="常用">常用<a href="https://blog.mengfei.tech/blog/linux-install-nodejs#%E5%B8%B8%E7%94%A8" class="hash-link" aria-label="Direct link to 常用" title="Direct link to 常用" translate="no">​</a></h2>
@@ -61,7 +61,7 @@
             <title><![CDATA[NPM包开发KnowledgeMap]]></title>
             <link>https://blog.mengfei.tech/blog/npm-development-knowledgemap</link>
             <guid>https://blog.mengfei.tech/blog/npm-development-knowledgemap</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。]]></description>
             <content:encoded><![CDATA[<p>给公司的文档库写了篇私库开发的 KnowledgeMap，从中摘取一部分。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="思考">思考：<a href="https://blog.mengfei.tech/blog/npm-development-knowledgemap#%E6%80%9D%E8%80%83" class="hash-link" aria-label="Direct link to 思考：" title="Direct link to 思考：" translate="no">​</a></h2>
@@ -133,7 +133,7 @@
             <title><![CDATA[Npm包安全检查]]></title>
             <link>https://blog.mengfei.tech/blog/npm-security-check</link>
             <guid>https://blog.mengfei.tech/blog/npm-security-check</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Npm包安全检查]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="前言---npm包安全问题">前言 - npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E5%89%8D%E8%A8%80---npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 前言 - npm包安全问题" title="Direct link to 前言 - npm包安全问题" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="细数历年npm包安全问题">细数历年npm包安全问题<a href="https://blog.mengfei.tech/blog/npm-security-check#%E7%BB%86%E6%95%B0%E5%8E%86%E5%B9%B4npm%E5%8C%85%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 细数历年npm包安全问题" title="Direct link to 细数历年npm包安全问题" translate="no">​</a></h3>
@@ -180,7 +180,7 @@
             <title><![CDATA[Npm源管理]]></title>
             <link>https://blog.mengfei.tech/blog/npm-resource-manager</link>
             <guid>https://blog.mengfei.tech/blog/npm-resource-manager</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Npm源管理, npm, yarn, nrm, yrm]]></description>
             <content:encoded><![CDATA[<p>NPM: <a href="https://www.npmjs.com/package/ynrm" target="_blank" rel="noopener noreferrer" class="">https://www.npmjs.com/package/ynrm</a>
 Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="noopener noreferrer" class="">https://github.com/mengfei0053/ynrm.git</a></p>
@@ -214,7 +214,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
             <title><![CDATA[从npm-shrinkwrap 到 package-lock]]></title>
             <link>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</link>
             <guid>https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[关于 shrinkwrap 的更新]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于-shrinkwrap-的更新">关于 shrinkwrap 的更新<a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#%E5%85%B3%E4%BA%8E-shrinkwrap-%E7%9A%84%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="Direct link to 关于 shrinkwrap 的更新" title="Direct link to 关于 shrinkwrap 的更新" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="v1316v2152"><a href="https://github.com/npm/cli/blob/v2.15.12/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">v1.3.16~v2.15.2</a><a href="https://blog.mengfei.tech/blog/from-shrinkwrap-to-pkg-lock#v1316v2152" class="hash-link" aria-label="Direct link to v1316v2152" title="Direct link to v1316v2152" translate="no">​</a></h3>
@@ -576,7 +576,7 @@ Github: <a href="https://github.com/mengfei0053/ynrm.git" target="_blank" rel="n
             <title><![CDATA[npm-shrinkwrap.json、package-lock.json和yarn.loc]]></title>
             <link>https://blog.mengfei.tech/blog/fe-lock</link>
             <guid>https://blog.mengfei.tech/blog/fe-lock</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[初始]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="初始">初始<a href="https://blog.mengfei.tech/blog/fe-lock#%E5%88%9D%E5%A7%8B" class="hash-link" aria-label="Direct link to 初始" title="Direct link to 初始" translate="no">​</a></h2>
 <p>锁版本的起始
@@ -597,7 +597,7 @@ npm v1.1.2 版本， 2012年2月25号 <a href="https://github.com/npm/cli/commit
             <title><![CDATA[Nodejs Process 信号事件]]></title>
             <link>https://blog.mengfei.tech/blog/nodejs-process-event</link>
             <guid>https://blog.mengfei.tech/blog/nodejs-process-event</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Nodejs Process 信号事件]]></description>
             <content:encoded><![CDATA[<p>当 Node.js 进程收到信号时，则将触发信号事件。 有关标准 POSIX 信号名称（例如 'SIGINT'、'SIGHUP' 等）的列表，请参阅 <a href="https://man7.org/linux/man-pages/man7/signal.7.html" target="_blank" rel="noopener noreferrer" class="">signal(7)</a>。</p>
 <p><strong>信号在 Worker 线程上不可用。</strong></p>
@@ -652,7 +652,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[前端自动化测试]]></title>
             <link>https://blog.mengfei.tech/blog/fe-autest</link>
             <guid>https://blog.mengfei.tech/blog/fe-autest</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[前端自动化测试]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/fe-autest#%E5%89%8D%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95" class="">前端自动化测试</a>
@@ -715,7 +715,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Github快速接入github action]]></title>
             <link>https://blog.mengfei.tech/blog/github-actions</link>
             <guid>https://blog.mengfei.tech/blog/github-actions</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Github快速接入github action]]></description>
             <category>github</category>
         </item>
@@ -723,7 +723,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Github快速接入travis]]></title>
             <link>https://blog.mengfei.tech/blog/github-travis</link>
             <guid>https://blog.mengfei.tech/blog/github-travis</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Github快速接入travis]]></description>
             <category>github</category>
         </item>
@@ -731,7 +731,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[前端常用命令速查备忘]]></title>
             <link>https://blog.mengfei.tech/blog/quick-look</link>
             <guid>https://blog.mengfei.tech/blog/quick-look</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[前端常用命令速查备忘]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm--yarn">npm &amp; yarn<a href="https://blog.mengfei.tech/blog/quick-look#npm--yarn" class="hash-link" aria-label="Direct link to npm &amp; yarn" title="Direct link to npm &amp; yarn" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt;  #查看远端仓库 pkg 包信息, 后面可跟 package.json 中字段查看具体信息</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; version  # 当前版本</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; versions  # 版本列表</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; engines  # 依赖的 node版本，或npm 版本， yarn 版本等等</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; dependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; devDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn info &lt;pkg&gt; peerDependencies  </span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn why &lt;pkg&gt; # 查看项目有没有包 pkg, 会列出包版本和被谁依赖</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">yarn </span><br></div></code></pre></div></div>]]></content:encoded>
@@ -741,7 +741,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[ReactHooks]]></title>
             <link>https://blog.mengfei.tech/blog/react-hooks</link>
             <guid>https://blog.mengfei.tech/blog/react-hooks</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[ReactHooks]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/react-hooks#%E5%9F%BA%E7%A1%80-hooks" class="">基础 hooks</a>
@@ -819,7 +819,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[Typescript使用总结及部分小技巧]]></title>
             <link>https://blog.mengfei.tech/blog/ts-usage-summary</link>
             <guid>https://blog.mengfei.tech/blog/ts-usage-summary</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[Typescript使用总结及部分小技巧]]></description>
             <content:encoded><![CDATA[<ul>
 <li class=""><a href="https://blog.mengfei.tech/blog/ts-usage-summary#typescript-%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%E5%8F%8A%E9%83%A8%E5%88%86%E5%B0%8F%E6%8A%80%E5%B7%A7" class="">Typescript 使用总结及部分小技巧</a>
@@ -974,7 +974,7 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
             <title><![CDATA[如何在JS文件里写类型]]></title>
             <link>https://blog.mengfei.tech/blog/write-ts-in-js</link>
             <guid>https://blog.mengfei.tech/blog/write-ts-in-js</guid>
-            <pubDate>Tue, 20 Oct 2026 10:16:17 GMT</pubDate>
+            <pubDate>Fri, 23 Oct 2026 06:23:29 GMT</pubDate>
             <description><![CDATA[如何在JS文件里写类型]]></description>
             <content:encoded><![CDATA[<p>很多同学在刚开始学习写ts的时候，不太清楚如何写类型，以及何时应该写类型，又该何时使用类型。
 这里引出了三个问题：</p>
@@ -1088,6 +1088,81 @@ Windows 不支持信号，因此没有等价的使用信号来终止，但 Node.
 <li class="">ramda <a href="https://github.com/ramda/ramda" target="_blank" rel="noopener noreferrer" class="">https://github.com/ramda/ramda</a></li>
 </ul>]]></content:encoded>
             <category>typescript</category>
+        </item>
+        <item>
+            <title><![CDATA[Google A2A 协议介绍]]></title>
+            <link>https://blog.mengfei.tech/blog/google-a2a</link>
+            <guid>https://blog.mengfei.tech/blog/google-a2a</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[介绍 Google 的 A2A（Agent2Agent）协议：它解决跨框架 Agent 协作的什么问题，Agent Card、Task、Message 这些对象怎么配合，以及它和 MCP 为什么是互补而不是替代。]]></description>
+            <content:encoded><![CDATA[<p>2025 年 4 月 9 日，Google 在 Developers Blog 上发布了 Agent2Agent（A2A）。它是一套开放协议，让不同团队、不同框架写出来的 AI Agent 用同一种方式互相发现、交任务、拿结果。官网现在的规范在 <a href="https://a2a-protocol.org/latest/topics/what-is-a2a/" target="_blank" rel="noopener noreferrer" class="">a2a-protocol.org</a>。</p>
+<p>一个助手要订国际行程，往往得同时找航班、酒店、汇率和当地活动。这些能力如果来自不同供应商，常见做法是把对方包成工具再调用。工具调用适合「给参数、拿返回值」的短操作，但 Agent 会追问、会改计划，任务也可能跑很久。每次对接都写一套点对点代码，Agent 一多就难维护，鉴权也不统一。A2A 要填的就是这个空。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="它要解决什么问题">它要解决什么问题<a href="https://blog.mengfei.tech/blog/google-a2a#%E5%AE%83%E8%A6%81%E8%A7%A3%E5%86%B3%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 它要解决什么问题" title="Direct link to 它要解决什么问题" translate="no">​</a></h2>
+<p>官方用行程规划把问题说得很具体：没有统一协议时，各 Agent 互相看不见能力，集成只能逐对定制。这样做有几个直接后果。</p>
+<ul>
+<li class="">把 Agent 当成工具包一层，限制了它本来可以协商、澄清、长期执行的能力。</li>
+<li class="">每接一个新 Agent 都要写专用胶水代码，系统变大之后很难扩展。</li>
+<li class="">临时约定的通信往往没有一致的认证和授权。</li>
+</ul>
+<p>A2A 的做法是：Agent 保持自己的实现，只在边界上说同一种话。对方用 LangGraph、CrewAI、Google ADK 还是别的框架，只要按协议暴露服务，客户端就按同一套对象协作。内部记忆、提示词和私有工具不用交出来。这是协议里的 opaque execution：协作靠声明的能力和共享的上下文，不靠看穿对方内部。</p>
+<p>设计上它复用已有标准，而不是再造传输层：HTTP、JSON-RPC 2.0、Server-Sent Events（SSE）。长任务是一等公民，客户端可以断开再回来。内容也不限于纯文本，Part 可以带文件和结构化数据。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="核心概念">核心概念<a href="https://blog.mengfei.tech/blog/google-a2a#%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5" class="hash-link" aria-label="Direct link to 核心概念" title="Direct link to 核心概念" translate="no">​</a></h2>
+<p>交互里有三方。<strong>User</strong> 是提出目标的人，也可以是另一个自动化服务。<strong>A2A Client</strong>（client agent）代表用户发起通信。<strong>A2A Server</strong>（remote agent）是实现了协议的 HTTP 端点，负责处理任务并返回状态或结果。对客户端来说，远端 Agent 是黑盒。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="agent-card">Agent Card<a href="https://blog.mengfei.tech/blog/google-a2a#agent-card" class="hash-link" aria-label="Direct link to Agent Card" title="Direct link to Agent Card" translate="no">​</a></h3>
+<p>发现对方靠 <strong>Agent Card</strong>，一份 JSON 名片。规范约定可以从 <code>https://{域名}/.well-known/agent-card.json</code> 拉取。客户端用它判断这个 Agent 能不能接这件活、请求该发到哪、怎么认证。</p>
+<p>卡片里至少包括名字、描述、版本、技能（<code>skills</code>）、默认可接受的输入输出媒体类型，以及 <code>supportedInterfaces</code>（按优先级列出支持的绑定，第一项是首选）。可选能力在 <code>capabilities</code> 里，例如是否支持流式（<code>streaming</code>）和推送（<code>pushNotifications</code>）。企业鉴权不另起一套：<code>securitySchemes</code> 声明 OpenID Connect、API Key 等常见方案，凭证走 HTTP 头，不塞进协议消息正文。卡片还可以带 JSON Web Signature，用来校验名片本身没有被篡改。</p>
+<p>规范里的一张示意卡片长这样（字段以<a href="https://a2a-protocol.org/latest/specification/" target="_blank" rel="noopener noreferrer" class="">规范</a>为准）：</p>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Example Agent"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"description"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"An example agent that echoes messages."</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"version"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"1.0.0"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"supportedInterfaces"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"protocolBinding"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"JSONRPC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"protocolVersion"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"1.0"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"url"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"https://example.com/a2a/v1"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"capabilities"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"streaming"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">false</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"pushNotifications"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">false</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"defaultInputModes"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"text/plain"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"defaultOutputModes"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"text/plain"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"skills"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"id"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"echo"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Echo"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"description"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Echoes the input."</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"tags"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"echo"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="taskmessagepartartifact">Task、Message、Part、Artifact<a href="https://blog.mengfei.tech/blog/google-a2a#taskmessagepartartifact" class="hash-link" aria-label="Direct link to Task、Message、Part、Artifact" title="Direct link to Task、Message、Part、Artifact" translate="no">​</a></h3>
+<p>真正干活围着 <strong>Task</strong>。它是有状态的工作单元，有唯一 ID。生命周期大致是：已提交（<code>TASK_STATE_SUBMITTED</code>）、处理中（<code>WORKING</code>），中间可能停下来要补充输入（<code>INPUT_REQUIRED</code>）或补鉴权（<code>AUTH_REQUIRED</code>），结束时是完成、失败、取消或拒绝。后四种是终态。相关的多次交互可以用服务端生成的 <code>contextId</code> 串在一起。</p>
+<p>每一轮沟通是一条 <strong>Message</strong>。它有 <code>messageId</code>，角色是 <code>user</code>（客户端发给服务端）或 <code>agent</code>（反过来）。正文放在若干 <strong>Part</strong> 里。一个 Part 必须且只能是下面四种之一：</p>
+<ul>
+<li class=""><code>text</code>：纯文本</li>
+<li class=""><code>raw</code>：内联字节（JSON 里是 base64）</li>
+<li class=""><code>url</code>：指向外部文件的 URI</li>
+<li class=""><code>data</code>：结构化 JSON</li>
+</ul>
+<p>Part 还可以带 <code>mediaType</code>（MIME）和 <code>filename</code>。所以同一条消息里可以既有说明文字，也有一张图或一段 JSON。</p>
+<p>任务的正式产出叫 <strong>Artifact</strong>，例如一份文档、一张图或一段结构化数据。它有任务内唯一的 <code>artifactId</code>，内容同样是 Part 列表。和普通消息的差别是：消息是对话的一轮，Artifact 是可以拿走的交付物。能马上答完的请求也可以直接回一条 Message，不必都升成 Task。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="流式和推送">流式和推送<a href="https://blog.mengfei.tech/blog/google-a2a#%E6%B5%81%E5%BC%8F%E5%92%8C%E6%8E%A8%E9%80%81" class="hash-link" aria-label="Direct link to 流式和推送" title="Direct link to 流式和推送" translate="no">​</a></h3>
+<p>长任务有三种跟进方式，选哪种要看 Agent Card 打开了什么能力。</p>
+<ul>
+<li class=""><strong>请求加轮询</strong>：<code>SendMessage</code> 发出去，之后用 <code>GetTask</code> 看状态。</li>
+<li class=""><strong>SSE 流式</strong>：<code>SendStreamingMessage</code>。REST 绑定对应 <code>POST /message:stream</code>。连接保持打开，服务端陆续推状态更新（<code>TaskStatusUpdateEvent</code>）和产物增量（<code>TaskArtifactUpdateEvent</code>），直到完成。</li>
+<li class=""><strong>推送</strong>：任务很长，或者客户端不会一直挂着连接时，由服务端按客户端登记的 webhook 回调。这要求 <code>capabilities.pushNotifications</code> 为 true，否则服务端会拒绝推送相关操作。</li>
+</ul>
+<p>同一套操作可以绑到 JSON-RPC 2.0、gRPC 或 HTTP/REST，语义要对齐。发消息在 REST 上是 <code>POST /message:send</code>，在 JSON-RPC 上是方法 <code>SendMessage</code>。客户端应先读 <code>supportedInterfaces</code>，用对方声明支持的那一种，不要猜路径。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="和-mcp-的关系">和 MCP 的关系<a href="https://blog.mengfei.tech/blog/google-a2a#%E5%92%8C-mcp-%E7%9A%84%E5%85%B3%E7%B3%BB" class="hash-link" aria-label="Direct link to 和 MCP 的关系" title="Direct link to 和 MCP 的关系" translate="no">​</a></h2>
+<p>A2A 和 Anthropic 的 Model Context Protocol（MCP）是互补的。Google 发布时就写了这一点，协议文档也把二者放在不同层。</p>
+<p>MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据库查询，通常无状态，输入输出事先定好。A2A 解决「Agent 怎么找另一个 Agent」。对方会自己推理、追问、把活再分出去，这种多轮协作收成一次函数调用，会丢掉它作为 Agent 的部分。</p>
+<p>可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一次交互大概怎么走">一次交互大概怎么走<a href="https://blog.mengfei.tech/blog/google-a2a#%E4%B8%80%E6%AC%A1%E4%BA%A4%E4%BA%92%E5%A4%A7%E6%A6%82%E6%80%8E%E4%B9%88%E8%B5%B0" class="hash-link" aria-label="Direct link to 一次交互大概怎么走" title="Direct link to 一次交互大概怎么走" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>发现能力</strong>。客户端请求 <code>/.well-known/agent-card.json</code>，看技能描述、输入输出媒体类型和接口地址，决定要不要把这件活交给它。</li>
+<li class=""><strong>按需鉴权</strong>。卡片要求 OpenID Connect 或其他方案时，客户端按 <code>authorizationUrl</code>、<code>tokenUrl</code> 去拿凭证，之后每次请求带在 HTTP 头里。协议消息本身不携带这套凭证。</li>
+<li class=""><strong>派任务</strong>。选定绑定后发送消息。能马上答完就回 Message；需要跟踪就建 Task，状态从 submitted 进入 working。</li>
+<li class=""><strong>协作和产出</strong>。处理中可能变成 input-required，客户端补一轮消息再继续。流式打开时，SSE 上会看到状态事件和 Artifact 增量。客户端不在线就改用推送。结束后客户端把各 Agent 的 Artifact 汇总给用户。</li>
+</ol>
+<p>取消、查询、订阅也有对应操作：<code>CancelTask</code>、<code>GetTask</code>、<code>ListTasks</code>、<code>SubscribeToTask</code>。名称在三种绑定里一致，HTTP 路径以规范里的映射表为准，例如取消是 <code>POST /tasks/{id}:cancel</code>。</p>
+<p>官方常用的例子仍是行程规划：助手自己不订票，而是把航班、酒店、汇率、当地游览分别交给专门的 Agent，再拼成一份计划。发布说明里还有招聘寻源：按职位和技能找候选人、约面试、做背调，每一步都可以是另一个系统里的 Agent。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="适合什么场景以及要注意什么">适合什么场景，以及要注意什么<a href="https://blog.mengfei.tech/blog/google-a2a#%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E5%9C%BA%E6%99%AF%E4%BB%A5%E5%8F%8A%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 适合什么场景，以及要注意什么" title="Direct link to 适合什么场景，以及要注意什么" translate="no">​</a></h2>
+<p>它适合跨团队、跨供应商的多 Agent 流程，尤其是任务会来回澄清、会跑比较久、产出不只有一段文本的时候。企业内部已经有 OAuth 或 API Key 时，把要求写在 Agent Card 上，沿用现有身份体系即可。发布时就有五十多家技术伙伴参与，方向很明确：企业应用之间的 Agent 要能互操作，而不是每家一套私有接口。</p>
+<p>用之前有几件事实值得记住。</p>
+<ul>
+<li class=""><strong>黑盒是特性</strong>。你看不到对方的记忆和工具，只能依赖它声明的技能和交回来的 Artifact。出了问题，能看的是任务状态和消息，不是对方仓库。</li>
+<li class=""><strong>鉴权是声明，不是代劳</strong>。协议对齐常见 Web 实践，token 怎么发、权限怎么分，仍要接你自己的身份系统。任务进行中缺凭证时，状态可以停在 <code>AUTH_REQUIRED</code>。</li>
+<li class=""><strong>能力以卡片为准</strong>。流式、推送、扩展都是可选的。对方没声明，就退回普通请求加轮询。</li>
+<li class=""><strong>不要拿它替换工具协议</strong>。一次确定性的 API 调用，用 MCP 或直接 HTTP 更合适。A2A 的成本在发现、任务状态和多轮上下文上。</li>
+</ul>
+<p>协议细节以官网最新规范为准。2025 年 4 月的博文当时给的是草案，并说会和合作方一起做到可上生产的版本；集成时以 <a href="https://a2a-protocol.org/latest/specification/" target="_blank" rel="noopener noreferrer" class="">specification</a> 里的对象和绑定表为准，不要凭发布当天的草稿猜字段名。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="参考">参考<a href="https://blog.mengfei.tech/blog/google-a2a#%E5%8F%82%E8%80%83" class="hash-link" aria-label="Direct link to 参考" title="Direct link to 参考" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://a2a-protocol.org/latest/topics/what-is-a2a/" target="_blank" rel="noopener noreferrer" class="">What is A2A?</a></li>
+<li class=""><a href="https://a2a-protocol.org/latest/specification/" target="_blank" rel="noopener noreferrer" class="">A2A Protocol Specification</a></li>
+<li class=""><a href="https://a2a-protocol.org/latest/topics/key-concepts/" target="_blank" rel="noopener noreferrer" class="">Core Concepts</a></li>
+<li class=""><a href="https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/" target="_blank" rel="noopener noreferrer" class="">Announcing the Agent2Agent Protocol（Google Developers Blog，2025-04-09）</a></li>
+</ul>]]></content:encoded>
+            <category>ai</category>
         </item>
         <item>
             <title><![CDATA[AI 笔记]]></title>
