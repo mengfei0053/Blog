@@ -100,7 +100,7 @@ A2A 和 Anthropic 的 Model Context Protocol（MCP）是互补的。Google 发�
 
 MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据库查询，通常无状态，输入输出事先定好。A2A 解决「Agent 怎么找另一个 Agent」。对方会自己推理、追问、把活再分出去，这种多轮协作收成一次函数调用，会丢掉它作为 Agent 的部分。
 
-可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。
+可以记成：框架负责把 Agent 做出来，MCP 给它工具和上下文，运行时负责把它跑起来，A2A 负责把它接到别的 Agent 上。查一张表继续用 MCP 或普通 HTTP；把「订酒店」整段交给另一个系统里的 Agent，才是 A2A 的场景。至于各编码 Agent 目前实际接没接 A2A，见下文「主流编码 Agent 对 A2A 的支持现状」。
 
 ## 主流编码 Agent 对 A2A 的支持现状
 
@@ -112,7 +112,7 @@ MCP 解决「一个 Agent 怎么接工具和数据」。计算器、一次数据
 
 pi 有第三方扩展 [`pi-a2a-adaptor`](https://pi.dev/packages/pi-a2a-adaptor)（`pi install npm:pi-a2a-adaptor`）。它是客户端：发现远端 Agent Card、用 `/a2a-send` 派任务。pi 自己要被别人调用时，同样走上面那种 CLI 桥。
 
-Devin 截至 2026-10 没有公开、可靠的开箱原生 A2A 文档。是否接入，以当前产品文档为准。
+Devin（Cognition）没有出现在 2025 年 4 月 [A2A 发布](https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/)的公开合作方名单里。截至 2026-10，也未见开箱即用的原生 A2A 文档。client/server 形态以当前产品文档为准。
 
 所以在这些工具里，日常把一个编码 Agent 交给另一个，更多还是靠 MCP 把对方包成工具、用框架自带的 subagent，或者用 CLI 桥。官方 [roadmap](https://a2a-protocol.org/latest/roadmap/)（页上标注最近更新 2026-09-15）仍把 coding harness 集成放在近期待办里；a2a-cli 是在补这条缺口。
 
